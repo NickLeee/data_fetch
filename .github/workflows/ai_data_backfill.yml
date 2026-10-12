@@ -22,6 +22,7 @@ jobs:
         with:
           python-version: "3.12"
       - run: python ai_data/fetchers/backfill_history.py
+      - run: python ai_data/fetchers/backfill_finance.py
       - name: 提交数据
         run: |
           git config user.name "ai-data-bot"
