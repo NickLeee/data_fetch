@@ -1,0 +1,764 @@
+{
+  "fetched_at": "2026-09-19T23:33:58+00:00",
+  "history": {
+    "success": true,
+    "access": "public-1mo",
+    "startDate": "2026-08-20",
+    "endDate": "2026-09-18",
+    "count": 120,
+    "data": [
+      {
+        "date": "2026-08-20",
+        "lab": "anthropic",
+        "indexPerMtok": 1.632152219456995,
+        "computedAt": "2026-08-21T12:02:17.517Z"
+      },
+      {
+        "date": "2026-08-20",
+        "lab": "openai",
+        "indexPerMtok": 0.47063476447943875,
+        "computedAt": "2026-08-21T12:02:17.517Z"
+      },
+      {
+        "date": "2026-08-20",
+        "lab": "google",
+        "indexPerMtok": 0.5074838717250677,
+        "computedAt": "2026-08-21T12:02:17.517Z"
+      },
+      {
+        "date": "2026-08-20",
+        "lab": "deepseek",
+        "indexPerMtok": 0.09288788090751457,
+        "computedAt": "2026-08-21T12:02:17.517Z"
+      },
+      {
+        "date": "2026-08-21",
+        "lab": "anthropic",
+        "indexPerMtok": 1.76183882664103,
+        "computedAt": "2026-08-22T12:01:11.096Z"
+      },
+      {
+        "date": "2026-08-21",
+        "lab": "openai",
+        "indexPerMtok": 0.4765164462084906,
+        "computedAt": "2026-08-22T12:01:11.096Z"
+      },
+      {
+        "date": "2026-08-21",
+        "lab": "google",
+        "indexPerMtok": 0.4670867319093564,
+        "computedAt": "2026-08-22T12:01:11.096Z"
+      },
+      {
+        "date": "2026-08-21",
+        "lab": "deepseek",
+        "indexPerMtok": 0.09500533720682182,
+        "computedAt": "2026-08-22T12:01:11.096Z"
+      },
+      {
+        "date": "2026-08-22",
+        "lab": "anthropic",
+        "indexPerMtok": 1.628530009800605,
+        "computedAt": "2026-08-23T12:01:36.749Z"
+      },
+      {
+        "date": "2026-08-22",
+        "lab": "openai",
+        "indexPerMtok": 0.4868552759214988,
+        "computedAt": "2026-08-23T12:01:36.749Z"
+      },
+      {
+        "date": "2026-08-22",
+        "lab": "google",
+        "indexPerMtok": 0.451534626711929,
+        "computedAt": "2026-08-23T12:01:36.749Z"
+      },
+      {
+        "date": "2026-08-22",
+        "lab": "deepseek",
+        "indexPerMtok": 0.09209641105794358,
+        "computedAt": "2026-08-23T12:01:36.749Z"
+      },
+      {
+        "date": "2026-08-23",
+        "lab": "anthropic",
+        "indexPerMtok": 1.4804808593367405,
+        "computedAt": "2026-08-24T12:01:50.334Z"
+      },
+      {
+        "date": "2026-08-23",
+        "lab": "openai",
+        "indexPerMtok": 0.5339494076577648,
+        "computedAt": "2026-08-24T12:01:50.334Z"
+      },
+      {
+        "date": "2026-08-23",
+        "lab": "google",
+        "indexPerMtok": 0.34773452124432536,
+        "computedAt": "2026-08-24T12:01:50.334Z"
+      },
+      {
+        "date": "2026-08-23",
+        "lab": "deepseek",
+        "indexPerMtok": 0.0744164316086814,
+        "computedAt": "2026-08-24T12:01:50.334Z"
+      },
+      {
+        "date": "2026-08-24",
+        "lab": "anthropic",
+        "indexPerMtok": 1.6359107266102961,
+        "computedAt": "2026-08-25T12:02:50.599Z"
+      },
+      {
+        "date": "2026-08-24",
+        "lab": "openai",
+        "indexPerMtok": 0.4294465023208324,
+        "computedAt": "2026-08-25T12:02:50.599Z"
+      },
+      {
+        "date": "2026-08-24",
+        "lab": "google",
+        "indexPerMtok": 0.3923645376695657,
+        "computedAt": "2026-08-25T12:02:50.599Z"
+      },
+      {
+        "date": "2026-08-24",
+        "lab": "deepseek",
+        "indexPerMtok": 0.08299722034677832,
+        "computedAt": "2026-08-25T12:02:50.599Z"
+      },
+      {
+        "date": "2026-08-25",
+        "lab": "anthropic",
+        "indexPerMtok": 1.5065233267100246,
+        "computedAt": "2026-08-26T12:03:38.206Z"
+      },
+      {
+        "date": "2026-08-25",
+        "lab": "openai",
+        "indexPerMtok": 0.43549027198906437,
+        "computedAt": "2026-08-26T12:03:38.206Z"
+      },
+      {
+        "date": "2026-08-25",
+        "lab": "google",
+        "indexPerMtok": 0.3045294563245514,
+        "computedAt": "2026-08-26T12:03:38.206Z"
+      },
+      {
+        "date": "2026-08-25",
+        "lab": "deepseek",
+        "indexPerMtok": 0.10078001008790585,
+        "computedAt": "2026-08-26T12:03:38.206Z"
+      },
+      {
+        "date": "2026-08-26",
+        "lab": "anthropic",
+        "indexPerMtok": 1.4636158606375334,
+        "computedAt": "2026-08-27T12:03:07.175Z"
+      },
+      {
+        "date": "2026-08-26",
+        "lab": "openai",
+        "indexPerMtok": 0.39821860782751073,
+        "computedAt": "2026-08-27T12:03:07.175Z"
+      },
+      {
+        "date": "2026-08-26",
+        "lab": "google",
+        "indexPerMtok": 0.2969857523518038,
+        "computedAt": "2026-08-27T12:03:07.175Z"
+      },
+      {
+        "date": "2026-08-26",
+        "lab": "deepseek",
+        "indexPerMtok": 0.10251730504470347,
+        "computedAt": "2026-08-27T12:03:07.175Z"
+      },
+      {
+        "date": "2026-08-27",
+        "lab": "anthropic",
+        "indexPerMtok": 1.491938975232005,
+        "computedAt": "2026-08-28T12:02:12.132Z"
+      },
+      {
+        "date": "2026-08-27",
+        "lab": "openai",
+        "indexPerMtok": 0.3084674007382226,
+        "computedAt": "2026-08-28T12:02:12.132Z"
+      },
+      {
+        "date": "2026-08-27",
+        "lab": "google",
+        "indexPerMtok": 0.40112330910466343,
+        "computedAt": "2026-08-28T12:02:12.132Z"
+      },
+      {
+        "date": "2026-08-27",
+        "lab": "deepseek",
+        "indexPerMtok": 0.08928720262545865,
+        "computedAt": "2026-08-28T12:02:12.132Z"
+      },
+      {
+        "date": "2026-08-28",
+        "lab": "anthropic",
+        "indexPerMtok": 1.4624754473203898,
+        "computedAt": "2026-08-29T12:03:13.278Z"
+      },
+      {
+        "date": "2026-08-28",
+        "lab": "openai",
+        "indexPerMtok": 0.2584016529810875,
+        "computedAt": "2026-08-29T12:03:13.278Z"
+      },
+      {
+        "date": "2026-08-28",
+        "lab": "google",
+        "indexPerMtok": 0.5096007237106509,
+        "computedAt": "2026-08-29T12:03:13.278Z"
+      },
+      {
+        "date": "2026-08-28",
+        "lab": "deepseek",
+        "indexPerMtok": 0.0980332797859727,
+        "computedAt": "2026-08-29T12:03:13.278Z"
+      },
+      {
+        "date": "2026-08-29",
+        "lab": "anthropic",
+        "indexPerMtok": 1.4617798279127414,
+        "computedAt": "2026-08-30T12:02:27.774Z"
+      },
+      {
+        "date": "2026-08-29",
+        "lab": "openai",
+        "indexPerMtok": 0.24225934327699952,
+        "computedAt": "2026-08-30T12:02:27.774Z"
+      },
+      {
+        "date": "2026-08-29",
+        "lab": "google",
+        "indexPerMtok": 0.5243658501076527,
+        "computedAt": "2026-08-30T12:02:27.774Z"
+      },
+      {
+        "date": "2026-08-29",
+        "lab": "deepseek",
+        "indexPerMtok": 0.09146438686291831,
+        "computedAt": "2026-08-30T12:02:27.774Z"
+      },
+      {
+        "date": "2026-08-30",
+        "lab": "anthropic",
+        "indexPerMtok": 1.4390351900716392,
+        "computedAt": "2026-08-31T12:02:51.281Z"
+      },
+      {
+        "date": "2026-08-30",
+        "lab": "openai",
+        "indexPerMtok": 0.24056988771299412,
+        "computedAt": "2026-08-31T12:02:51.281Z"
+      },
+      {
+        "date": "2026-08-30",
+        "lab": "google",
+        "indexPerMtok": 0.4910872095326646,
+        "computedAt": "2026-08-31T12:02:51.281Z"
+      },
+      {
+        "date": "2026-08-30",
+        "lab": "deepseek",
+        "indexPerMtok": 0.08414523177550577,
+        "computedAt": "2026-08-31T12:02:51.281Z"
+      },
+      {
+        "date": "2026-08-31",
+        "lab": "anthropic",
+        "indexPerMtok": 1.4889698582593778,
+        "computedAt": "2026-09-01T12:01:49.236Z"
+      },
+      {
+        "date": "2026-08-31",
+        "lab": "openai",
+        "indexPerMtok": 0.3069438710889786,
+        "computedAt": "2026-09-01T12:01:49.236Z"
+      },
+      {
+        "date": "2026-08-31",
+        "lab": "google",
+        "indexPerMtok": 0.5225547539203415,
+        "computedAt": "2026-09-01T12:01:49.236Z"
+      },
+      {
+        "date": "2026-08-31",
+        "lab": "deepseek",
+        "indexPerMtok": 0.0972068838830272,
+        "computedAt": "2026-09-01T12:01:49.236Z"
+      },
+      {
+        "date": "2026-09-01",
+        "lab": "anthropic",
+        "indexPerMtok": 1.4709765837397577,
+        "computedAt": "2026-09-02T12:04:02.587Z"
+      },
+      {
+        "date": "2026-09-01",
+        "lab": "openai",
+        "indexPerMtok": 0.2847785437590376,
+        "computedAt": "2026-09-02T12:04:02.587Z"
+      },
+      {
+        "date": "2026-09-01",
+        "lab": "google",
+        "indexPerMtok": 0.49334244194398447,
+        "computedAt": "2026-09-02T12:04:02.587Z"
+      },
+      {
+        "date": "2026-09-01",
+        "lab": "deepseek",
+        "indexPerMtok": 0.09791272775438291,
+        "computedAt": "2026-09-02T12:04:02.587Z"
+      },
+      {
+        "date": "2026-09-02",
+        "lab": "anthropic",
+        "indexPerMtok": 1.5297541153613623,
+        "computedAt": "2026-09-03T12:07:12.579Z"
+      },
+      {
+        "date": "2026-09-02",
+        "lab": "openai",
+        "indexPerMtok": 0.19555984983334226,
+        "computedAt": "2026-09-03T12:07:12.579Z"
+      },
+      {
+        "date": "2026-09-02",
+        "lab": "google",
+        "indexPerMtok": 0.47411927564380707,
+        "computedAt": "2026-09-03T12:07:12.579Z"
+      },
+      {
+        "date": "2026-09-02",
+        "lab": "deepseek",
+        "indexPerMtok": 0.09274021746088648,
+        "computedAt": "2026-09-03T12:07:12.579Z"
+      },
+      {
+        "date": "2026-09-03",
+        "lab": "anthropic",
+        "indexPerMtok": 1.4101315250673783,
+        "computedAt": "2026-09-04T12:02:39.795Z"
+      },
+      {
+        "date": "2026-09-03",
+        "lab": "openai",
+        "indexPerMtok": 0.30097445763358843,
+        "computedAt": "2026-09-04T12:02:39.795Z"
+      },
+      {
+        "date": "2026-09-03",
+        "lab": "google",
+        "indexPerMtok": 0.45093975257301394,
+        "computedAt": "2026-09-04T12:02:39.795Z"
+      },
+      {
+        "date": "2026-09-03",
+        "lab": "deepseek",
+        "indexPerMtok": 0.09214502647105718,
+        "computedAt": "2026-09-04T12:02:39.795Z"
+      },
+      {
+        "date": "2026-09-04",
+        "lab": "anthropic",
+        "indexPerMtok": 1.3882817946204524,
+        "computedAt": "2026-09-05T12:01:31.727Z"
+      },
+      {
+        "date": "2026-09-04",
+        "lab": "openai",
+        "indexPerMtok": 0.29499615569803356,
+        "computedAt": "2026-09-05T12:01:31.727Z"
+      },
+      {
+        "date": "2026-09-04",
+        "lab": "google",
+        "indexPerMtok": 0.46408365844654864,
+        "computedAt": "2026-09-05T12:01:31.727Z"
+      },
+      {
+        "date": "2026-09-04",
+        "lab": "deepseek",
+        "indexPerMtok": 0.0798304121049183,
+        "computedAt": "2026-09-05T12:01:31.727Z"
+      },
+      {
+        "date": "2026-09-05",
+        "lab": "anthropic",
+        "indexPerMtok": 1.3999803217391429,
+        "computedAt": "2026-09-06T12:02:40.022Z"
+      },
+      {
+        "date": "2026-09-05",
+        "lab": "openai",
+        "indexPerMtok": 0.2827268783058089,
+        "computedAt": "2026-09-06T12:02:40.022Z"
+      },
+      {
+        "date": "2026-09-05",
+        "lab": "google",
+        "indexPerMtok": 0.44480038202416095,
+        "computedAt": "2026-09-06T12:02:40.022Z"
+      },
+      {
+        "date": "2026-09-05",
+        "lab": "deepseek",
+        "indexPerMtok": 0.06790368491639272,
+        "computedAt": "2026-09-06T12:02:40.022Z"
+      },
+      {
+        "date": "2026-09-06",
+        "lab": "anthropic",
+        "indexPerMtok": 1.2964054699666596,
+        "computedAt": "2026-09-07T12:03:19.914Z"
+      },
+      {
+        "date": "2026-09-06",
+        "lab": "openai",
+        "indexPerMtok": 0.27690785303194765,
+        "computedAt": "2026-09-07T12:03:19.914Z"
+      },
+      {
+        "date": "2026-09-06",
+        "lab": "google",
+        "indexPerMtok": 0.4507445692995142,
+        "computedAt": "2026-09-07T12:03:19.914Z"
+      },
+      {
+        "date": "2026-09-06",
+        "lab": "deepseek",
+        "indexPerMtok": 0.07088507228004551,
+        "computedAt": "2026-09-07T12:03:19.914Z"
+      },
+      {
+        "date": "2026-09-07",
+        "lab": "anthropic",
+        "indexPerMtok": 1.392788978437171,
+        "computedAt": "2026-09-08T12:03:00.115Z"
+      },
+      {
+        "date": "2026-09-07",
+        "lab": "openai",
+        "indexPerMtok": 0.31157455768787595,
+        "computedAt": "2026-09-08T12:03:00.115Z"
+      },
+      {
+        "date": "2026-09-07",
+        "lab": "google",
+        "indexPerMtok": 0.4941424569386,
+        "computedAt": "2026-09-08T12:03:00.115Z"
+      },
+      {
+        "date": "2026-09-07",
+        "lab": "deepseek",
+        "indexPerMtok": 0.09499793875643349,
+        "computedAt": "2026-09-08T12:03:00.115Z"
+      },
+      {
+        "date": "2026-09-08",
+        "lab": "anthropic",
+        "indexPerMtok": 1.3884807378301216,
+        "computedAt": "2026-09-09T12:03:21.366Z"
+      },
+      {
+        "date": "2026-09-08",
+        "lab": "openai",
+        "indexPerMtok": 0.38829575024716373,
+        "computedAt": "2026-09-09T12:03:21.366Z"
+      },
+      {
+        "date": "2026-09-08",
+        "lab": "google",
+        "indexPerMtok": 0.4987191296906423,
+        "computedAt": "2026-09-09T12:03:21.366Z"
+      },
+      {
+        "date": "2026-09-08",
+        "lab": "deepseek",
+        "indexPerMtok": 0.08631175641075407,
+        "computedAt": "2026-09-09T12:03:21.366Z"
+      },
+      {
+        "date": "2026-09-09",
+        "lab": "anthropic",
+        "indexPerMtok": 1.641447800085655,
+        "computedAt": "2026-09-10T12:06:47.391Z"
+      },
+      {
+        "date": "2026-09-09",
+        "lab": "openai",
+        "indexPerMtok": 0.5568100707286397,
+        "computedAt": "2026-09-10T12:06:47.391Z"
+      },
+      {
+        "date": "2026-09-09",
+        "lab": "google",
+        "indexPerMtok": 0.482507369484955,
+        "computedAt": "2026-09-10T12:06:47.391Z"
+      },
+      {
+        "date": "2026-09-09",
+        "lab": "deepseek",
+        "indexPerMtok": 0.09207116126015545,
+        "computedAt": "2026-09-10T12:06:47.391Z"
+      },
+      {
+        "date": "2026-09-10",
+        "lab": "anthropic",
+        "indexPerMtok": 1.7783099589013442,
+        "computedAt": "2026-09-11T12:02:20.992Z"
+      },
+      {
+        "date": "2026-09-10",
+        "lab": "openai",
+        "indexPerMtok": 0.35163214077666255,
+        "computedAt": "2026-09-11T12:02:20.992Z"
+      },
+      {
+        "date": "2026-09-10",
+        "lab": "google",
+        "indexPerMtok": 0.48751121362079447,
+        "computedAt": "2026-09-11T12:02:20.992Z"
+      },
+      {
+        "date": "2026-09-10",
+        "lab": "deepseek",
+        "indexPerMtok": 0.08900882225245657,
+        "computedAt": "2026-09-11T12:02:20.992Z"
+      },
+      {
+        "date": "2026-09-11",
+        "lab": "anthropic",
+        "indexPerMtok": 1.5695615655107225,
+        "computedAt": "2026-09-12T12:02:03.969Z"
+      },
+      {
+        "date": "2026-09-11",
+        "lab": "openai",
+        "indexPerMtok": 0.42759995952524865,
+        "computedAt": "2026-09-12T12:02:03.969Z"
+      },
+      {
+        "date": "2026-09-11",
+        "lab": "google",
+        "indexPerMtok": 0.5485636941343185,
+        "computedAt": "2026-09-12T12:02:03.969Z"
+      },
+      {
+        "date": "2026-09-11",
+        "lab": "deepseek",
+        "indexPerMtok": 0.07937709692202953,
+        "computedAt": "2026-09-12T12:02:03.969Z"
+      },
+      {
+        "date": "2026-09-12",
+        "lab": "anthropic",
+        "indexPerMtok": 1.7573778242065499,
+        "computedAt": "2026-09-13T12:03:48.854Z"
+      },
+      {
+        "date": "2026-09-12",
+        "lab": "openai",
+        "indexPerMtok": 0.1729459363477168,
+        "computedAt": "2026-09-13T12:03:48.854Z"
+      },
+      {
+        "date": "2026-09-12",
+        "lab": "google",
+        "indexPerMtok": 0.5306349364675409,
+        "computedAt": "2026-09-13T12:03:48.854Z"
+      },
+      {
+        "date": "2026-09-12",
+        "lab": "deepseek",
+        "indexPerMtok": 0.07728599731417468,
+        "computedAt": "2026-09-13T12:03:48.854Z"
+      },
+      {
+        "date": "2026-09-13",
+        "lab": "anthropic",
+        "indexPerMtok": 1.5818259643875479,
+        "computedAt": "2026-09-14T12:01:47.931Z"
+      },
+      {
+        "date": "2026-09-13",
+        "lab": "openai",
+        "indexPerMtok": 0.15944746255771958,
+        "computedAt": "2026-09-14T12:01:47.931Z"
+      },
+      {
+        "date": "2026-09-13",
+        "lab": "google",
+        "indexPerMtok": 0.5043895665337913,
+        "computedAt": "2026-09-14T12:01:47.931Z"
+      },
+      {
+        "date": "2026-09-13",
+        "lab": "deepseek",
+        "indexPerMtok": 0.07205501930290263,
+        "computedAt": "2026-09-14T12:01:47.931Z"
+      },
+      {
+        "date": "2026-09-14",
+        "lab": "anthropic",
+        "indexPerMtok": 1.5027725785500534,
+        "computedAt": "2026-09-15T12:02:32.092Z"
+      },
+      {
+        "date": "2026-09-14",
+        "lab": "openai",
+        "indexPerMtok": 0.2796932816938183,
+        "computedAt": "2026-09-15T12:02:32.092Z"
+      },
+      {
+        "date": "2026-09-14",
+        "lab": "google",
+        "indexPerMtok": 0.5100752475357297,
+        "computedAt": "2026-09-15T12:02:32.092Z"
+      },
+      {
+        "date": "2026-09-14",
+        "lab": "deepseek",
+        "indexPerMtok": 0.0862888828450812,
+        "computedAt": "2026-09-15T12:02:32.092Z"
+      },
+      {
+        "date": "2026-09-15",
+        "lab": "anthropic",
+        "indexPerMtok": 1.5414407902056715,
+        "computedAt": "2026-09-16T12:02:30.237Z"
+      },
+      {
+        "date": "2026-09-15",
+        "lab": "openai",
+        "indexPerMtok": 0.4442169982003743,
+        "computedAt": "2026-09-16T12:02:30.237Z"
+      },
+      {
+        "date": "2026-09-15",
+        "lab": "google",
+        "indexPerMtok": 0.5074093841369085,
+        "computedAt": "2026-09-16T12:02:30.237Z"
+      },
+      {
+        "date": "2026-09-15",
+        "lab": "deepseek",
+        "indexPerMtok": 0.08349556916720886,
+        "computedAt": "2026-09-16T12:02:30.237Z"
+      },
+      {
+        "date": "2026-09-16",
+        "lab": "anthropic",
+        "indexPerMtok": 1.7341334975637188,
+        "computedAt": "2026-09-17T12:02:36.424Z"
+      },
+      {
+        "date": "2026-09-16",
+        "lab": "openai",
+        "indexPerMtok": 0.6745656967680193,
+        "computedAt": "2026-09-17T12:02:36.424Z"
+      },
+      {
+        "date": "2026-09-16",
+        "lab": "google",
+        "indexPerMtok": 0.5091788455519555,
+        "computedAt": "2026-09-17T12:02:36.424Z"
+      },
+      {
+        "date": "2026-09-16",
+        "lab": "deepseek",
+        "indexPerMtok": 0.07301883654745582,
+        "computedAt": "2026-09-17T12:02:36.424Z"
+      },
+      {
+        "date": "2026-09-17",
+        "lab": "anthropic",
+        "indexPerMtok": 1.724208633290289,
+        "computedAt": "2026-09-18T12:04:00.928Z"
+      },
+      {
+        "date": "2026-09-17",
+        "lab": "openai",
+        "indexPerMtok": 1.2015250216112299,
+        "computedAt": "2026-09-18T12:04:00.928Z"
+      },
+      {
+        "date": "2026-09-17",
+        "lab": "google",
+        "indexPerMtok": 0.5480682473466393,
+        "computedAt": "2026-09-18T12:04:00.928Z"
+      },
+      {
+        "date": "2026-09-17",
+        "lab": "deepseek",
+        "indexPerMtok": 0.07035225986099342,
+        "computedAt": "2026-09-18T12:04:00.928Z"
+      },
+      {
+        "date": "2026-09-18",
+        "lab": "anthropic",
+        "indexPerMtok": 1.5633265596067234,
+        "computedAt": "2026-09-19T12:02:28.581Z"
+      },
+      {
+        "date": "2026-09-18",
+        "lab": "openai",
+        "indexPerMtok": 0.5360526726660924,
+        "computedAt": "2026-09-19T12:02:28.581Z"
+      },
+      {
+        "date": "2026-09-18",
+        "lab": "google",
+        "indexPerMtok": 0.6090653383642478,
+        "computedAt": "2026-09-19T12:02:28.581Z"
+      },
+      {
+        "date": "2026-09-18",
+        "lab": "deepseek",
+        "indexPerMtok": 0.0650895519377128,
+        "computedAt": "2026-09-19T12:02:28.581Z"
+      }
+    ]
+  },
+  "latest": {
+    "success": true,
+    "access": "public-1mo",
+    "date": "2026-09-18",
+    "count": 4,
+    "data": [
+      {
+        "date": "2026-09-18",
+        "lab": "anthropic",
+        "indexPerMtok": 1.5633265596067234,
+        "computedAt": "2026-09-19T12:02:28.581Z"
+      },
+      {
+        "date": "2026-09-18",
+        "lab": "openai",
+        "indexPerMtok": 0.5360526726660924,
+        "computedAt": "2026-09-19T12:02:28.581Z"
+      },
+      {
+        "date": "2026-09-18",
+        "lab": "google",
+        "indexPerMtok": 0.6090653383642478,
+        "computedAt": "2026-09-19T12:02:28.581Z"
+      },
+      {
+        "date": "2026-09-18",
+        "lab": "deepseek",
+        "indexPerMtok": 0.0650895519377128,
+        "computedAt": "2026-09-19T12:02:28.581Z"
+      }
+    ]
+  }
+}

@@ -1,0 +1,7 @@
+# 本仓库只同步 ai_data 取数系统，早报业务（digests/gzh/media/...）不入库
+/*
+!/ai_data/
+!/.github/
+!/.gitignore
+__pycache__/
+.DS_Store

@@ -1,0 +1,85 @@
+name: ai_data 每日取数
+
+# 设计见 ai_data/AGENTS.md：matrix 每源一个 job 互相隔离，各自 commit 本源数据，
+# 末尾 health-check 汇总检查。fetcher 纯标准库，无需安装依赖。
+# plan job 把手动指定的单源转成 matrix，定时触发时跑全部。
+
+on:
+  schedule:
+    - cron: "23 14 * * *" # 每天 14:23 UTC（北京 22:23）
+  workflow_dispatch:
+    inputs:
+      source:
+        description: "只跑某一个源（留空或 all = 全部）"
+        required: false
+        default: "all"
+
+permissions:
+  contents: write
+
+jobs:
+  plan:
+    runs-on: ubuntu-latest
+    outputs:
+      matrix: ${{ steps.set.outputs.matrix }}
+    steps:
+      - id: set
+        env:
+          SRC: ${{ github.event.inputs.source }}
+        run: |
+          ALL='["ornn_ocpi","ornn_otpi","gpu_vast","gpu_runpod","gpu_shadeform","gpu_tensordock","github_daily","hf_downloads","finance_daily","mcp_registry","mcp_smithery","skills_sh"]'
+          if [ -z "$SRC" ] || [ "$SRC" = "all" ]; then
+            echo "matrix={\"source\":$ALL}" >> "$GITHUB_OUTPUT"
+          else
+            echo "matrix={\"source\":[\"$SRC\"]}" >> "$GITHUB_OUTPUT"
+          fi
+
+  fetch:
+    needs: plan
+    runs-on: ubuntu-latest
+    timeout-minutes: 20 # mcp_registry 全量分页 ~11 分钟，其余源都在 1 分钟内
+    strategy:
+      fail-fast: false
+      matrix: ${{ fromJSON(needs.plan.outputs.matrix) }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: 抓取 ${{ matrix.source }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python ai_data/fetchers/${{ matrix.source }}.py
+      - name: 提交数据
+        run: |
+          git config user.name "ai-data-bot"
+          git config user.email "ai-data-bot@users.noreply.github.com"
+          git add ai_data/data
+          if git diff --cached --quiet; then
+            echo "无数据变化"
+            exit 0
+          fi
+          git commit -m "data(${{ matrix.source }}): $(date -u +%F)"
+          for i in 1 2 3 4 5; do
+            git pull --rebase origin main && git push && exit 0
+            sleep $((i * 5))
+          done
+          echo "push 重试耗尽"
+          exit 1
+
+  health-check:
+    needs: fetch
+    if: always()
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main # 取各 fetch job 推送后的最新 main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: 健康检查
+        run: python ai_data/tools/health_check.py

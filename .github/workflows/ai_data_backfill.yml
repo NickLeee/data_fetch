@@ -1,0 +1,35 @@
+name: ai_data 历史回填（手动）
+
+# 只手动触发。跑 backfill_history.py：Ornn OCPI/OTPI 窗口内历史 +
+# gpu-pricing-tracker 种子（若对方还在更新，可同时补 vast/RunPod 缺口）。
+# 全链路幂等，重复跑无副作用。
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  backfill:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python ai_data/fetchers/backfill_history.py
+      - name: 提交数据
+        run: |
+          git config user.name "ai-data-bot"
+          git config user.email "ai-data-bot@users.noreply.github.com"
+          git add ai_data/data
+          if git diff --cached --quiet; then
+            echo "无数据变化"
+            exit 0
+          fi
+          git commit -m "backfill: $(date -u +%F)"
+          git pull --rebase origin main && git push
