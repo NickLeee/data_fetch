@@ -17,7 +17,7 @@
 | 1 | LMArena | 各模型 Elo 排名 + 日变化 | 页面/内部 JSON | 与 Polymarket「最强模型」市场结算口径联动 |
 | 2 | 算力价格 | GPU 时租价格日线，两层：市场报价 + 成交结算指数 | ① **Shadeform** 免 key API 聚合 19 家云厂商挂牌价（替代单独抓 Lambda/Crusoe/Nebius）② vast.ai / RunPod / TensorDock 免 key API（散户市场 min/median/max）③ **Ornn OCPI** 成交指数（api.ornnai.com 免 key 5 型号，彭博+ICE 基准） | 不抓：国内平台、AWS/Azure/GCP（二期月度快照）；参考实现 gpu-pricing-tracker |
 | 3 | GitHub 日报 | ① 核心项目 star/fork 日增 ② 近期新项目（近 7 天创建、增速最快的 AI 仓库）③ anthropics/skills、openai/skills 官方仓库 | GitHub REST API | 配 token 更稳 |
-| 4 | HuggingFace | 核心开源模型下载量：DeepSeek / Qwen / GLM / Llama / Mistral 主力模型 | hf-mirror.com（国内镜像，API 兼容） | 官方域名本机被墙 |
+| 4 | HuggingFace | ① 核心开源模型下载量（当红旗舰+上代存量+锚点，名单在 fetcher 里换季维护）② 社区热门改造 top 20（text-generation 下载榜剔除官方 org，动态换代） | hf-mirror.com（国内镜像，API 兼容） | 官方域名本机被墙 |
 | 5 | 金融市场 | 股价+市值：NVDA / MSFT / GOOG / META / 阿里 / 百度；期货：纳指100(NQ)、标普500(ES)；国债：美债 10Y / 2Y | stooq 免费 CSV；FRED 官方 API（国债） | |
 | 6 | Polymarket | ① 本月最大市值公司 ② 本年底最大市值公司 ③ 最强 AI 模型系列（月度+年度） | 官方 gamma API，需代理 | 市场名单执行时逐个确认 |
 | 7 | Cloudflare Radar | AI 爬虫 UA 流量趋势、robots.txt 封锁率、AI 域名热度榜 | 官方 API（免费 token） | 用法待定，先抓存着；UA 口径注意仿冒噪音 |

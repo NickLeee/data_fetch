@@ -27,7 +27,7 @@ jobs:
         env:
           SRC: ${{ github.event.inputs.source }}
         run: |
-          ALL='["ornn_ocpi","ornn_otpi","gpu_vast","gpu_runpod","gpu_shadeform","gpu_tensordock","github_daily","hf_downloads","finance_daily","mcp_registry","mcp_smithery","skills_sh"]'
+          ALL='["ornn_ocpi","ornn_otpi","gpu_vast","gpu_runpod","gpu_shadeform","gpu_tensordock","github_daily","hf_downloads","hf_community","finance_daily","mcp_registry","mcp_smithery","skills_sh"]'
           if [ -z "$SRC" ] || [ "$SRC" = "all" ]; then
             echo "matrix={\"source\":$ALL}" >> "$GITHUB_OUTPUT"
           else
