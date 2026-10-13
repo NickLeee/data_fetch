@@ -17,22 +17,36 @@ import common
 SOURCE = "hf_downloads"
 API = os.environ.get("HF_API_BASE", "https://hf-mirror.com/api/models/")
 
-# DeepSeek / Qwen / GLM(zai-org) / Llama(meta-llama) / Mistral 主力模型
+# 选型策略（2026-10-13 重排）：每家当红旗舰 + 上代存量主力 + 长青锚点。
+# 老型号留在 series 历史里不删，只是不再增量。
 MODELS = [
-    "deepseek-ai/DeepSeek-V3.2-Exp",
-    "deepseek-ai/DeepSeek-R1",
-    "Qwen/Qwen3-235B-A22B-Instruct-2507",
-    "Qwen/Qwen3-Next-80B-A3B-Instruct",
-    "Qwen/Qwen3-32B",
-    "Qwen/Qwen2.5-72B-Instruct",
-    "zai-org/GLM-4.6",
-    "zai-org/GLM-4.5",
-    "meta-llama/Llama-3.3-70B-Instruct",
-    "meta-llama/Llama-4-Scout-17B-16E-Instruct",
+    # 长青锚点（基线参照）
     "meta-llama/Meta-Llama-3.1-8B-Instruct",
-    "mistralai/Mistral-Small-3.2-24B-Instruct-2506",
-    "mistralai/Magistral-Small-2509",
+    "deepseek-ai/DeepSeek-R1",
+    # DeepSeek：V4.1-Flash 当红，V4/V3.2 存量
+    "deepseek-ai/DeepSeek-V4.1-Flash",
+    "deepseek-ai/DeepSeek-V4-Flash-0731",
+    "deepseek-ai/DeepSeek-V3.2",
+    # Kimi：K3 当红（赞全场最高）
+    "moonshotai/Kimi-K3",
+    "moonshotai/Kimi-K2.6",
+    # Qwen：3.8-27B 当红中尺寸，3.5-9B 上代存量
+    "Qwen/Qwen3.8-27B",
+    "Qwen/Qwen3.5-9B",
+    # GLM：5.3-Flash 当红
+    "zai-org/GLM-5.3-Flash",
+    "zai-org/GLM-5.3",
+    # Mistral：开源线收缩，留 7B 锚点 + Devstral 编码线
     "mistralai/Mistral-7B-Instruct-v0.3",
+    "mistralai/Devstral-Small-2-24B-Instruct-2512",
+    # Llama-4 线（观察 Llama 新品牵引力）
+    "meta-llama/Llama-4-Scout-17B-16E-Instruct",
+    # OpenAI 开源权重
+    "openai/gpt-oss-120b",
+    "openai/gpt-oss-20b",
+    # MiniMax：H3 当红
+    "MiniMaxAI/MiniMax-H3",
+    "MiniMaxAI/MiniMax-M3",
 ]
 
 
