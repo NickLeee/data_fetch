@@ -33,3 +33,8 @@
 {"date": "2026-10-16", "gpu": "geforcertx3090-pcie-24gb", "min_usd_hr": 0.2, "median_usd_hr": 0.2, "max_usd_hr": 0.2, "nodes": 1}
 {"date": "2026-10-16", "gpu": "rtxa6000-pcie-48gb", "min_usd_hr": 0.45, "median_usd_hr": 0.45, "max_usd_hr": 0.45, "nodes": 2}
 {"date": "2026-10-16", "gpu": "v100-sxm2-16gb", "min_usd_hr": 0.19, "median_usd_hr": 0.19, "max_usd_hr": 0.19, "nodes": 2}
+{"date": "2026-10-17", "gpu": "RTX_4090", "min_usd_hr": 0.48, "median_usd_hr": 0.48, "max_usd_hr": 0.48, "nodes": 1}
+{"date": "2026-10-17", "gpu": "RTX_5090", "min_usd_hr": 0.58, "median_usd_hr": 0.58, "max_usd_hr": 0.58, "nodes": 1}
+{"date": "2026-10-17", "gpu": "geforcertx3090-pcie-24gb", "min_usd_hr": 0.2, "median_usd_hr": 0.2, "max_usd_hr": 0.2, "nodes": 1}
+{"date": "2026-10-17", "gpu": "rtxa6000-pcie-48gb", "min_usd_hr": 0.45, "median_usd_hr": 0.45, "max_usd_hr": 0.45, "nodes": 2}
+{"date": "2026-10-17", "gpu": "v100-sxm2-16gb", "min_usd_hr": 0.19, "median_usd_hr": 0.19, "max_usd_hr": 0.19, "nodes": 2}
