@@ -7004,3 +7004,11 @@
 {"date": "2026-10-14", "symbol": "DGS2", "close": 4.82, "volume": null}
 {"date": "2026-10-15", "symbol": "DGS10", "close": 5.1, "volume": null}
 {"date": "2026-10-15", "symbol": "DGS2", "close": 4.77, "volume": null}
+{"date": "2026-10-19", "symbol": "NVDA", "close": 217.09, "volume": 76960626}
+{"date": "2026-10-19", "symbol": "MSFT", "close": 533.53, "volume": 12525778}
+{"date": "2026-10-19", "symbol": "GOOG", "close": 340.02, "volume": 8315791}
+{"date": "2026-10-19", "symbol": "META", "close": 705.42, "volume": 12758184}
+{"date": "2026-10-19", "symbol": "BABA", "close": 108.47, "volume": 3899199}
+{"date": "2026-10-19", "symbol": "BIDU", "close": 79.74, "volume": 1117830}
+{"date": "2026-10-19", "symbol": "NQ=F", "close": 29792.0, "volume": 573742}
+{"date": "2026-10-19", "symbol": "ES=F", "close": 7746.5, "volume": 1520602}
