@@ -1,0 +1,91 @@
+{
+  "fetched_at": "2026-10-21T18:44:34+00:00",
+  "url": "https://smithery.ai/servers",
+  "servers": [
+    {
+      "server": "brave",
+      "use_count": 87579
+    },
+    {
+      "server": "bouch/uk-due-diligence",
+      "use_count": 60881
+    },
+    {
+      "server": "adamamer20/paper-search-mcp-openai",
+      "use_count": 59106
+    },
+    {
+      "server": "gmail",
+      "use_count": 57738
+    },
+    {
+      "server": "googlesheets",
+      "use_count": 56138
+    },
+    {
+      "server": "theagenttimes/news",
+      "use_count": 43392
+    },
+    {
+      "server": "pubmed",
+      "use_count": 42137
+    },
+    {
+      "server": "jordan-s648/PolymarketScan",
+      "use_count": 39483
+    },
+    {
+      "server": "oobe-protocol/sap-mcp",
+      "use_count": 34350
+    },
+    {
+      "server": "onesignal/onesignal",
+      "use_count": 22491
+    },
+    {
+      "server": "subwayinfo",
+      "use_count": 16873
+    },
+    {
+      "server": "googlecalendar",
+      "use_count": 15718
+    },
+    {
+      "server": "slack",
+      "use_count": 12110
+    },
+    {
+      "server": "exa",
+      "use_count": 9181
+    },
+    {
+      "server": "favcrm/favcrm",
+      "use_count": 8514
+    },
+    {
+      "server": "googledrive",
+      "use_count": 8102
+    },
+    {
+      "server": "bigquery",
+      "use_count": 6986
+    },
+    {
+      "server": "zachary-royals/devmatch",
+      "use_count": 6937
+    },
+    {
+      "server": "github",
+      "use_count": 5908
+    },
+    {
+      "server": "OjasKord/url-safety-validator-mcp",
+      "use_count": 5626
+    },
+    {
+      "server": "upstash/context7-mcp",
+      "use_count": 5563
+    }
+  ],
+  "html_head": "<!DOCTYPE html><html lang=\"en\"><head><meta charSet=\"utf-8\"/><meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"/><link rel=\"stylesheet\" href=\"/_next/static/chunks/c3d5a6be71213922.css?dpl=dpl_ATmrcG1kvdwiX7sP1N84RmZbD15z\" data-precedence=\"next\"/><link rel=\"stylesheet\" href=\"/_next/static/chunks/1cc1a528181e539e.css?dpl=dpl_ATmrcG1kvdwiX7sP1N84RmZbD15z\" data-precedence=\"next\"/><link rel=\"preload\" as=\"script\" fetchPriority=\"low\" href=\"/_next/static/chunks/8491e5725b03c0ce.js?dpl=dpl_ATmrcG1kvdwiX7sP1N84RmZbD15z\"/><script src=\"/_next/static/chunks/dcef6bc1c64ee659.js?dpl=dpl_ATmrcG1kvdwiX7sP1N84RmZbD15z\" async=\"\"></script><script src=\"/_next/static/chunks/a0e05d253ce62d52.js?dpl=dpl_ATmrcG1kvdwiX7sP1N84RmZbD15z\" async=\"\"></script><script src=\"/_next/static/chunks/d53da97f89bdc4dc.js?dpl=dpl_ATmrcG1kvdwiX7sP1N84RmZbD15z\" async=\"\"></script><script src=\"/_next/static/chunks/8d70b723bc0b8159.js?dpl=dpl_ATmrcG1kvdwiX7sP1N84RmZbD15z\" async=\"\"></script><script src=\"/_next/static/chunks/00640037878b6398.js?dpl=dpl_ATmrcG1kvdwiX7sP1N84RmZbD15z\" async=\"\"></script><script src=\"/_next/static/chunks/5df3e1ca8071d633.js?dpl=dpl_ATmrcG1kvdwiX7sP1N84RmZbD15z\" async=\"\"></script><script src=\"/_next/static/chunks/turbopack-bbd482cda2335ef0.js?dpl=dpl_ATmrcG1kvdwiX7sP1N84RmZbD15z\" async=\"\"></script><script src=\"/_next/static/chunks/925e8e5d460a6f0b.js?dpl=dpl_ATmrcG1kvdwiX7sP1N84RmZbD15z\" async=\"\"></script><script src=\"/_next/static/chunks/71cc8cfbc32f762b.js?dpl=dpl_ATmrcG1kvdwiX7sP1N84RmZbD15z\" async=\"\"></script><script src=\"/_next/static/chunks/0126844542e55c75.js?dpl=dpl_ATmrcG1kvdwiX7sP1N84RmZbD15z\" async=\"\"></script><script src=\"/_next/static/chunks/09f903c85530aa4d.js?dpl=dpl_ATmrcG1kvdwiX7sP1N84RmZbD15z\" async=\"\"></script><script src=\"/_next/static/chunks/ed802e90eb6a8072.js?dpl=dpl_ATmrcG1kvdwiX7sP1N84RmZbD15z\" async=\"\"></script><script src=\"/_next/static/chunks/4bb85d42dcbc2768.js?dpl=dpl_ATmrcG1kvdwiX7sP1N84RmZbD15z\" async=\"\"></script><script src=\"/_next/static/"
+}
