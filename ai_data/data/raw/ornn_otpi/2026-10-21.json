@@ -1,0 +1,32 @@
+{
+  "success": true,
+  "access": "public-3mo",
+  "date": "2026-10-20",
+  "count": 4,
+  "data": [
+    {
+      "date": "2026-10-20",
+      "lab": "anthropic",
+      "indexPerMtok": 0.8449923056170713,
+      "computedAt": "2026-10-21T12:01:27.972Z"
+    },
+    {
+      "date": "2026-10-20",
+      "lab": "openai",
+      "indexPerMtok": 0.4362075935537901,
+      "computedAt": "2026-10-21T12:01:27.972Z"
+    },
+    {
+      "date": "2026-10-20",
+      "lab": "google",
+      "indexPerMtok": 0.628622190927517,
+      "computedAt": "2026-10-21T12:01:27.972Z"
+    },
+    {
+      "date": "2026-10-20",
+      "lab": "deepseek",
+      "indexPerMtok": 0.0471896207206828,
+      "computedAt": "2026-10-21T12:01:27.972Z"
+    }
+  ]
+}
