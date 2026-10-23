@@ -1,0 +1,150 @@
+{
+  "fetched_at": "2026-10-23T18:28:12+00:00",
+  "community_top100": [
+    {
+      "id": "ornith-ai/Ornith-1.5-9B-GGUF",
+      "downloads": 4994795,
+      "likes": 581
+    },
+    {
+      "id": "dphn/dolphin-2.9.1-yi-1.5-34b",
+      "downloads": 4537444,
+      "likes": 86
+    },
+    {
+      "id": "ornith-ai/Ornith-1.5-35B-A3B-GGUF",
+      "downloads": 3803120,
+      "likes": 548
+    },
+    {
+      "id": "RadixArk/Kimi-K3-DSpark",
+      "downloads": 3725706,
+      "likes": 77
+    },
+    {
+      "id": "JonathanColetti/Qwen3.8-27B-Uncensored-GGUF",
+      "downloads": 2405253,
+      "likes": 1706
+    },
+    {
+      "id": "ornith-ai/Ornith-1.0-9B-GGUF",
+      "downloads": 2361632,
+      "likes": 696
+    },
+    {
+      "id": "prism-ml/Ternary-Bonsai-2-27B-gguf",
+      "downloads": 2336119,
+      "likes": 2810
+    },
+    {
+      "id": "CMSManhattan/JiRackUltra_1b",
+      "downloads": 2332707,
+      "likes": 15
+    },
+    {
+      "id": "ornith-ai/Ornith-1.0-35B-GGUF",
+      "downloads": 1521887,
+      "likes": 1064
+    },
+    {
+      "id": "ornith-ai/Ornith-1.0-35B",
+      "downloads": 1390739,
+      "likes": 518
+    },
+    {
+      "id": "ukisai/Swift-1.5-Qwen3.8-27B-GSQ-RCO-GGUF",
+      "downloads": 1360251,
+      "likes": 421
+    },
+    {
+      "id": "empero-ai/Qwen3.8-35B-A3B-Distill-GGUF",
+      "downloads": 1180846,
+      "likes": 237
+    },
+    {
+      "id": "ornith-ai/Ornith-1.5-397B-GGUF",
+      "downloads": 1174094,
+      "likes": 49
+    },
+    {
+      "id": "ornith-ai/Ornith-1.5-35B-A3B-NVFP4",
+      "downloads": 1127502,
+      "likes": 66
+    },
+    {
+      "id": "antirez/deepseek-v4-gguf",
+      "downloads": 1126696,
+      "likes": 494
+    },
+    {
+      "id": "0bserverx/Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF",
+      "downloads": 1006464,
+      "likes": 741
+    },
+    {
+      "id": "prism-ml/Ternary-Bonsai-27B-mlx-2bit",
+      "downloads": 966782,
+      "likes": 216
+    },
+    {
+      "id": "TinyLlama/TinyLlama-1.1B-Chat-v1.0",
+      "downloads": 963611,
+      "likes": 1880
+    },
+    {
+      "id": "prism-ml/Bonsai-27B-mlx-1bit",
+      "downloads": 957038,
+      "likes": 280
+    },
+    {
+      "id": "bartowski/Qwen2.5-32B-Instruct-GGUF",
+      "downloads": 954609,
+      "likes": 90
+    },
+    {
+      "id": "RedHatAI/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-FP8",
+      "downloads": 927733,
+      "likes": 13
+    },
+    {
+      "id": "unsloth/Llama-3.2-1B-Instruct",
+      "downloads": 891841,
+      "likes": 107
+    },
+    {
+      "id": "kindlingai/glm-5.3-exlr8-k2-k3-k4",
+      "downloads": 874375,
+      "likes": 19
+    },
+    {
+      "id": "unsloth/GLM-5.3-Flash-GGUF",
+      "downloads": 857059,
+      "likes": 499
+    },
+    {
+      "id": "tencent/Hy3",
+      "downloads": 837193,
+      "likes": 987
+    },
+    {
+      "id": "PrimeIntellect/Qwen3-0.6B",
+      "downloads": 836153,
+      "likes": 0
+    },
+    {
+      "id": "ornith-ai/Ornith-1.0-9B",
+      "downloads": 792077,
+      "likes": 564
+    },
+    {
+      "id": "cyankiwi/Qwen3-Coder-30B-A3B-Instruct-AWQ-4bit",
+      "downloads": 780472,
+      "likes": 67
+    },
+    {
+      "id": "ornith-ai/Ornith-1.5-9B-NVFP4",
+      "downloads": 763499,
+      "likes": 17
+    }
+  ]
+}
