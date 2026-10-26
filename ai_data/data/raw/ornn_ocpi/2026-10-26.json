@@ -1,0 +1,43 @@
+{
+  "success": true,
+  "date": "2026-10-25T20:00:00.000Z",
+  "data": [
+    {
+      "gpu_type": "A100 SXM4",
+      "region": "global",
+      "index_value": 1.09,
+      "date": "2026-10-25T20:00:00.000Z"
+    },
+    {
+      "gpu_type": "B200",
+      "region": "global",
+      "index_value": 9.7,
+      "date": "2026-10-25T20:00:00.000Z"
+    },
+    {
+      "gpu_type": "H100 SXM",
+      "region": "global",
+      "index_value": 3.03,
+      "date": "2026-10-25T20:00:00.000Z"
+    },
+    {
+      "gpu_type": "H200",
+      "region": "global",
+      "index_value": 6.3,
+      "date": "2026-10-25T20:00:00.000Z"
+    },
+    {
+      "gpu_type": "RTX 5090",
+      "region": "global",
+      "index_value": 0.74,
+      "date": "2026-10-25T20:00:00.000Z"
+    },
+    {
+      "gpu_type": "RTX PRO 6000 WS",
+      "region": "global",
+      "index_value": 1.53,
+      "date": "2026-10-25T20:00:00.000Z"
+    }
+  ],
+  "count": 6
+}
