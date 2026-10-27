@@ -1,0 +1,1815 @@
+{
+  "fetched_at": "2026-10-27T19:28:42+00:00",
+  "leaderboard_count": 600,
+  "official_search": {
+    "anthropics": [
+      {
+        "id": "anthropics/skills/frontend-design",
+        "source": "anthropics/skills",
+        "skillId": "frontend-design",
+        "name": "frontend-design",
+        "installs": 1038036
+      },
+      {
+        "id": "anthropics/skills/skill-creator",
+        "source": "anthropics/skills",
+        "skillId": "skill-creator",
+        "name": "skill-creator",
+        "installs": 416855
+      },
+      {
+        "id": "anthropics/skills/pptx",
+        "source": "anthropics/skills",
+        "skillId": "pptx",
+        "name": "pptx",
+        "installs": 243519
+      },
+      {
+        "id": "anthropics/skills/pdf",
+        "source": "anthropics/skills",
+        "skillId": "pdf",
+        "name": "pdf",
+        "installs": 218096
+      },
+      {
+        "id": "anthropics/skills/docx",
+        "source": "anthropics/skills",
+        "skillId": "docx",
+        "name": "docx",
+        "installs": 208008
+      },
+      {
+        "id": "anthropics/skills/webapp-testing",
+        "source": "anthropics/skills",
+        "skillId": "webapp-testing",
+        "name": "webapp-testing",
+        "installs": 189875
+      },
+      {
+        "id": "anthropics/skills/xlsx",
+        "source": "anthropics/skills",
+        "skillId": "xlsx",
+        "name": "xlsx",
+        "installs": 188803
+      },
+      {
+        "id": "anthropics/skills/mcp-builder",
+        "source": "anthropics/skills",
+        "skillId": "mcp-builder",
+        "name": "mcp-builder",
+        "installs": 132449
+      },
+      {
+        "id": "anthropics/skills/canvas-design",
+        "source": "anthropics/skills",
+        "skillId": "canvas-design",
+        "name": "canvas-design",
+        "installs": 122939
+      },
+      {
+        "id": "anthropics/skills/web-artifacts-builder",
+        "source": "anthropics/skills",
+        "skillId": "web-artifacts-builder",
+        "name": "web-artifacts-builder",
+        "installs": 113185
+      },
+      {
+        "id": "anthropics/skills/brand-guidelines",
+        "source": "anthropics/skills",
+        "skillId": "brand-guidelines",
+        "name": "brand-guidelines",
+        "installs": 110889
+      },
+      {
+        "id": "anthropics/skills/theme-factory",
+        "source": "anthropics/skills",
+        "skillId": "theme-factory",
+        "name": "theme-factory",
+        "installs": 95959
+      },
+      {
+        "id": "anthropics/skills/doc-coauthoring",
+        "source": "anthropics/skills",
+        "skillId": "doc-coauthoring",
+        "name": "doc-coauthoring",
+        "installs": 94893
+      },
+      {
+        "id": "anthropics/skills/algorithmic-art",
+        "source": "anthropics/skills",
+        "skillId": "algorithmic-art",
+        "name": "algorithmic-art",
+        "installs": 89956
+      },
+      {
+        "id": "anthropics/skills/internal-comms",
+        "source": "anthropics/skills",
+        "skillId": "internal-comms",
+        "name": "internal-comms",
+        "installs": 80765
+      },
+      {
+        "id": "anthropics/skills/slack-gif-creator",
+        "source": "anthropics/skills",
+        "skillId": "slack-gif-creator",
+        "name": "slack-gif-creator",
+        "installs": 76046
+      },
+      {
+        "id": "anthropics/skills/claude-api",
+        "source": "anthropics/skills",
+        "skillId": "claude-api",
+        "name": "claude-api",
+        "installs": 75042
+      },
+      {
+        "id": "anthropics/skills/template-skill",
+        "source": "anthropics/skills",
+        "skillId": "template-skill",
+        "name": "template-skill",
+        "installs": 71826
+      },
+      {
+        "id": "anthropics/claude-code/skill-development",
+        "source": "anthropics/claude-code",
+        "skillId": "skill-development",
+        "name": "Skill Development",
+        "installs": 19653
+      },
+      {
+        "id": "anthropics/claude-code/agent-development",
+        "source": "anthropics/claude-code",
+        "skillId": "agent-development",
+        "name": "Agent Development",
+        "installs": 19587
+      },
+      {
+        "id": "anthropics/claude-code/plugin-structure",
+        "source": "anthropics/claude-code",
+        "skillId": "plugin-structure",
+        "name": "Plugin Structure",
+        "installs": 13851
+      },
+      {
+        "id": "anthropics/knowledge-work-plugins/data-visualization",
+        "source": "anthropics/knowledge-work-plugins",
+        "skillId": "data-visualization",
+        "name": "data-visualization",
+        "installs": 13843
+      },
+      {
+        "id": "anthropics/claude-code/plugin-settings",
+        "source": "anthropics/claude-code",
+        "skillId": "plugin-settings",
+        "name": "Plugin Settings",
+        "installs": 13683
+      },
+      {
+        "id": "anthropics/claude-code/writing-hookify-rules",
+        "source": "anthropics/claude-code",
+        "skillId": "writing-hookify-rules",
+        "name": "Writing Hookify Rules",
+        "installs": 13246
+      },
+      {
+        "id": "anthropics/skills/discernment-nudge",
+        "source": "anthropics/skills",
+        "skillId": "discernment-nudge",
+        "name": "discernment-nudge",
+        "installs": 12917
+      },
+      {
+        "id": "anthropics/claude-plugins-official/claude-md-improver",
+        "source": "anthropics/claude-plugins-official",
+        "skillId": "claude-md-improver",
+        "name": "claude-md-improver",
+        "installs": 12850
+      },
+      {
+        "id": "anthropics/skills/academy-guide",
+        "source": "anthropics/skills",
+        "skillId": "academy-guide",
+        "name": "academy-guide",
+        "installs": 12559
+      },
+      {
+        "id": "anthropics/claude-code/claude-opus-4-5-migration",
+        "source": "anthropics/claude-code",
+        "skillId": "claude-opus-4-5-migration",
+        "name": "claude-opus-4-5-migration",
+        "installs": 11813
+      },
+      {
+        "id": "anthropics/knowledge-work-plugins/documentation",
+        "source": "anthropics/knowledge-work-plugins",
+        "skillId": "documentation",
+        "name": "documentation",
+        "installs": 10306
+      },
+      {
+        "id": "anthropics/knowledge-work-plugins/code-review",
+        "source": "anthropics/knowledge-work-plugins",
+        "skillId": "code-review",
+        "name": "code-review",
+        "installs": 9936
+      },
+      {
+        "id": "anthropics/claude-plugins-official/claude-automation-recommender",
+        "source": "anthropics/claude-plugins-official",
+        "skillId": "claude-automation-recommender",
+        "name": "claude-automation-recommender",
+        "installs": 9357
+      },
+      {
+        "id": "anthropics/knowledge-work-plugins/build-dashboard",
+        "source": "anthropics/knowledge-work-plugins",
+        "skillId": "build-dashboard",
+        "name": "build-dashboard",
+        "installs": 9150
+      },
+      {
+        "id": "anthropics/claude-plugins-official/playground",
+        "source": "anthropics/claude-plugins-official",
+        "skillId": "playground",
+        "name": "playground",
+        "installs": 8088
+      },
+      {
+        "id": "anthropics/claude-plugins-official/agent-development",
+        "source": "anthropics/claude-plugins-official",
+        "skillId": "agent-development",
+        "name": "agent-development",
+        "installs": 7456
+      },
+      {
+        "id": "anthropics/knowledge-work-plugins/memory-management",
+        "source": "anthropics/knowledge-work-plugins",
+        "skillId": "memory-management",
+        "name": "memory-management",
+        "installs": 7451
+      },
+      {
+        "id": "anthropics/knowledge-work-plugins/task-management",
+        "source": "anthropics/knowledge-work-plugins",
+        "skillId": "task-management",
+        "name": "task-management",
+        "installs": 7258
+      },
+      {
+        "id": "anthropics/claude-plugins-official/build-mcp-server",
+        "source": "anthropics/claude-plugins-official",
+        "skillId": "build-mcp-server",
+        "name": "build-mcp-server",
+        "installs": 6820
+      },
+      {
+        "id": "anthropics/knowledge-work-plugins/architecture",
+        "source": "anthropics/knowledge-work-plugins",
+        "skillId": "architecture",
+        "name": "architecture",
+        "installs": 6736
+      },
+      {
+        "id": "anthropics/claude-plugins-official/build-mcp-app",
+        "source": "anthropics/claude-plugins-official",
+        "skillId": "build-mcp-app",
+        "name": "build-mcp-app",
+        "installs": 6561
+      },
+      {
+        "id": "anthropics/knowledge-work-plugins/tech-debt",
+        "source": "anthropics/knowledge-work-plugins",
+        "skillId": "tech-debt",
+        "name": "tech-debt",
+        "installs": 6494
+      },
+      {
+        "id": "anthropics/knowledge-work-plugins/testing-strategy",
+        "source": "anthropics/knowledge-work-plugins",
+        "skillId": "testing-strategy",
+        "name": "testing-strategy",
+        "installs": 6462
+      },
+      {
+        "id": "anthropics/knowledge-work-plugins/knowledge-synthesis",
+        "source": "anthropics/knowledge-work-plugins",
+        "skillId": "knowledge-synthesis",
+        "name": "knowledge-synthesis",
+        "installs": 6378
+      },
+      {
+        "id": "anthropics/claude-plugins-official/build-mcpb",
+        "source": "anthropics/claude-plugins-official",
+        "skillId": "build-mcpb",
+        "name": "build-mcpb",
+        "installs": 6333
+      },
+      {
+        "id": "anthropics/knowledge-work-plugins/view-pdf",
+        "source": "anthropics/knowledge-work-plugins",
+        "skillId": "view-pdf",
+        "name": "view-pdf",
+        "installs": 6304
+      },
+      {
+        "id": "anthropics/knowledge-work-plugins/explore-data",
+        "source": "anthropics/knowledge-work-plugins",
+        "skillId": "explore-data",
+        "name": "explore-data",
+        "installs": 5875
+      },
+      {
+        "id": "anthropics/knowledge-work-plugins/incident-response",
+        "source": "anthropics/knowledge-work-plugins",
+        "skillId": "incident-response",
+        "name": "incident-response",
+        "installs": 5872
+      },
+      {
+        "id": "anthropics/knowledge-work-plugins/debug",
+        "source": "anthropics/knowledge-work-plugins",
+        "skillId": "debug",
+        "name": "debug",
+        "installs": 5872
+      },
+      {
+        "id": "anthropics/knowledge-work-plugins/analyze",
+        "source": "anthropics/knowledge-work-plugins",
+        "skillId": "analyze",
+        "name": "analyze",
+        "installs": 5720
+      },
+      {
+        "id": "anthropics/knowledge-work-plugins/product-brainstorming",
+        "source": "anthropics/knowledge-work-plugins",
+        "skillId": "product-brainstorming",
+        "name": "product-brainstorming",
+        "installs": 5719
+      },
+      {
+        "id": "anthropics/knowledge-work-plugins/deploy-checklist",
+        "source": "anthropics/knowledge-work-plugins",
+        "skillId": "deploy-checklist",
+        "name": "deploy-checklist",
+        "installs": 5672
+      },
+      {
+        "id": "anthropics/knowledge-work-plugins/search-strategy",
+        "source": "anthropics/knowledge-work-plugins",
+        "skillId": "search-strategy",
+        "name": "search-strategy",
+        "installs": 5364
+      },
+      {
+        "id": "anthropics/knowledge-work-plugins/design-critique",
+        "source": "anthropics/knowledge-work-plugins",
+        "skillId": "design-critique",
+        "name": "design-critique",
+        "installs": 5334
+      },
+      {
+        "id": "anthropics/knowledge-work-plugins/create-viz",
+        "source": "anthropics/knowledge-work-plugins",
+        "skillId": "create-viz",
+        "name": "create-viz",
+        "installs": 5222
+      },
+      {
+        "id": "anthropics/knowledge-work-plugins/standup",
+        "source": "anthropics/knowledge-work-plugins",
+        "skillId": "standup",
+        "name": "standup",
+        "installs": 5180
+      },
+      {
+        "id": "anthropics/knowledge-work-plugins/legal-risk-assessment",
+        "source": "anthropics/knowledge-work-plugins",
+        "skillId": "legal-risk-assessment",
+        "name": "legal-risk-assessment",
+        "installs": 5158
+      },
+      {
+        "id": "anthropics/knowledge-work-plugins/source-management",
+        "source": "anthropics/knowledge-work-plugins",
+        "skillId": "source-management",
+        "name": "source-management",
+        "installs": 5143
+      },
+      {
+        "id": "anthropics/knowledge-work-plugins/search",
+        "source": "anthropics/knowledge-work-plugins",
+        "skillId": "search",
+        "name": "search",
+        "installs": 5018
+      },
+      {
+        "id": "anthropics/knowledge-work-plugins/update",
+        "source": "anthropics/knowledge-work-plugins",
+        "skillId": "update",
+        "name": "update",
+        "installs": 4970
+      },
+      {
+        "id": "anthropics/knowledge-work-plugins/content-creation",
+        "source": "anthropics/knowledge-work-plugins",
+        "skillId": "content-creation",
+        "name": "content-creation",
+        "installs": 4958
+      },
+      {
+        "id": "anthropics/knowledge-work-plugins/start",
+        "source": "anthropics/knowledge-work-plugins",
+        "skillId": "start",
+        "name": "start",
+        "installs": 4910
+      },
+      {
+        "id": "anthropics/knowledge-work-plugins/ux-copy",
+        "source": "anthropics/knowledge-work-plugins",
+        "skillId": "ux-copy",
+        "name": "ux-copy",
+        "installs": 4655
+      },
+      {
+        "id": "anthropics/knowledge-work-plugins/statistical-analysis",
+        "source": "anthropics/knowledge-work-plugins",
+        "skillId": "statistical-analysis",
+        "name": "statistical-analysis",
+        "installs": 4591
+      },
+      {
+        "id": "anthropics/knowledge-work-plugins/competitive-intelligence",
+        "source": "anthropics/knowledge-work-plugins",
+        "skillId": "competitive-intelligence",
+        "name": "competitive-intelligence",
+        "installs": 4541
+      },
+      {
+        "id": "anthropics/knowledge-work-plugins/financial-statements",
+        "source": "anthropics/knowledge-work-plugins",
+        "skillId": "financial-statements",
+        "name": "financial-statements",
+        "installs": 4526
+      },
+      {
+        "id": "anthropics/knowledge-work-plugins/sql-queries",
+        "source": "anthropics/knowledge-work-plugins",
+        "skillId": "sql-queries",
+        "name": "sql-queries",
+        "installs": 4484
+      },
+      {
+        "id": "anthropics/knowledge-work-plugins/design-system",
+        "source": "anthropics/knowledge-work-plugins",
+        "skillId": "design-system",
+        "name": "design-system",
+        "installs": 4265
+      },
+      {
+        "id": "anthropics/claude-plugins-official/math-olympiad",
+        "source": "anthropics/claude-plugins-official",
+        "skillId": "math-olympiad",
+        "name": "math-olympiad",
+        "installs": 4125
+      },
+      {
+        "id": "anthropics/knowledge-work-plugins/research-synthesis",
+        "source": "anthropics/knowledge-work-plugins",
+        "skillId": "research-synthesis",
+        "name": "research-synthesis",
+        "installs": 4100
+      },
+      {
+        "id": "anthropics/knowledge-work-plugins/accessibility-review",
+        "source": "anthropics/knowledge-work-plugins",
+        "skillId": "accessibility-review",
+        "name": "accessibility-review",
+        "installs": 4090
+      },
+      {
+        "id": "anthropics/claude-plugins-official/access",
+        "source": "anthropics/claude-plugins-official",
+        "skillId": "access",
+        "name": "access",
+        "installs": 3966
+      },
+      {
+        "id": "anthropics/claude-plugins-official/configure",
+        "source": "anthropics/claude-plugins-official",
+        "skillId": "configure",
+        "name": "configure",
+        "installs": 3961
+      },
+      {
+        "id": "anthropics/knowledge-work-plugins/slack-messaging",
+        "source": "anthropics/knowledge-work-plugins",
+        "skillId": "slack-messaging",
+        "name": "slack-messaging",
+        "installs": 3960
+      },
+      {
+        "id": "anthropics/claude-plugins-official/session-report",
+        "source": "anthropics/claude-plugins-official",
+        "skillId": "session-report",
+        "name": "session-report",
+        "installs": 3781
+      },
+      {
+        "id": "anthropics/knowledge-work-plugins/validate-data",
+        "source": "anthropics/knowledge-work-plugins",
+        "skillId": "validate-data",
+        "name": "validate-data",
+        "installs": 3719
+      },
+      {
+        "id": "anthropics/knowledge-work-plugins/seo-audit",
+        "source": "anthropics/knowledge-work-plugins",
+        "skillId": "seo-audit",
+        "name": "seo-audit",
+        "installs": 3716
+      },
+      {
+        "id": "anthropics/knowledge-work-plugins/review-contract",
+        "source": "anthropics/knowledge-work-plugins",
+        "skillId": "review-contract",
+        "name": "review-contract",
+        "installs": 3708
+      },
+      {
+        "id": "anthropics/knowledge-work-plugins/interview-prep",
+        "source": "anthropics/knowledge-work-plugins",
+        "skillId": "interview-prep",
+        "name": "interview-prep",
+        "installs": 3692
+      },
+      {
+        "id": "anthropics/knowledge-work-plugins/brand-voice-enforcement",
+        "source": "anthropics/knowledge-work-plugins",
+        "skillId": "brand-voice-enforcement",
+        "name": "brand-voice-enforcement",
+        "installs": 3661
+      },
+      {
+        "id": "anthropics/knowledge-work-plugins/write-spec",
+        "source": "anthropics/knowledge-work-plugins",
+        "skillId": "write-spec",
+        "name": "write-spec",
+        "installs": 3577
+      },
+      {
+        "id": "anthropics/knowledge-work-plugins/design-handoff",
+        "source": "anthropics/knowledge-work-plugins",
+        "skillId": "design-handoff",
+        "name": "design-handoff",
+        "installs": 3571
+      },
+      {
+        "id": "anthropics/knowledge-work-plugins/reconciliation",
+        "source": "anthropics/knowledge-work-plugins",
+        "skillId": "reconciliation",
+        "name": "reconciliation",
+        "installs": 3538
+      },
+      {
+        "id": "anthropics/knowledge-work-plugins/legal-response",
+        "source": "anthropics/knowledge-work-plugins",
+        "skillId": "legal-response",
+        "name": "legal-response",
+        "installs": 3430
+      },
+      {
+        "id": "anthropics/knowledge-work-plugins/account-research",
+        "source": "anthropics/knowledge-work-plugins",
+        "skillId": "account-research",
+        "name": "account-research",
+        "installs": 3386
+      },
+      {
+        "id": "anthropics/financial-services/earnings-analysis",
+        "source": "anthropics/financial-services",
+        "skillId": "earnings-analysis",
+        "name": "earnings-analysis",
+        "installs": 3371
+      },
+      {
+        "id": "anthropics/knowledge-work-plugins/risk-assessment",
+        "source": "anthropics/knowledge-work-plugins",
+        "skillId": "risk-assessment",
+        "name": "risk-assessment",
+        "installs": 3368
+      },
+      {
+        "id": "anthropics/knowledge-work-plugins/competitive-brief",
+        "source": "anthropics/knowledge-work-plugins",
+        "skillId": "competitive-brief",
+        "name": "competitive-brief",
+        "installs": 3341
+      },
+      {
+        "id": "anthropics/knowledge-work-plugins/draft-outreach",
+        "source": "anthropics/knowledge-work-plugins",
+        "skillId": "draft-outreach",
+        "name": "draft-outreach",
+        "installs": 3302
+      },
+      {
+        "id": "anthropics/knowledge-work-plugins/performance-review",
+        "source": "anthropics/knowledge-work-plugins",
+        "skillId": "performance-review",
+        "name": "performance-review",
+        "installs": 3288
+      },
+      {
+        "id": "anthropics/knowledge-work-plugins/compliance-check",
+        "source": "anthropics/knowledge-work-plugins",
+        "skillId": "compliance-check",
+        "name": "compliance-check",
+        "installs": 3277
+      },
+      {
+        "id": "anthropics/knowledge-work-plugins/variance-analysis",
+        "source": "anthropics/knowledge-work-plugins",
+        "skillId": "variance-analysis",
+        "name": "variance-analysis",
+        "installs": 3270
+      },
+      {
+        "id": "anthropics/knowledge-work-plugins/daily-briefing",
+        "source": "anthropics/knowledge-work-plugins",
+        "skillId": "daily-briefing",
+        "name": "daily-briefing",
+        "installs": 3265
+      },
+      {
+        "id": "anthropics/knowledge-work-plugins/campaign-plan",
+        "source": "anthropics/knowledge-work-plugins",
+        "skillId": "campaign-plan",
+        "name": "campaign-plan",
+        "installs": 3251
+      },
+      {
+        "id": "anthropics/knowledge-work-plugins/slack-search",
+        "source": "anthropics/knowledge-work-plugins",
+        "skillId": "slack-search",
+        "name": "slack-search",
+        "installs": 3200
+      },
+      {
+        "id": "anthropics/financial-services/equity-research",
+        "source": "anthropics/financial-services",
+        "skillId": "equity-research",
+        "name": "equity-research",
+        "installs": 3190
+      },
+      {
+        "id": "anthropics/knowledge-work-plugins/process-optimization",
+        "source": "anthropics/knowledge-work-plugins",
+        "skillId": "process-optimization",
+        "name": "process-optimization",
+        "installs": 3184
+      },
+      {
+        "id": "anthropics/knowledge-work-plugins/brand-review",
+        "source": "anthropics/knowledge-work-plugins",
+        "skillId": "brand-review",
+        "name": "brand-review",
+        "installs": 3169
+      },
+      {
+        "id": "anthropics/knowledge-work-plugins/audit-support",
+        "source": "anthropics/knowledge-work-plugins",
+        "skillId": "audit-support",
+        "name": "audit-support",
+        "installs": 3168
+      },
+      {
+        "id": "anthropics/knowledge-work-plugins/roadmap-update",
+        "source": "anthropics/knowledge-work-plugins",
+        "skillId": "roadmap-update",
+        "name": "roadmap-update",
+        "installs": 3113
+      },
+      {
+        "id": "anthropics/knowledge-work-plugins/sprint-planning",
+        "source": "anthropics/knowledge-work-plugins",
+        "skillId": "sprint-planning",
+        "name": "sprint-planning",
+        "installs": 3111
+      },
+      {
+        "id": "anthropics/knowledge-work-plugins/runbook",
+        "source": "anthropics/knowledge-work-plugins",
+        "skillId": "runbook",
+        "name": "runbook",
+        "installs": 3110
+      },
+      {
+        "id": "anthropics/knowledge-work-plugins/data-context-extractor",
+        "source": "anthropics/knowledge-work-plugins",
+        "skillId": "data-context-extractor",
+        "name": "data-context-extractor",
+        "installs": 3108
+      },
+      {
+        "id": "anthropics/knowledge-work-plugins/status-report",
+        "source": "anthropics/knowledge-work-plugins",
+        "skillId": "status-report",
+        "name": "status-report",
+        "installs": 3082
+      },
+      {
+        "id": "anthropics/knowledge-work-plugins/customer-research",
+        "source": "anthropics/knowledge-work-plugins",
+        "skillId": "customer-research",
+        "name": "customer-research",
+        "installs": 3078
+      },
+      {
+        "id": "anthropics/knowledge-work-plugins/synthesize-research",
+        "source": "anthropics/knowledge-work-plugins",
+        "skillId": "synthesize-research",
+        "name": "synthesize-research",
+        "installs": 3056
+      },
+      {
+        "id": "anthropics/knowledge-work-plugins/close-management",
+        "source": "anthropics/knowledge-work-plugins",
+        "skillId": "close-management",
+        "name": "close-management",
+        "installs": 3038
+      },
+      {
+        "id": "anthropics/knowledge-work-plugins/forecast",
+        "source": "anthropics/knowledge-work-plugins",
+        "skillId": "forecast",
+        "name": "forecast",
+        "installs": 3018
+      },
+      {
+        "id": "anthropics/knowledge-work-plugins/call-prep",
+        "source": "anthropics/knowledge-work-plugins",
+        "skillId": "call-prep",
+        "name": "call-prep",
+        "installs": 3009
+      },
+      {
+        "id": "anthropics/knowledge-work-plugins/write-query",
+        "source": "anthropics/knowledge-work-plugins",
+        "skillId": "write-query",
+        "name": "write-query",
+        "installs": 3003
+      },
+      {
+        "id": "anthropics/knowledge-work-plugins/performance-report",
+        "source": "anthropics/knowledge-work-plugins",
+        "skillId": "performance-report",
+        "name": "performance-report",
+        "installs": 3001
+      },
+      {
+        "id": "anthropics/claude-plugins-official/m5-onboard",
+        "source": "anthropics/claude-plugins-official",
+        "skillId": "m5-onboard",
+        "name": "m5-onboard",
+        "installs": 2999
+      },
+      {
+        "id": "anthropics/knowledge-work-plugins/journal-entry-prep",
+        "source": "anthropics/knowledge-work-plugins",
+        "skillId": "journal-entry-prep",
+        "name": "journal-entry-prep",
+        "installs": 2997
+      },
+      {
+        "id": "anthropics/claude-plugins-official/cardputer-buddy",
+        "source": "anthropics/claude-plugins-official",
+        "skillId": "cardputer-buddy",
+        "name": "cardputer-buddy",
+        "installs": 2997
+      },
+      {
+        "id": "anthropics/knowledge-work-plugins/ticket-triage",
+        "source": "anthropics/knowledge-work-plugins",
+        "skillId": "ticket-triage",
+        "name": "ticket-triage",
+        "installs": 2990
+      },
+      {
+        "id": "anthropics/knowledge-work-plugins/meeting-briefing",
+        "source": "anthropics/knowledge-work-plugins",
+        "skillId": "meeting-briefing",
+        "name": "meeting-briefing",
+        "installs": 2976
+      },
+      {
+        "id": "anthropics/knowledge-work-plugins/process-doc",
+        "source": "anthropics/knowledge-work-plugins",
+        "skillId": "process-doc",
+        "name": "process-doc",
+        "installs": 2971
+      },
+      {
+        "id": "anthropics/knowledge-work-plugins/compliance-tracking",
+        "source": "anthropics/knowledge-work-plugins",
+        "skillId": "compliance-tracking",
+        "name": "compliance-tracking",
+        "installs": 2966
+      },
+      {
+        "id": "anthropics/knowledge-work-plugins/guideline-generation",
+        "source": "anthropics/knowledge-work-plugins",
+        "skillId": "guideline-generation",
+        "name": "guideline-generation",
+        "installs": 2965
+      },
+      {
+        "id": "anthropics/knowledge-work-plugins/create-an-asset",
+        "source": "anthropics/knowledge-work-plugins",
+        "skillId": "create-an-asset",
+        "name": "create-an-asset",
+        "installs": 2956
+      },
+      {
+        "id": "anthropics/knowledge-work-plugins/discover-brand",
+        "source": "anthropics/knowledge-work-plugins",
+        "skillId": "discover-brand",
+        "name": "discover-brand",
+        "installs": 2951
+      },
+      {
+        "id": "anthropics/knowledge-work-plugins/recruiting-pipeline",
+        "source": "anthropics/knowledge-work-plugins",
+        "skillId": "recruiting-pipeline",
+        "name": "recruiting-pipeline",
+        "installs": 2950
+      },
+      {
+        "id": "anthropics/knowledge-work-plugins/email-sequence",
+        "source": "anthropics/knowledge-work-plugins",
+        "skillId": "email-sequence",
+        "name": "email-sequence",
+        "installs": 2950
+      },
+      {
+        "id": "anthropics/knowledge-work-plugins/stakeholder-update",
+        "source": "anthropics/knowledge-work-plugins",
+        "skillId": "stakeholder-update",
+        "name": "stakeholder-update",
+        "installs": 2949
+      },
+      {
+        "id": "anthropics/knowledge-work-plugins/metrics-review",
+        "source": "anthropics/knowledge-work-plugins",
+        "skillId": "metrics-review",
+        "name": "metrics-review",
+        "installs": 2941
+      },
+      {
+        "id": "anthropics/knowledge-work-plugins/draft-content",
+        "source": "anthropics/knowledge-work-plugins",
+        "skillId": "draft-content",
+        "name": "draft-content",
+        "installs": 2936
+      },
+      {
+        "id": "anthropics/knowledge-work-plugins/enrich-lead",
+        "source": "anthropics/knowledge-work-plugins",
+        "skillId": "enrich-lead",
+        "name": "enrich-lead",
+        "installs": 2911
+      },
+      {
+        "id": "anthropics/knowledge-work-plugins/org-planning",
+        "source": "anthropics/knowledge-work-plugins",
+        "skillId": "org-planning",
+        "name": "org-planning",
+        "installs": 2902
+      },
+      {
+        "id": "anthropics/knowledge-work-plugins/prospect",
+        "source": "anthropics/knowledge-work-plugins",
+        "skillId": "prospect",
+        "name": "prospect",
+        "installs": 2878
+      },
+      {
+        "id": "anthropics/knowledge-work-plugins/call-summary",
+        "source": "anthropics/knowledge-work-plugins",
+        "skillId": "call-summary",
+        "name": "call-summary",
+        "installs": 2874
+      },
+      {
+        "id": "anthropics/knowledge-work-plugins/customer-escalation",
+        "source": "anthropics/knowledge-work-plugins",
+        "skillId": "customer-escalation",
+        "name": "customer-escalation",
+        "installs": 2864
+      },
+      {
+        "id": "anthropics/knowledge-work-plugins/contact-research",
+        "source": "anthropics/knowledge-work-plugins",
+        "skillId": "contact-research",
+        "name": "contact-research",
+        "installs": 2864
+      },
+      {
+        "id": "anthropics/knowledge-work-plugins/compose-outreach",
+        "source": "anthropics/knowledge-work-plugins",
+        "skillId": "compose-outreach",
+        "name": "compose-outreach",
+        "installs": 2864
+      },
+      {
+        "id": "anthropics/knowledge-work-plugins/create-cowork-plugin",
+        "source": "anthropics/knowledge-work-plugins",
+        "skillId": "create-cowork-plugin",
+        "name": "create-cowork-plugin",
+        "installs": 2862
+      },
+      {
+        "id": "anthropics/knowledge-work-plugins/change-request",
+        "source": "anthropics/knowledge-work-plugins",
+        "skillId": "change-request",
+        "name": "change-request",
+        "installs": 2861
+      },
+      {
+        "id": "anthropics/knowledge-work-plugins/comp-analysis",
+        "source": "anthropics/knowledge-work-plugins",
+        "skillId": "comp-analysis",
+        "name": "comp-analysis",
+        "installs": 2847
+      },
+      {
+        "id": "anthropics/knowledge-work-plugins/vendor-review",
+        "source": "anthropics/knowledge-work-plugins",
+        "skillId": "vendor-review",
+        "name": "vendor-review",
+        "installs": 2839
+      },
+      {
+        "id": "anthropics/knowledge-work-plugins/cowork-plugin-customizer",
+        "source": "anthropics/knowledge-work-plugins",
+        "skillId": "cowork-plugin-customizer",
+        "name": "cowork-plugin-customizer",
+        "installs": 2835
+      },
+      {
+        "id": "anthropics/knowledge-work-plugins/capacity-plan",
+        "source": "anthropics/knowledge-work-plugins",
+        "skillId": "capacity-plan",
+        "name": "capacity-plan",
+        "installs": 2832
+      },
+      {
+        "id": "anthropics/knowledge-work-plugins/brief",
+        "source": "anthropics/knowledge-work-plugins",
+        "skillId": "brief",
+        "name": "brief",
+        "installs": 2831
+      },
+      {
+        "id": "anthropics/knowledge-work-plugins/kb-article",
+        "source": "anthropics/knowledge-work-plugins",
+        "skillId": "kb-article",
+        "name": "kb-article",
+        "installs": 2823
+      },
+      {
+        "id": "anthropics/knowledge-work-plugins/policy-lookup",
+        "source": "anthropics/knowledge-work-plugins",
+        "skillId": "policy-lookup",
+        "name": "policy-lookup",
+        "installs": 2817
+      },
+      {
+        "id": "anthropics/knowledge-work-plugins/vendor-check",
+        "source": "anthropics/knowledge-work-plugins",
+        "skillId": "vendor-check",
+        "name": "vendor-check",
+        "installs": 2816
+      },
+      {
+        "id": "anthropics/knowledge-work-plugins/pipeline-review",
+        "source": "anthropics/knowledge-work-plugins",
+        "skillId": "pipeline-review",
+        "name": "pipeline-review",
+        "installs": 2799
+      },
+      {
+        "id": "anthropics/knowledge-work-plugins/onboarding",
+        "source": "anthropics/knowledge-work-plugins",
+        "skillId": "onboarding",
+        "name": "onboarding",
+        "installs": 2781
+      },
+      {
+        "id": "anthropics/knowledge-work-plugins/digest",
+        "source": "anthropics/knowledge-work-plugins",
+        "skillId": "digest",
+        "name": "digest",
+        "installs": 2766
+      },
+      {
+        "id": "anthropics/knowledge-work-plugins/triage-nda",
+        "source": "anthropics/knowledge-work-plugins",
+        "skillId": "triage-nda",
+        "name": "triage-nda",
+        "installs": 2760
+      },
+      {
+        "id": "anthropics/knowledge-work-plugins/journal-entry",
+        "source": "anthropics/knowledge-work-plugins",
+        "skillId": "journal-entry",
+        "name": "journal-entry",
+        "installs": 2760
+      },
+      {
+        "id": "anthropics/knowledge-work-plugins/draft-response",
+        "source": "anthropics/knowledge-work-plugins",
+        "skillId": "draft-response",
+        "name": "draft-response",
+        "installs": 2751
+      },
+      {
+        "id": "anthropics/knowledge-work-plugins/weekly-prep-brief",
+        "source": "anthropics/knowledge-work-plugins",
+        "skillId": "weekly-prep-brief",
+        "name": "weekly-prep-brief",
+        "installs": 2743
+      },
+      {
+        "id": "anthropics/knowledge-work-plugins/people-report",
+        "source": "anthropics/knowledge-work-plugins",
+        "skillId": "people-report",
+        "name": "people-report",
+        "installs": 2707
+      },
+      {
+        "id": "anthropics/knowledge-work-plugins/sequence-load",
+        "source": "anthropics/knowledge-work-plugins",
+        "skillId": "sequence-load",
+        "name": "sequence-load",
+        "installs": 2692
+      },
+      {
+        "id": "anthropics/knowledge-work-plugins/signature-request",
+        "source": "anthropics/knowledge-work-plugins",
+        "skillId": "signature-request",
+        "name": "signature-request",
+        "installs": 2691
+      },
+      {
+        "id": "anthropics/knowledge-work-plugins/draft-offer",
+        "source": "anthropics/knowledge-work-plugins",
+        "skillId": "draft-offer",
+        "name": "draft-offer",
+        "installs": 2686
+      },
+      {
+        "id": "anthropics/knowledge-work-plugins/sox-testing",
+        "source": "anthropics/knowledge-work-plugins",
+        "skillId": "sox-testing",
+        "name": "sox-testing",
+        "installs": 2681
+      },
+      {
+        "id": "anthropics/knowledge-work-plugins/contract-review",
+        "source": "anthropics/knowledge-work-plugins",
+        "skillId": "contract-review",
+        "name": "contract-review",
+        "installs": 2565
+      },
+      {
+        "id": "anthropics/financial-services/dcf-model",
+        "source": "anthropics/financial-services",
+        "skillId": "dcf-model",
+        "name": "dcf-model",
+        "installs": 2468
+      },
+      {
+        "id": "anthropics/financial-services/pitch-deck",
+        "source": "anthropics/financial-services",
+        "skillId": "pitch-deck",
+        "name": "pitch-deck",
+        "installs": 2440
+      },
+      {
+        "id": "anthropics/claude-plugins-official/project-artifact",
+        "source": "anthropics/claude-plugins-official",
+        "skillId": "project-artifact",
+        "name": "project-artifact",
+        "installs": 2436
+      },
+      {
+        "id": "anthropics/claude-plugins-official/claude-security",
+        "source": "anthropics/claude-plugins-official",
+        "skillId": "claude-security",
+        "name": "claude-security",
+        "installs": 2431
+      },
+      {
+        "id": "anthropics/financial-services/competitive-analysis",
+        "source": "anthropics/financial-services",
+        "skillId": "competitive-analysis",
+        "name": "competitive-analysis",
+        "installs": 2402
+      },
+      {
+        "id": "anthropics/knowledge-work-plugins/scvi-tools",
+        "source": "anthropics/knowledge-work-plugins",
+        "skillId": "scvi-tools",
+        "name": "scvi-tools",
+        "installs": 2378
+      },
+      {
+        "id": "anthropics/financial-services/macro-rates-monitor",
+        "source": "anthropics/financial-services",
+        "skillId": "macro-rates-monitor",
+        "name": "macro-rates-monitor",
+        "installs": 2322
+      },
+      {
+        "id": "anthropics/financial-services/comps-analysis",
+        "source": "anthropics/financial-services",
+        "skillId": "comps-analysis",
+        "name": "comps-analysis",
+        "installs": 2288
+      },
+      {
+        "id": "anthropics/financial-services/ppt-template-creator",
+        "source": "anthropics/financial-services",
+        "skillId": "ppt-template-creator",
+        "name": "ppt-template-creator",
+        "installs": 2270
+      },
+      {
+        "id": "anthropics/financial-services/audit-xls",
+        "source": "anthropics/financial-services",
+        "skillId": "audit-xls",
+        "name": "audit-xls",
+        "installs": 2233
+      },
+      {
+        "id": "anthropics/knowledge-work-plugins/design-mcp-workflow",
+        "source": "anthropics/knowledge-work-plugins",
+        "skillId": "design-mcp-workflow",
+        "name": "design-mcp-workflow",
+        "installs": 2170
+      },
+      {
+        "id": "anthropics/claude-plugins-official/receipts",
+        "source": "anthropics/claude-plugins-official",
+        "skillId": "receipts",
+        "name": "receipts",
+        "installs": 2166
+      },
+      {
+        "id": "anthropics/financial-services/3-statement-model",
+        "source": "anthropics/financial-services",
+        "skillId": "3-statement-model",
+        "name": "3-statement-model",
+        "installs": 2152
+      },
+      {
+        "id": "anthropics/knowledge-work-plugins/zoom-mcp",
+        "source": "anthropics/knowledge-work-plugins",
+        "skillId": "zoom-mcp",
+        "name": "zoom-mcp",
+        "installs": 2150
+      },
+      {
+        "id": "anthropics/knowledge-work-plugins/build-zoom-rest-api-app",
+        "source": "anthropics/knowledge-work-plugins",
+        "skillId": "build-zoom-rest-api-app",
+        "name": "build-zoom-rest-api-app",
+        "installs": 2113
+      },
+      {
+        "id": "anthropics/knowledge-work-plugins/scribe",
+        "source": "anthropics/knowledge-work-plugins",
+        "skillId": "scribe",
+        "name": "scribe",
+        "installs": 2103
+      },
+      {
+        "id": "anthropics/knowledge-work-plugins/plan-zoom-product",
+        "source": "anthropics/knowledge-work-plugins",
+        "skillId": "plan-zoom-product",
+        "name": "plan-zoom-product",
+        "installs": 2102
+      },
+      {
+        "id": "anthropics/knowledge-work-plugins/probe-sdk",
+        "source": "anthropics/knowledge-work-plugins",
+        "skillId": "probe-sdk",
+        "name": "probe-sdk",
+        "installs": 2086
+      },
+      {
+        "id": "anthropics/knowledge-work-plugins/build-zoom-phone-integration",
+        "source": "anthropics/knowledge-work-plugins",
+        "skillId": "build-zoom-phone-integration",
+        "name": "build-zoom-phone-integration",
+        "installs": 2086
+      },
+      {
+        "id": "anthropics/knowledge-work-plugins/rivet-sdk",
+        "source": "anthropics/knowledge-work-plugins",
+        "skillId": "rivet-sdk",
+        "name": "rivet-sdk",
+        "installs": 2083
+      },
+      {
+        "id": "anthropics/knowledge-work-plugins/build-zoom-meeting-sdk-app",
+        "source": "anthropics/knowledge-work-plugins",
+        "skillId": "build-zoom-meeting-sdk-app",
+        "name": "build-zoom-meeting-sdk-app",
+        "installs": 2080
+      },
+      {
+        "id": "anthropics/knowledge-work-plugins/setup-zoom-oauth",
+        "source": "anthropics/knowledge-work-plugins",
+        "skillId": "setup-zoom-oauth",
+        "name": "setup-zoom-oauth",
+        "installs": 2079
+      },
+      {
+        "id": "anthropics/knowledge-work-plugins/choose-zoom-approach",
+        "source": "anthropics/knowledge-work-plugins",
+        "skillId": "choose-zoom-approach",
+        "name": "choose-zoom-approach",
+        "installs": 2079
+      },
+      {
+        "id": "anthropics/financial-services/clean-data-xls",
+        "source": "anthropics/financial-services",
+        "skillId": "clean-data-xls",
+        "name": "clean-data-xls",
+        "installs": 2077
+      },
+      {
+        "id": "anthropics/knowledge-work-plugins/build-zoom-bot",
+        "source": "anthropics/knowledge-work-plugins",
+        "skillId": "build-zoom-bot",
+        "name": "build-zoom-bot",
+        "installs": 2074
+      },
+      {
+        "id": "anthropics/knowledge-work-plugins/setup-zoom-websockets",
+        "source": "anthropics/knowledge-work-plugins",
+        "skillId": "setup-zoom-websockets",
+        "name": "setup-zoom-websockets",
+        "installs": 2073
+      },
+      {
+        "id": "anthropics/knowledge-work-plugins/build-zoom-video-sdk-app",
+        "source": "anthropics/knowledge-work-plugins",
+        "skillId": "build-zoom-video-sdk-app",
+        "name": "build-zoom-video-sdk-app",
+        "installs": 2073
+      },
+      {
+        "id": "anthropics/knowledge-work-plugins/build-zoom-team-chat-app",
+        "source": "anthropics/knowledge-work-plugins",
+        "skillId": "build-zoom-team-chat-app",
+        "name": "build-zoom-team-chat-app",
+        "installs": 2072
+      },
+      {
+        "id": "anthropics/knowledge-work-plugins/build-zoom-meeting-app",
+        "source": "anthropics/knowledge-work-plugins",
+        "skillId": "build-zoom-meeting-app",
+        "name": "build-zoom-meeting-app",
+        "installs": 2072
+      },
+      {
+        "id": "anthropics/knowledge-work-plugins/plan-zoom-integration",
+        "source": "anthropics/knowledge-work-plugins",
+        "skillId": "plan-zoom-integration",
+        "name": "plan-zoom-integration",
+        "installs": 2071
+      },
+      {
+        "id": "anthropics/knowledge-work-plugins/debug-zoom",
+        "source": "anthropics/knowledge-work-plugins",
+        "skillId": "debug-zoom",
+        "name": "debug-zoom",
+        "installs": 2070
+      },
+      {
+        "id": "anthropics/knowledge-work-plugins/setup-zoom-webhooks",
+        "source": "anthropics/knowledge-work-plugins",
+        "skillId": "setup-zoom-webhooks",
+        "name": "setup-zoom-webhooks",
+        "installs": 2069
+      },
+      {
+        "id": "anthropics/knowledge-work-plugins/build-zoom-virtual-agent",
+        "source": "anthropics/knowledge-work-plugins",
+        "skillId": "build-zoom-virtual-agent",
+        "name": "build-zoom-virtual-agent",
+        "installs": 2069
+      },
+      {
+        "id": "anthropics/knowledge-work-plugins/build-zoom-contact-center-app",
+        "source": "anthropics/knowledge-work-plugins",
+        "skillId": "build-zoom-contact-center-app",
+        "name": "build-zoom-contact-center-app",
+        "installs": 2068
+      },
+      {
+        "id": "anthropics/knowledge-work-plugins/zoom-oauth",
+        "source": "anthropics/knowledge-work-plugins",
+        "skillId": "zoom-oauth",
+        "name": "zoom-oauth",
+        "installs": 2067
+      },
+      {
+        "id": "anthropics/knowledge-work-plugins/zoom-rtms",
+        "source": "anthropics/knowledge-work-plugins",
+        "skillId": "zoom-rtms",
+        "name": "zoom-rtms",
+        "installs": 2062
+      },
+      {
+        "id": "anthropics/knowledge-work-plugins/debug-zoom-integration",
+        "source": "anthropics/knowledge-work-plugins",
+        "skillId": "debug-zoom-integration",
+        "name": "debug-zoom-integration",
+        "installs": 2060
+      },
+      {
+        "id": "anthropics/knowledge-work-plugins/zoom-general",
+        "source": "anthropics/knowledge-work-plugins",
+        "skillId": "zoom-general",
+        "name": "zoom-general",
+        "installs": 2059
+      },
+      {
+        "id": "anthropics/knowledge-work-plugins/setup-zoom-mcp",
+        "source": "anthropics/knowledge-work-plugins",
+        "skillId": "setup-zoom-mcp",
+        "name": "setup-zoom-mcp",
+        "installs": 2058
+      },
+      {
+        "id": "anthropics/knowledge-work-plugins/zoom-apps-sdk",
+        "source": "anthropics/knowledge-work-plugins",
+        "skillId": "zoom-apps-sdk",
+        "name": "zoom-apps-sdk",
+        "installs": 2051
+      },
+      {
+        "id": "anthropics/knowledge-work-plugins/zoom-cobrowse-sdk",
+        "source": "anthropics/knowledge-work-plugins",
+        "skillId": "zoom-cobrowse-sdk",
+        "name": "zoom-cobrowse-sdk",
+        "installs": 2050
+      },
+      {
+        "id": "anthropics/financial-services/option-vol-analysis",
+        "source": "anthropics/financial-services",
+        "skillId": "option-vol-analysis",
+        "name": "option-vol-analysis",
+        "installs": 2000
+      },
+      {
+        "id": "anthropics/knowledge-work-plugins/invoice-chase",
+        "source": "anthropics/knowledge-work-plugins",
+        "skillId": "invoice-chase",
+        "name": "invoice-chase",
+        "installs": 1999
+      },
+      {
+        "id": "anthropics/financial-services/initiating-coverage",
+        "source": "anthropics/financial-services",
+        "skillId": "initiating-coverage",
+        "name": "initiating-coverage",
+        "installs": 1959
+      },
+      {
+        "id": "anthropics/knowledge-work-plugins/canva-creator",
+        "source": "anthropics/knowledge-work-plugins",
+        "skillId": "canva-creator",
+        "name": "canva-creator",
+        "installs": 1950
+      },
+      {
+        "id": "anthropics/knowledge-work-plugins/cash-flow-snapshot",
+        "source": "anthropics/knowledge-work-plugins",
+        "skillId": "cash-flow-snapshot",
+        "name": "cash-flow-snapshot",
+        "installs": 1897
+      }
+    ],
+    "openai": [
+      {
+        "id": "openai/skills/openai-docs",
+        "source": "openai/skills",
+        "skillId": "openai-docs",
+        "name": "openai-docs",
+        "installs": 6211
+      },
+      {
+        "id": "openai/skills/pdf",
+        "source": "openai/skills",
+        "skillId": "pdf",
+        "name": "pdf",
+        "installs": 13451
+      },
+      {
+        "id": "openai/skills/gh-fix-ci",
+        "source": "openai/skills",
+        "skillId": "gh-fix-ci",
+        "name": "gh-fix-ci",
+        "installs": 11512
+      },
+      {
+        "id": "openai/skills/security-best-practices",
+        "source": "openai/skills",
+        "skillId": "security-best-practices",
+        "name": "security-best-practices",
+        "installs": 11340
+      },
+      {
+        "id": "openai/skills/linear",
+        "source": "openai/skills",
+        "skillId": "linear",
+        "name": "linear",
+        "installs": 10551
+      },
+      {
+        "id": "openai/skills/playwright",
+        "source": "openai/skills",
+        "skillId": "playwright",
+        "name": "playwright",
+        "installs": 8680
+      },
+      {
+        "id": "openai/skills/security-threat-model",
+        "source": "openai/skills",
+        "skillId": "security-threat-model",
+        "name": "security-threat-model",
+        "installs": 8251
+      },
+      {
+        "id": "openai/skills/figma-implement-design",
+        "source": "openai/skills",
+        "skillId": "figma-implement-design",
+        "name": "figma-implement-design",
+        "installs": 6736
+      },
+      {
+        "id": "openai/skills/screenshot",
+        "source": "openai/skills",
+        "skillId": "screenshot",
+        "name": "screenshot",
+        "installs": 6166
+      },
+      {
+        "id": "openai/skills/figma",
+        "source": "openai/skills",
+        "skillId": "figma",
+        "name": "figma",
+        "installs": 5818
+      },
+      {
+        "id": "openai/skills/imagegen",
+        "source": "openai/skills",
+        "skillId": "imagegen",
+        "name": "imagegen",
+        "installs": 5735
+      },
+      {
+        "id": "openai/skills/jupyter-notebook",
+        "source": "openai/skills",
+        "skillId": "jupyter-notebook",
+        "name": "jupyter-notebook",
+        "installs": 5642
+      },
+      {
+        "id": "openai/skills/playwright-interactive",
+        "source": "openai/skills",
+        "skillId": "playwright-interactive",
+        "name": "playwright-interactive",
+        "installs": 5500
+      },
+      {
+        "id": "openai/skills/skill-creator",
+        "source": "openai/skills",
+        "skillId": "skill-creator",
+        "name": "skill-creator",
+        "installs": 4933
+      },
+      {
+        "id": "openai/skills/gh-address-comments",
+        "source": "openai/skills",
+        "skillId": "gh-address-comments",
+        "name": "gh-address-comments",
+        "installs": 4828
+      },
+      {
+        "id": "openai/skills/cloudflare-deploy",
+        "source": "openai/skills",
+        "skillId": "cloudflare-deploy",
+        "name": "cloudflare-deploy",
+        "installs": 4293
+      },
+      {
+        "id": "openai/codex/babysit-pr",
+        "source": "openai/codex",
+        "skillId": "babysit-pr",
+        "name": "babysit-pr",
+        "installs": 4155
+      },
+      {
+        "id": "openai/skills/aspnet-core",
+        "source": "openai/skills",
+        "skillId": "aspnet-core",
+        "name": "aspnet-core",
+        "installs": 3926
+      },
+      {
+        "id": "openai/skills/transcribe",
+        "source": "openai/skills",
+        "skillId": "transcribe",
+        "name": "transcribe",
+        "installs": 3885
+      },
+      {
+        "id": "openai/skills/security-ownership-map",
+        "source": "openai/skills",
+        "skillId": "security-ownership-map",
+        "name": "security-ownership-map",
+        "installs": 3846
+      },
+      {
+        "id": "openai/skills/skill-installer",
+        "source": "openai/skills",
+        "skillId": "skill-installer",
+        "name": "skill-installer",
+        "installs": 3729
+      },
+      {
+        "id": "openai/skills/notion-research-documentation",
+        "source": "openai/skills",
+        "skillId": "notion-research-documentation",
+        "name": "notion-research-documentation",
+        "installs": 3719
+      },
+      {
+        "id": "openai/skills/sentry",
+        "source": "openai/skills",
+        "skillId": "sentry",
+        "name": "sentry",
+        "installs": 3591
+      },
+      {
+        "id": "openai/skills/speech",
+        "source": "openai/skills",
+        "skillId": "speech",
+        "name": "speech",
+        "installs": 3536
+      },
+      {
+        "id": "openai/skills/notion-knowledge-capture",
+        "source": "openai/skills",
+        "skillId": "notion-knowledge-capture",
+        "name": "notion-knowledge-capture",
+        "installs": 3517
+      },
+      {
+        "id": "openai/skills/netlify-deploy",
+        "source": "openai/skills",
+        "skillId": "netlify-deploy",
+        "name": "netlify-deploy",
+        "installs": 3477
+      },
+      {
+        "id": "openai/skills/yeet",
+        "source": "openai/skills",
+        "skillId": "yeet",
+        "name": "yeet",
+        "installs": 3422
+      },
+      {
+        "id": "openai/skills/vercel-deploy",
+        "source": "openai/skills",
+        "skillId": "vercel-deploy",
+        "name": "vercel-deploy",
+        "installs": 3374
+      },
+      {
+        "id": "openai/skills/hatch-pet",
+        "source": "openai/skills",
+        "skillId": "hatch-pet",
+        "name": "hatch-pet",
+        "installs": 3340
+      },
+      {
+        "id": "openai/skills/chatgpt-apps",
+        "source": "openai/skills",
+        "skillId": "chatgpt-apps",
+        "name": "chatgpt-apps",
+        "installs": 3314
+      },
+      {
+        "id": "openai/skills/notion-spec-to-implementation",
+        "source": "openai/skills",
+        "skillId": "notion-spec-to-implementation",
+        "name": "notion-spec-to-implementation",
+        "installs": 3232
+      },
+      {
+        "id": "openai/skills/render-deploy",
+        "source": "openai/skills",
+        "skillId": "render-deploy",
+        "name": "render-deploy",
+        "installs": 3211
+      },
+      {
+        "id": "openai/skills/winui-app",
+        "source": "openai/skills",
+        "skillId": "winui-app",
+        "name": "winui-app",
+        "installs": 3210
+      },
+      {
+        "id": "openai/skills/cli-creator",
+        "source": "openai/skills",
+        "skillId": "cli-creator",
+        "name": "cli-creator",
+        "installs": 3202
+      },
+      {
+        "id": "openai/skills/notion-meeting-intelligence",
+        "source": "openai/skills",
+        "skillId": "notion-meeting-intelligence",
+        "name": "notion-meeting-intelligence",
+        "installs": 3143
+      },
+      {
+        "id": "openai/skills/figma-use",
+        "source": "openai/skills",
+        "skillId": "figma-use",
+        "name": "figma-use",
+        "installs": 2920
+      },
+      {
+        "id": "openai/codex/test-tui",
+        "source": "openai/codex",
+        "skillId": "test-tui",
+        "name": "test-tui",
+        "installs": 2834
+      },
+      {
+        "id": "openai/skills/define-goal",
+        "source": "openai/skills",
+        "skillId": "define-goal",
+        "name": "define-goal",
+        "installs": 2822
+      },
+      {
+        "id": "openai/skills/figma-create-new-file",
+        "source": "openai/skills",
+        "skillId": "figma-create-new-file",
+        "name": "figma-create-new-file",
+        "installs": 2696
+      },
+      {
+        "id": "openai/skills/migrate-to-codex",
+        "source": "openai/skills",
+        "skillId": "migrate-to-codex",
+        "name": "migrate-to-codex",
+        "installs": 2661
+      },
+      {
+        "id": "openai/skills/spreadsheet",
+        "source": "openai/skills",
+        "skillId": "spreadsheet",
+        "name": "spreadsheet",
+        "installs": 1575
+      },
+      {
+        "id": "openai/skills/frontend-skill",
+        "source": "openai/skills",
+        "skillId": "frontend-skill",
+        "name": "frontend-skill",
+        "installs": 1473
+      },
+      {
+        "id": "openai/skills/doc",
+        "source": "openai/skills",
+        "skillId": "doc",
+        "name": "doc",
+        "installs": 1153
+      },
+      {
+        "id": "openai/plugins/ios-memgraph-leaks",
+        "source": "openai/plugins",
+        "skillId": "ios-memgraph-leaks",
+        "name": "ios-memgraph-leaks",
+        "installs": 1124
+      },
+      {
+        "id": "openai/skills/develop-web-game",
+        "source": "openai/skills",
+        "skillId": "develop-web-game",
+        "name": "develop-web-game",
+        "installs": 1055
+      },
+      {
+        "id": "openai/skills/sora",
+        "source": "openai/skills",
+        "skillId": "sora",
+        "name": "sora",
+        "installs": 874
+      },
+      {
+        "id": "openai/codex-plugin-cc/codex-cli-runtime",
+        "source": "openai/codex-plugin-cc",
+        "skillId": "codex-cli-runtime",
+        "name": "codex-cli-runtime",
+        "installs": 796
+      },
+      {
+        "id": "openai/codex/code-review",
+        "source": "openai/codex",
+        "skillId": "code-review",
+        "name": "code-review",
+        "installs": 748
+      },
+      {
+        "id": "openai/codex-security/attack-path-analysis",
+        "source": "openai/codex-security",
+        "skillId": "attack-path-analysis",
+        "name": "attack-path-analysis",
+        "installs": 736
+      },
+      {
+        "id": "openai/codex-plugin-cc/gpt-5-4-prompting",
+        "source": "openai/codex-plugin-cc",
+        "skillId": "gpt-5-4-prompting",
+        "name": "gpt-5-4-prompting",
+        "installs": 728
+      },
+      {
+        "id": "openai/codex-plugin-cc/codex-result-handling",
+        "source": "openai/codex-plugin-cc",
+        "skillId": "codex-result-handling",
+        "name": "codex-result-handling",
+        "installs": 676
+      },
+      {
+        "id": "openai/codex/code-review-testing",
+        "source": "openai/codex",
+        "skillId": "code-review-testing",
+        "name": "code-review-testing",
+        "installs": 634
+      },
+      {
+        "id": "openai/skills/figma-create-design-system-rules",
+        "source": "openai/skills",
+        "skillId": "figma-create-design-system-rules",
+        "name": "figma-create-design-system-rules",
+        "installs": 2929,
+        "isDuplicate": true
+      },
+      {
+        "id": "openai/skills/figma-generate-design",
+        "source": "openai/skills",
+        "skillId": "figma-generate-design",
+        "name": "figma-generate-design",
+        "installs": 2911,
+        "isDuplicate": true
+      },
+      {
+        "id": "openai/skills/figma-code-connect-components",
+        "source": "openai/skills",
+        "skillId": "figma-code-connect-components",
+        "name": "figma-code-connect-components",
+        "installs": 2771,
+        "isDuplicate": true
+      },
+      {
+        "id": "openai/skills/figma-generate-library",
+        "source": "openai/skills",
+        "skillId": "figma-generate-library",
+        "name": "figma-generate-library",
+        "installs": 2754,
+        "isDuplicate": true
+      },
+      {
+        "id": "openai/skills/plugin-creator",
+        "source": "openai/skills",
+        "skillId": "plugin-creator",
+        "name": "plugin-creator",
+        "installs": 2524,
+        "isDuplicate": true
+      }
+    ]
+  },
+  "html_head": "<!DOCTYPE html><html data-dpl-id=\"dpl_HZDuXsR3jcBT7hy9FR6KbayEetuX\" lang=\"en\" class=\"dark lnvfWW_className\"><head><meta charSet=\"utf-8\"/><meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"/><link rel=\"preload\" as=\"image\" href=\"/agents/cline.svg?dpl=dpl_HZDuXsR3jcBT7hy9FR6KbayEetuX\"/><link rel=\"preload\" as=\"image\" href=\"/agents/amp.svg?dpl=dpl_HZDuXsR3jcBT7hy9FR6KbayEetuX\"/><link rel=\"preload\" as=\"image\" href=\"/agents/antigravity.svg?dpl=dpl_HZDuXsR3jcBT7hy9FR6KbayEetuX\"/><link rel=\"preload\" as=\"image\" href=\"/agents/openclaw.svg?dpl=dpl_HZDuXsR3jcBT7hy9FR6KbayEetuX\"/><link rel=\"preload\" as=\"image\" href=\"/agents/droid.svg?dpl=dpl_HZDuXsR3jcBT7hy9FR6KbayEetuX\"/><link rel=\"preload\" as=\"image\" href=\"/agents/goose.svg?dpl=dpl_HZDuXsR3jcBT7hy9FR6KbayEetuX\"/><link rel=\"preload\" as=\"image\" href=\"/agents/kilo.svg?dpl=dpl_HZDuXsR3jcBT7hy9FR6KbayEetuX\"/><link rel=\"preload\" as=\"image\" href=\"/agents/kiro-cli.svg?dpl=dpl_HZDuXsR3jcBT7hy9FR6KbayEetuX\"/><link rel=\"preload\" as=\"image\" href=\"/agents/nous-research.svg?dpl=dpl_HZDuXsR3jcBT7hy9FR6KbayEetuX\"/><link rel=\"preload\" as=\"image\" href=\"/agents/opencode.svg?dpl=dpl_HZDuXsR3jcBT7hy9FR6KbayEetuX\"/><link rel=\"stylesheet\" href=\"/_next/static/immutable/chunks/3rvljfaq6osqj.css\" data-precedence=\"next\"/><link rel=\"stylesheet\" href=\"/_next/static/immutable/chunks/37awonds5po46.css\" data-precedence=\"next\"/><link rel=\"preload\" as=\"script\" fetchPriority=\"low\" href=\"/_next/static/immutable/chunks/3ixl5lrab6o4f.js\"/><script src=\"/_next/static/immutable/chunks/3cjg60vfn9byg.js\" async=\"\"></script><script src=\"/_next/static/immutable/chunks/2-t_71zyd2xv2.js\" async=\"\"></script><script src=\"/_next/static/immutable/chunks/2ulks4gf77a3q.js\" async=\"\"></script><script src=\"/_next/static/immutable/chunks/turbopack-1byz1flvc-bu1.js\" async=\"\"></script><script src=\"/_next/static/immutable/chunks/2_ql6n52xjfbd.js\" async=\"\"></script><script src=\"/_next/static/immutable/chunks/1ylzc3jp1kjxm.js\" async=\"\"></script><script src=\"/_next/static/imm"
+}
