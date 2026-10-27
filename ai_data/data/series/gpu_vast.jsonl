@@ -2905,3 +2905,17 @@
 {"date": "2026-10-26", "gpu": "RTX_4090", "rental_type": "spot", "min_usd_hr": 0.266, "median_usd_hr": 0.3973, "max_usd_hr": 1.0033, "offers": 64}
 {"date": "2026-10-26", "gpu": "RTX_5090", "rental_type": "on_demand", "min_usd_hr": 0.5078, "median_usd_hr": 0.8285, "max_usd_hr": 1.7643, "offers": 64}
 {"date": "2026-10-26", "gpu": "RTX_5090", "rental_type": "spot", "min_usd_hr": 0.3869, "median_usd_hr": 0.5716, "max_usd_hr": 1.1989, "offers": 64}
+{"date": "2026-10-27", "gpu": "H100_SXM", "rental_type": "on_demand", "min_usd_hr": 3.994, "median_usd_hr": 4.4019, "max_usd_hr": 5.6556, "offers": 3}
+{"date": "2026-10-27", "gpu": "H100_SXM", "rental_type": "spot", "min_usd_hr": 0.674, "median_usd_hr": 2.6689, "max_usd_hr": 3.7419, "offers": 3}
+{"date": "2026-10-27", "gpu": "H200", "rental_type": "on_demand", "min_usd_hr": 10.0672, "median_usd_hr": 10.0672, "max_usd_hr": 10.0672, "offers": 1}
+{"date": "2026-10-27", "gpu": "H200", "rental_type": "spot", "min_usd_hr": 9.804, "median_usd_hr": 9.804, "max_usd_hr": 9.804, "offers": 1}
+{"date": "2026-10-27", "gpu": "B200", "rental_type": "on_demand", "min_usd_hr": 9.9888, "median_usd_hr": 12.502, "max_usd_hr": 12.5104, "offers": 8}
+{"date": "2026-10-27", "gpu": "B200", "rental_type": "spot", "min_usd_hr": 8.7505, "median_usd_hr": 8.752, "max_usd_hr": 8.7604, "offers": 8}
+{"date": "2026-10-27", "gpu": "A100_SXM_80GB", "rental_type": "on_demand", "min_usd_hr": 0.6681, "median_usd_hr": 1.1354, "max_usd_hr": 1.6274, "offers": 18}
+{"date": "2026-10-27", "gpu": "A100_SXM_80GB", "rental_type": "spot", "min_usd_hr": 0.4072, "median_usd_hr": 0.6694, "max_usd_hr": 1.0744, "offers": 10}
+{"date": "2026-10-27", "gpu": "A100_PCIE_80GB", "rental_type": "on_demand", "min_usd_hr": 0.3998, "median_usd_hr": 0.6517, "max_usd_hr": 1.0011, "offers": 9}
+{"date": "2026-10-27", "gpu": "A100_PCIE_80GB", "rental_type": "spot", "min_usd_hr": 0.2171, "median_usd_hr": 0.4063, "max_usd_hr": 0.6681, "offers": 8}
+{"date": "2026-10-27", "gpu": "RTX_4090", "rental_type": "on_demand", "min_usd_hr": 0.383, "median_usd_hr": 0.5526, "max_usd_hr": 1.471, "offers": 64}
+{"date": "2026-10-27", "gpu": "RTX_4090", "rental_type": "spot", "min_usd_hr": 0.2551, "median_usd_hr": 0.3878, "max_usd_hr": 1.3363, "offers": 64}
+{"date": "2026-10-27", "gpu": "RTX_5090", "rental_type": "on_demand", "min_usd_hr": 0.4691, "median_usd_hr": 0.8017, "max_usd_hr": 2.0012, "offers": 64}
+{"date": "2026-10-27", "gpu": "RTX_5090", "rental_type": "spot", "min_usd_hr": 0.26, "median_usd_hr": 0.5374, "max_usd_hr": 1.6022, "offers": 64}
