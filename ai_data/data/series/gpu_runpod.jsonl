@@ -2410,3 +2410,14 @@
 {"date": "2026-10-30", "gpu": "H100_NVL", "secure_usd_hr": 3.19, "community_spot_usd_hr": null, "secure_available": true}
 {"date": "2026-10-30", "gpu": "H100_PCIE", "secure_usd_hr": 2.89, "community_spot_usd_hr": null, "secure_available": true}
 {"date": "2026-10-30", "gpu": "H200", "secure_usd_hr": 5.29, "community_spot_usd_hr": null, "secure_available": true}
+{"date": "2026-10-31", "gpu": "MI300X", "secure_usd_hr": 2.39, "community_spot_usd_hr": null, "secure_available": true}
+{"date": "2026-10-31", "gpu": "A100_PCIE_80GB", "secure_usd_hr": 1.79, "community_spot_usd_hr": null, "secure_available": true}
+{"date": "2026-10-31", "gpu": "A100_SXM_80GB", "secure_usd_hr": 1.79, "community_spot_usd_hr": null, "secure_available": true}
+{"date": "2026-10-31", "gpu": "B200", "secure_usd_hr": 7.99, "community_spot_usd_hr": null, "secure_available": true}
+{"date": "2026-10-31", "gpu": "B300", "secure_usd_hr": 8.99, "community_spot_usd_hr": null, "secure_available": true}
+{"date": "2026-10-31", "gpu": "RTX_4090", "secure_usd_hr": 0.89, "community_spot_usd_hr": null, "secure_available": true}
+{"date": "2026-10-31", "gpu": "RTX_5090", "secure_usd_hr": 1.19, "community_spot_usd_hr": null, "secure_available": true}
+{"date": "2026-10-31", "gpu": "H100_SXM", "secure_usd_hr": 3.99, "community_spot_usd_hr": null, "secure_available": true}
+{"date": "2026-10-31", "gpu": "H100_NVL", "secure_usd_hr": 3.19, "community_spot_usd_hr": null, "secure_available": true}
+{"date": "2026-10-31", "gpu": "H100_PCIE", "secure_usd_hr": 2.89, "community_spot_usd_hr": null, "secure_available": true}
+{"date": "2026-10-31", "gpu": "H200", "secure_usd_hr": 5.29, "community_spot_usd_hr": null, "secure_available": true}
