@@ -17626,3 +17626,4 @@
 {"date": "2026-11-01", "skill": "openai/skills/figma-code-connect-components", "installs": 2823, "rank": null, "official": true}
 {"date": "2026-11-01", "skill": "openai/skills/figma-generate-library", "installs": 2805, "rank": null, "official": true}
 {"date": "2026-11-01", "skill": "openai/skills/plugin-creator", "installs": 2573, "rank": null, "official": true}
+{"date": "2026-11-01", "skill": "addyosmani/agent-skills/source-driven-development", "installs": 62581, "rank": 600, "official": false}

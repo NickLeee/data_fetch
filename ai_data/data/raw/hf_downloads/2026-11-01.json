@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-01T13:21:37+00:00",
+  "fetched_at": "2026-11-01T18:59:08+00:00",
   "orgs": [
     "deepseek-ai",
     "Qwen",
@@ -60,6 +60,13 @@
       "created_at": "2025-04-27T03:41:29.000Z",
       "variant": "finetune",
       "family": "Qwen/Qwen3-4B-Base"
+    },
+    "google/gemma-4-31B-it": {
+      "downloads": 8301351,
+      "alltime": 72274165,
+      "created_at": "2026-03-11T18:22:36.000Z",
+      "variant": "finetune",
+      "family": "google/gemma-4-31B"
     },
     "Qwen/Qwen3.8-27B": {
       "downloads": 7892866,
@@ -138,6 +145,13 @@
       "variant": "finetune",
       "family": "meta-llama/Llama-3.1-8B"
     },
+    "google/gemma-4-26B-A4B-it": {
+      "downloads": 6032823,
+      "alltime": 74385786,
+      "created_at": "2026-03-11T21:25:57.000Z",
+      "variant": "finetune",
+      "family": "google/gemma-4-26B-A4B"
+    },
     "MiniMaxAI/MiniMax-H3": {
       "downloads": 5924727,
       "alltime": 15370220,
@@ -194,6 +208,13 @@
       "variant": "finetune",
       "family": "Qwen/Qwen2.5-1.5B"
     },
+    "meta-llama/Llama-3.1-8B-Instruct": {
+      "downloads": 4501381,
+      "alltime": 192294374,
+      "created_at": "2024-07-18T08:56:00.000Z",
+      "variant": "finetune",
+      "family": "meta-llama/Llama-3.1-8B"
+    },
     "deepseek-ai/DeepSeek-V4-Flash-0731": {
       "downloads": 3168654,
       "alltime": 12918623,
@@ -207,6 +228,13 @@
       "created_at": "2025-04-27T03:41:05.000Z",
       "variant": "finetune",
       "family": "Qwen/Qwen3-1.7B-Base"
+    },
+    "google/gemma-4-E4B-it": {
+      "downloads": 4178062,
+      "alltime": 38040300,
+      "created_at": "2026-03-02T19:57:40.000Z",
+      "variant": "finetune",
+      "family": "google/gemma-4-E4B"
     },
     "baidu/Unlimited-OCR": {
       "downloads": 4122291,
@@ -243,6 +271,13 @@
       "variant": "base",
       "family": "Qwen/Qwen3.8-Flash-Next"
     },
+    "nvidia/Qwen3.6-35B-A3B-NVFP4": {
+      "downloads": 3822122,
+      "alltime": 40795943,
+      "created_at": "2026-05-27T18:09:46.000Z",
+      "variant": "quant:nvfp4",
+      "family": "Qwen/Qwen3.6-35B-A3B"
+    },
     "Qwen/Qwen3.5-0.8B": {
       "downloads": 3730405,
       "alltime": 23219630,
@@ -277,6 +312,13 @@
       "created_at": "2026-08-14T15:08:24.000Z",
       "variant": "quant:mlx",
       "family": "Qwen/Qwen3.8-27B"
+    },
+    "google/gemma-4-E2B-it": {
+      "downloads": 3311955,
+      "alltime": 23347716,
+      "created_at": "2026-03-02T19:58:09.000Z",
+      "variant": "finetune",
+      "family": "google/gemma-4-E2B"
     },
     "Qwen/Qwen3-32B": {
       "downloads": 2934052,
@@ -418,6 +460,13 @@
       "variant": "base",
       "family": "deepseek-ai/DeepSeek-V4.1-Flash"
     },
+    "thinkingmachines/Inkling": {
+      "downloads": 2084207,
+      "alltime": 3175569,
+      "created_at": "2026-07-14T13:23:14.000Z",
+      "variant": "base",
+      "family": "thinkingmachines/Inkling"
+    },
     "farbodtavakkoli/OTel-2.0-Decision-26B-A4B-4bit": {
       "downloads": 2070530,
       "alltime": 2070530,
@@ -474,6 +523,20 @@
       "variant": "quant:gguf",
       "family": "Qwen/Qwen3.5-9B"
     },
+    "meta-llama/Llama-3.2-1B-Instruct": {
+      "downloads": 1899093,
+      "alltime": 109414403,
+      "created_at": "2024-09-18T15:12:47.000Z",
+      "variant": "base",
+      "family": "meta-llama/Llama-3.2-1B-Instruct"
+    },
+    "nvidia/NVIDIA-Nemotron-3-Nano-4B-BF16": {
+      "downloads": 1883615,
+      "alltime": 10266850,
+      "created_at": "2026-03-07T01:23:35.000Z",
+      "variant": "precision:bf16",
+      "family": "nvidia/NVIDIA-Nemotron-Nano-9B-v2"
+    },
     "Qwen/Qwen2.5-7B-Instruct-AWQ": {
       "downloads": 1854626,
       "alltime": 25775254,
@@ -495,12 +558,33 @@
       "variant": "base",
       "family": "Qwen/Qwen3.5-27B"
     },
+    "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-BF16": {
+      "downloads": 1763961,
+      "alltime": 11782891,
+      "created_at": "2025-12-04T03:37:11.000Z",
+      "variant": "precision:bf16",
+      "family": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B"
+    },
     "deepseek-ai/DeepSeek-R1": {
       "downloads": 1712192,
       "alltime": 51036074,
       "created_at": "2025-01-20T03:46:07.000Z",
       "variant": "base",
       "family": "deepseek-ai/DeepSeek-R1"
+    },
+    "mistralai/Mistral-7B-Instruct-v0.2": {
+      "downloads": 1741602,
+      "alltime": 66491206,
+      "created_at": "2023-12-11T13:18:44.000Z",
+      "variant": "base",
+      "family": "mistralai/Mistral-7B-Instruct-v0.2"
+    },
+    "google/gemma-4-12B-it": {
+      "downloads": 1728452,
+      "alltime": 13500845,
+      "created_at": "2026-05-23T01:17:15.000Z",
+      "variant": "finetune",
+      "family": "google/gemma-4-12B"
     },
     "Qwen/Qwen3.5-35B-A3B": {
       "downloads": 1720099,
@@ -523,6 +607,13 @@
       "variant": "base",
       "family": "deepseek-ai/DeepSeek-V3"
     },
+    "zai-org/GLM-5": {
+      "downloads": 1615751,
+      "alltime": 3308676,
+      "created_at": "2026-02-11T04:55:46.000Z",
+      "variant": "base",
+      "family": "zai-org/GLM-5"
+    },
     "ibm-granite/granite-timeseries-tspulse-r1": {
       "downloads": 1603043,
       "alltime": 4272836,
@@ -536,6 +627,13 @@
       "created_at": "2026-09-24T13:13:45.000Z",
       "variant": "quant:gguf",
       "family": "ukisai/Swift-1.5-Qwen3.8-27b"
+    },
+    "nvidia/Qwen2.5-VL-7B-Instruct-NVFP4": {
+      "downloads": 1571430,
+      "alltime": 3142323,
+      "created_at": "2025-09-10T03:04:44.000Z",
+      "variant": "quant:nvfp4",
+      "family": "Qwen/Qwen2.5-VL-7B-Instruct"
     },
     "unsloth/Qwen3.5-9B-GGUF": {
       "downloads": 1554745,
@@ -572,6 +670,13 @@
       "variant": "quant:fp8",
       "family": "Qwen/Qwen3-VL-8B-Instruct"
     },
+    "nvidia/Gemma-4-26B-A4B-NVFP4": {
+      "downloads": 1510641,
+      "alltime": 9574399,
+      "created_at": "2026-05-01T01:26:06.000Z",
+      "variant": "quant:nvfp4",
+      "family": "google/gemma-4-26B-A4B-it"
+    },
     "Qwen/Qwen2.5-Coder-7B-Instruct": {
       "downloads": 1499654,
       "alltime": 25630695,
@@ -600,12 +705,26 @@
       "variant": "quant:fp8",
       "family": "Qwen/Qwen3.6-27B"
     },
+    "nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-BF16": {
+      "downloads": 1429742,
+      "alltime": 2700746,
+      "created_at": "2026-06-03T14:50:04.000Z",
+      "variant": "precision:bf16",
+      "family": "nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B"
+    },
     "Qwen/Qwen3-VL-2B-Instruct": {
       "downloads": 1425456,
       "alltime": 219627486,
       "created_at": "2025-10-19T13:13:24.000Z",
       "variant": "base",
       "family": "Qwen/Qwen3-VL-2B-Instruct"
+    },
+    "thinkingmachines/Inkling-Small": {
+      "downloads": 1411262,
+      "alltime": 2337834,
+      "created_at": "2026-07-27T22:33:44.000Z",
+      "variant": "base",
+      "family": "thinkingmachines/Inkling-Small"
     },
     "Qwen/Qwen3-VL-8B-Instruct-GGUF": {
       "downloads": 1406262,
@@ -655,6 +774,20 @@
       "created_at": "2026-04-06T14:04:31.000Z",
       "variant": "quant:fp8",
       "family": "google/gemma-4-26B-A4B-it"
+    },
+    "tencent/Hy3": {
+      "downloads": 1331157,
+      "alltime": 1661464,
+      "created_at": "2026-07-02T13:23:54.000Z",
+      "variant": "base",
+      "family": "tencent/Hy3"
+    },
+    "zai-org/GLM-4.5-Air": {
+      "downloads": 1328974,
+      "alltime": 6320392,
+      "created_at": "2025-07-20T03:25:55.000Z",
+      "variant": "base",
+      "family": "zai-org/GLM-4.5-Air"
     },
     "unsloth/Qwen3.5-4B-GGUF": {
       "downloads": 1323712,
@@ -747,6 +880,13 @@
       "variant": "quant:awq",
       "family": "Qwen/Qwen2.5-3B-Instruct"
     },
+    "nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-BF16": {
+      "downloads": 1177164,
+      "alltime": 2173841,
+      "created_at": "2026-08-01T06:55:21.000Z",
+      "variant": "precision:bf16",
+      "family": "nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B"
+    },
     "lmstudio-community/gemma-4-E4B-it-MLX-8bit": {
       "downloads": 1171160,
       "alltime": 7022034,
@@ -781,6 +921,13 @@
       "created_at": "2026-05-01T04:25:27.000Z",
       "variant": "quant:gguf",
       "family": "google/gemma-4-E4B-it"
+    },
+    "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16": {
+      "downloads": 1153587,
+      "alltime": 7576050,
+      "created_at": "2026-03-10T18:32:14.000Z",
+      "variant": "precision:bf16",
+      "family": "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B"
     },
     "Qwen/Qwen3-Coder-30B-A3B-Instruct-FP8": {
       "downloads": 1153554,
@@ -817,6 +964,13 @@
       "variant": "quant:gguf",
       "family": "naver-hyperclovax/HyperCLOVAX-SEED-Text-Instruct-1.5B"
     },
+    "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-NVFP4": {
+      "downloads": 1120240,
+      "alltime": 7441081,
+      "created_at": "2025-12-20T09:12:40.000Z",
+      "variant": "quant:nvfp4",
+      "family": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B"
+    },
     "moonshotai/Kimi-K3": {
       "downloads": 813134,
       "alltime": 5997142,
@@ -837,6 +991,20 @@
       "created_at": "2026-04-26T07:54:05.000Z",
       "variant": "quant:gguf",
       "family": "deepseek-ai/DeepSeek-V4-Flash"
+    },
+    "openbmb/MiniCPM5-2B": {
+      "downloads": 1083600,
+      "alltime": 2136210,
+      "created_at": "2026-09-06T11:12:19.000Z",
+      "variant": "base",
+      "family": "openbmb/MiniCPM5-2B"
+    },
+    "nvidia/Gemma-4-31B-IT-NVFP4": {
+      "downloads": 1068894,
+      "alltime": 14053281,
+      "created_at": "2026-04-02T16:47:30.000Z",
+      "variant": "quant:nvfp4",
+      "family": "google/gemma-4-31B-it"
     },
     "tencent/Hy-MT2-7B-GGUF": {
       "downloads": 1057596,
@@ -894,6 +1062,13 @@
       "variant": "finetune",
       "family": "Qwen/Qwen2-VL-2B"
     },
+    "meta-llama/Llama-3.2-3B-Instruct": {
+      "downloads": 1031607,
+      "alltime": 50750463,
+      "created_at": "2024-09-18T15:19:20.000Z",
+      "variant": "base",
+      "family": "meta-llama/Llama-3.2-3B-Instruct"
+    },
     "Qwen/Qwen3.5-122B-A10B": {
       "downloads": 1026056,
       "alltime": 8333008,
@@ -908,12 +1083,26 @@
       "variant": "quant:awq",
       "family": "Qwen/Qwen2.5-Coder-32B-Instruct"
     },
+    "nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-NVFP4": {
+      "downloads": 1018095,
+      "alltime": 2947928,
+      "created_at": "2026-08-04T19:10:45.000Z",
+      "variant": "quant:nvfp4",
+      "family": "nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B"
+    },
     "Qwen/Qwen2.5-32B-Instruct": {
       "downloads": 1012092,
       "alltime": 32651475,
       "created_at": "2024-09-17T04:17:55.000Z",
       "variant": "finetune",
       "family": "Qwen/Qwen2.5-32B"
+    },
+    "zai-org/GLM-5.1": {
+      "downloads": 998572,
+      "alltime": 1974632,
+      "created_at": "2026-04-03T09:28:47.000Z",
+      "variant": "base",
+      "family": "zai-org/GLM-5.1"
     },
     "Serveurperso/MiniMax-Music3-GGUF": {
       "downloads": 987425,
@@ -956,6 +1145,13 @@
       "created_at": "2026-08-13T17:18:39.000Z",
       "variant": "quant:fp8",
       "family": "nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B"
+    },
+    "zai-org/GLM-4.7-Flash": {
+      "downloads": 968875,
+      "alltime": 15399767,
+      "created_at": "2026-01-19T06:28:10.000Z",
+      "variant": "base",
+      "family": "zai-org/GLM-4.7-Flash"
     },
     "google/gemma-3-4b-it": {
       "downloads": 955800,
@@ -1026,6 +1222,13 @@
       "created_at": "2026-09-26T09:42:51.000Z",
       "variant": "quant:gguf",
       "family": "Qwen/Qwen3.8-Flash-Next"
+    },
+    "google/gemma-4-12B-it-qat-w4a16-ct": {
+      "downloads": 844629,
+      "alltime": 6934924,
+      "created_at": "2026-06-05T02:50:55.000Z",
+      "variant": "quant:w4a16",
+      "family": "google/gemma-4-12B-it"
     },
     "Qwen/Qwen2.5-VL-32B-Instruct": {
       "downloads": 841775,
@@ -1173,6 +1376,13 @@
       "created_at": "2026-06-23T06:21:21.000Z",
       "variant": "quant:awq",
       "family": "baidu/Unlimited-OCR"
+    },
+    "tencent/HunyuanOCR": {
+      "downloads": 724991,
+      "alltime": 7264607,
+      "created_at": "2025-11-18T04:08:56.000Z",
+      "variant": "base",
+      "family": "tencent/HunyuanOCR"
     },
     "DavidAU/Qwen3.8-27B-Turbo-Brilliance-50X-Reasoning-Instruct-NEO-MAX-MTP-GGUF": {
       "downloads": 720584,
@@ -1377,6 +1587,13 @@
       "variant": "base",
       "family": "Qwen/Qwen3-0.6B-Base"
     },
+    "nvidia/Cosmos-Reason2-2B": {
+      "downloads": 602406,
+      "alltime": 4276567,
+      "created_at": "2025-12-12T17:50:45.000Z",
+      "variant": "finetune",
+      "family": "Qwen/Qwen3-VL-2B-Instruct"
+    },
     "casperhansen/llama-3.3-70b-instruct-awq": {
       "downloads": 599669,
       "alltime": 5406049,
@@ -1426,6 +1643,13 @@
       "variant": "quant:gguf",
       "family": "empero-ai/Qwen3.8-4B-Distill"
     },
+    "nvidia/Qwen3.6-27B-NVFP4": {
+      "downloads": 572417,
+      "alltime": 4086110,
+      "created_at": "2026-06-22T12:24:08.000Z",
+      "variant": "quant:nvfp4",
+      "family": "Qwen/Qwen3.6-27B"
+    },
     "unsloth/gemma-4-E4B-it-GGUF": {
       "downloads": 571394,
       "alltime": 6247955,
@@ -1447,6 +1671,13 @@
       "variant": "quant:gptq",
       "family": "Qwen/Qwen3.5-122B-A10B"
     },
+    "meta-llama/Llama-3.1-8B": {
+      "downloads": 560703,
+      "alltime": 28856010,
+      "created_at": "2024-07-14T22:20:15.000Z",
+      "variant": "base",
+      "family": "meta-llama/Llama-3.1-8B"
+    },
     "ibm-granite/granite-4.1-3b": {
       "downloads": 558905,
       "alltime": 2176218,
@@ -1460,6 +1691,13 @@
       "created_at": "2026-02-11T13:54:56.000Z",
       "variant": "quant:gguf",
       "family": "togatogah/jinen-v1-small.gguf"
+    },
+    "google/gemma-4-E4B": {
+      "downloads": 554825,
+      "alltime": 4389595,
+      "created_at": "2026-03-02T19:57:53.000Z",
+      "variant": "base",
+      "family": "google/gemma-4-E4B"
     },
     "Qwen/Qwen3-Omni-30B-A3B-Instruct": {
       "downloads": 547739,
@@ -1622,12 +1860,26 @@
       "variant": "quant:gguf",
       "family": "schneewolflabs/B1-9B"
     },
+    "thinkingmachines/Inkling-Small-NVFP4": {
+      "downloads": 494353,
+      "alltime": 1154454,
+      "created_at": "2026-07-27T22:34:05.000Z",
+      "variant": "quant:nvfp4",
+      "family": "thinkingmachines/Inkling-Small"
+    },
     "empero-ai/Qwen3.8-2B-Distill-GGUF": {
       "downloads": 491921,
       "alltime": 1538483,
       "created_at": "2026-08-15T18:08:46.000Z",
       "variant": "quant:gguf",
       "family": "empero-ai/Qwen3.8-2B-Distill"
+    },
+    "zai-org/chatglm2-6b": {
+      "downloads": 490024,
+      "alltime": 23389394,
+      "created_at": "2023-06-24T16:26:27.000Z",
+      "variant": "base",
+      "family": "zai-org/chatglm2-6b"
     },
     "google/fnet-base": {
       "downloads": 488935,
@@ -1643,12 +1895,26 @@
       "variant": "quant:gptq",
       "family": "Qwen/Qwen2.5-32B-Instruct"
     },
+    "meta-llama/Llama-3.2-1B": {
+      "downloads": 483882,
+      "alltime": 60014699,
+      "created_at": "2024-09-18T15:03:14.000Z",
+      "variant": "base",
+      "family": "meta-llama/Llama-3.2-1B"
+    },
     "lmstudio-community/gemma-4-E4B-it-GGUF": {
       "downloads": 480816,
       "alltime": 5794441,
       "created_at": "2026-04-01T19:30:26.000Z",
       "variant": "quant:gguf",
       "family": "google/gemma-4-E4B-it"
+    },
+    "meta-llama/Llama-3.1-405B-FP8": {
+      "downloads": 477560,
+      "alltime": 2586019,
+      "created_at": "2024-07-20T03:20:19.000Z",
+      "variant": "quant:fp8",
+      "family": "meta-llama/Llama-3.1-405B"
     },
     "unsloth/Qwen3-Coder-30B-A3B-Instruct-GGUF": {
       "downloads": 471274,
@@ -1713,12 +1979,26 @@
       "variant": "base",
       "family": "google/mobilebert-uncased"
     },
+    "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4": {
+      "downloads": 453951,
+      "alltime": 10621852,
+      "created_at": "2026-03-10T18:33:04.000Z",
+      "variant": "quant:nvfp4",
+      "family": "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B"
+    },
     "SC117/Swift-1.5-Qwen3.8-Flash-Next-GSQ-RCO-abliterated-GGUF": {
       "downloads": 449426,
       "alltime": 449426,
       "created_at": "2026-10-03T14:02:25.000Z",
       "variant": "quant:gguf",
       "family": "ukisai/Swift1.5-Qwen3.8-Flash-Next"
+    },
+    "mistralai/Mistral-7B-v0.1": {
+      "downloads": 447605,
+      "alltime": 28045049,
+      "created_at": "2023-09-20T13:03:50.000Z",
+      "variant": "base",
+      "family": "mistralai/Mistral-7B-v0.1"
     },
     "ggml-org/models-moved": {
       "downloads": 444352,
@@ -1825,6 +2105,13 @@
       "variant": "quant:gguf",
       "family": "0bserverx/RVN-Qwen3.8-Flash-Next-Abliterated-Uncensored"
     },
+    "openbmb/MiniCPM-V-4.7-35B-A3B": {
+      "downloads": 422545,
+      "alltime": 422545,
+      "created_at": "2026-10-07T07:07:30.000Z",
+      "variant": "base",
+      "family": "openbmb/MiniCPM-V-4.7-35B-A3B"
+    },
     "deepseek-ai/DeepSeek-OCR-2": {
       "downloads": 419321,
       "alltime": 14769753,
@@ -1846,12 +2133,26 @@
       "variant": "quant:gguf",
       "family": "Qwen/Qwen3.8-27B"
     },
+    "google/medgemma-4b-it": {
+      "downloads": 409850,
+      "alltime": 6489612,
+      "created_at": "2025-05-19T20:52:44.000Z",
+      "variant": "finetune",
+      "family": "google/medgemma-4b-pt"
+    },
     "LiquidAI/LFM2.5-2.6B-GGUF": {
       "downloads": 409542,
       "alltime": 2521511,
       "created_at": "2026-08-01T22:42:15.000Z",
       "variant": "quant:gguf",
       "family": "LiquidAI/LFM2.5-2.6B"
+    },
+    "moonshotai/Kimi-K2.5": {
+      "downloads": 406716,
+      "alltime": 16397558,
+      "created_at": "2026-01-01T06:06:03.000Z",
+      "variant": "base",
+      "family": "moonshotai/Kimi-K2.5"
     },
     "moonshotai/Kimi-K2.6": {
       "downloads": 249755,
@@ -2007,6 +2308,13 @@
       "variant": "finetune",
       "family": "meta-llama/Llama-3.1-70B"
     },
+    "google/gemma-4-26B-A4B-it-assistant": {
+      "downloads": 370008,
+      "alltime": 1472562,
+      "created_at": "2026-04-23T20:16:46.000Z",
+      "variant": "base",
+      "family": "google/gemma-4-26B-A4B-it-assistant"
+    },
     "deepseek-ai/DeepSeek-V4-Pro": {
       "downloads": 367478,
       "alltime": 11064929,
@@ -2027,6 +2335,13 @@
       "created_at": "2025-05-29T11:07:47.000Z",
       "variant": "base",
       "family": "deepseek-ai/DeepSeek-R1-0528-Qwen3-8B"
+    },
+    "microsoft/phi-4": {
+      "downloads": 360054,
+      "alltime": 14873276,
+      "created_at": "2024-12-11T11:47:29.000Z",
+      "variant": "base",
+      "family": "microsoft/phi-4"
     },
     "FINAL-Bench/POCKET-Darwin-180B-GGUF": {
       "downloads": 357189,
@@ -2105,12 +2420,26 @@
       "variant": "quant:gguf",
       "family": "Qwen/Qwen3-14B"
     },
+    "microsoft/Phi-4-mini-instruct": {
+      "downloads": 351827,
+      "alltime": 9560426,
+      "created_at": "2025-02-19T01:00:58.000Z",
+      "variant": "base",
+      "family": "microsoft/Phi-4-mini-instruct"
+    },
     "google/gemma-3-27b-it": {
       "downloads": 351339,
       "alltime": 17652797,
       "created_at": "2025-03-01T19:10:19.000Z",
       "variant": "finetune",
       "family": "google/gemma-3-27b-pt"
+    },
+    "nvidia/LocateAnything-3B": {
+      "downloads": 349180,
+      "alltime": 2592774,
+      "created_at": "2026-03-02T20:05:49.000Z",
+      "variant": "finetune",
+      "family": "Qwen/Qwen2.5-3B-Instruct"
     },
     "Qwen/Qwen3-235B-A22B": {
       "downloads": 348787,
@@ -2202,6 +2531,13 @@
       "created_at": "2025-10-19T13:01:30.000Z",
       "variant": "quant:fp8",
       "family": "Qwen/Qwen3-VL-32B-Instruct"
+    },
+    "google/gemma-4-E2B-it-qat-w4a16-ct": {
+      "downloads": 331150,
+      "alltime": 2020971,
+      "created_at": "2026-06-04T22:29:35.000Z",
+      "variant": "quant:w4a16",
+      "family": "google/gemma-4-E2B-it"
     },
     "abenzerps/Spark-X2.5-4B-GGUF": {
       "downloads": 328807,
@@ -2308,6 +2644,13 @@
       "variant": "quant:gguf",
       "family": "openbmb/MiniCPM-V-4.7-35B-A3B"
     },
+    "meta-llama/Meta-Llama-3-8B-Instruct": {
+      "downloads": 318668,
+      "alltime": 48935621,
+      "created_at": "2024-04-17T09:35:12.000Z",
+      "variant": "base",
+      "family": "meta-llama/Meta-Llama-3-8B-Instruct"
+    },
     "microsoft/Phi-3.5-vision-instruct": {
       "downloads": 317760,
       "alltime": 20826814,
@@ -2328,6 +2671,20 @@
       "created_at": "2025-01-20T09:16:14.000Z",
       "variant": "distill",
       "family": "deepseek-ai/DeepSeek-R1-Distill-Qwen-7B"
+    },
+    "nvidia/Qwen3.8-Flash-Next-NVFP4": {
+      "downloads": 316071,
+      "alltime": 608761,
+      "created_at": "2026-09-02T04:03:35.000Z",
+      "variant": "quant:nvfp4",
+      "family": "Qwen/Qwen3.8-Flash-Next"
+    },
+    "microsoft/Phi-3-mini-4k-instruct": {
+      "downloads": 314713,
+      "alltime": 31841851,
+      "created_at": "2024-04-22T16:18:17.000Z",
+      "variant": "base",
+      "family": "microsoft/Phi-3-mini-4k-instruct"
     },
     "QuantTrio/Qwen3-VL-30B-A3B-Instruct-AWQ": {
       "downloads": 314654,
@@ -2377,6 +2734,13 @@
       "created_at": "2026-10-09T13:38:34.000Z",
       "variant": "quant:gguf",
       "family": "LiquidAI/LFM2.5-24B-A2B"
+    },
+    "google/gemma-4-31B-it-qat-w4a16-ct": {
+      "downloads": 309155,
+      "alltime": 5247119,
+      "created_at": "2026-06-04T22:30:30.000Z",
+      "variant": "quant:w4a16",
+      "family": "google/gemma-4-31B-it"
     },
     "lmstudio-community/Qwen3.6-27B-MLX-8bit": {
       "downloads": 308787,
@@ -2448,6 +2812,13 @@
       "variant": "quant:gguf",
       "family": "IFM/K2-Horizon-7B"
     },
+    "meta-llama/Llama-2-7b-hf": {
+      "downloads": 299642,
+      "alltime": 35009150,
+      "created_at": "2023-07-13T16:16:13.000Z",
+      "variant": "base",
+      "family": "meta-llama/Llama-2-7b-hf"
+    },
     "bartowski/Qwen3.8-27B-GGUF": {
       "downloads": 299398,
       "alltime": 1170220,
@@ -2490,6 +2861,13 @@
       "variant": "quant:awq",
       "family": "Qwen/Qwen2.5-Coder-14B-Instruct"
     },
+    "google/gemma-3-4b-pt": {
+      "downloads": 295401,
+      "alltime": 2710669,
+      "created_at": "2025-02-20T21:19:40.000Z",
+      "variant": "base",
+      "family": "google/gemma-3-4b-pt"
+    },
     "ttindall/Qwen3.8-27B-Defiance-Uncensored-MTP-GGUF": {
       "downloads": 294520,
       "alltime": 294520,
@@ -2511,12 +2889,26 @@
       "variant": "quant:gguf",
       "family": "huihui-ai/Huihui-Qwen3.5-9B-abliterated"
     },
+    "openbmb/MiniCPM5-1B": {
+      "downloads": 290084,
+      "alltime": 2939502,
+      "created_at": "2026-05-21T07:27:59.000Z",
+      "variant": "base",
+      "family": "openbmb/MiniCPM5-1B"
+    },
     "Qwen/Qwen2.5-72B-Instruct": {
       "downloads": 192858,
       "alltime": 9103770,
       "created_at": "2024-09-16T11:56:31.000Z",
       "variant": "finetune",
       "family": "Qwen/Qwen2.5-72B"
+    },
+    "google/paligemma-3b-pt-224": {
+      "downloads": 286468,
+      "alltime": 2903672,
+      "created_at": "2024-05-12T22:53:40.000Z",
+      "variant": "base",
+      "family": "google/paligemma-3b-pt-224"
     },
     "bartowski/Kwaipilot_KAT-Coder-V2.5-Dev-GGUF": {
       "downloads": 285365,
@@ -2560,6 +2952,13 @@
       "variant": "quant:gguf",
       "family": "ornith-ai/Ornith-1.5-122B"
     },
+    "mistralai/Mixtral-8x7B-Instruct-v0.1": {
+      "downloads": 278802,
+      "alltime": 24129042,
+      "created_at": "2023-12-10T18:47:12.000Z",
+      "variant": "finetune",
+      "family": "mistralai/Mixtral-8x7B-v0.1"
+    },
     "lmstudio-community/Qwen3.6-35B-A3B-MLX-4bit": {
       "downloads": 278283,
       "alltime": 2282804,
@@ -2588,6 +2987,13 @@
       "variant": "base",
       "family": "Qwen/Qwen2.5-Omni-7B"
     },
+    "nvidia/NVIDIA-Nemotron-Nano-12B-v2-VL-NVFP4-QAD": {
+      "downloads": 272176,
+      "alltime": 625692,
+      "created_at": "2025-10-22T19:41:11.000Z",
+      "variant": "quant:nvfp4",
+      "family": "nvidia/NVIDIA-Nemotron-Nano-12B-v2-VL-NVFP4-QAD"
+    },
     "Mia-AiLab/Gemmable-4-12B-MTP-GGUF": {
       "downloads": 271865,
       "alltime": 1818082,
@@ -2602,6 +3008,13 @@
       "variant": "quant:gguf",
       "family": "MiniMaxAI/MiniMax-Music3"
     },
+    "meta-llama/Llama-3.2-3B": {
+      "downloads": 271642,
+      "alltime": 15157269,
+      "created_at": "2024-09-18T15:23:48.000Z",
+      "variant": "base",
+      "family": "meta-llama/Llama-3.2-3B"
+    },
     "deepseek-ai/DeepSeek-V3.1": {
       "downloads": 271373,
       "alltime": 3475144,
@@ -2615,6 +3028,13 @@
       "created_at": "2026-08-14T17:11:56.000Z",
       "variant": "quant:nvfp4",
       "family": "unsloth/Qwen3.8-27B"
+    },
+    "mistralai/Ministral-3-14B-Reasoning-2512": {
+      "downloads": 271182,
+      "alltime": 1025137,
+      "created_at": "2025-10-31T08:42:28.000Z",
+      "variant": "finetune",
+      "family": "mistralai/Ministral-3-14B-Base-2512"
     },
     "LiquidAI/LFM2.5-1.2B-Instruct-GGUF": {
       "downloads": 270979,
@@ -2707,6 +3127,13 @@
       "variant": "quant:gguf",
       "family": "Qwen/Qwen2.5-3B-Instruct"
     },
+    "zai-org/GLM-5.2": {
+      "downloads": 263303,
+      "alltime": 4925739,
+      "created_at": "2026-06-16T07:39:20.000Z",
+      "variant": "base",
+      "family": "zai-org/GLM-5.2"
+    },
     "lmstudio-community/gemma-4-12B-it-QAT-GGUF": {
       "downloads": 262299,
       "alltime": 2257472,
@@ -2720,6 +3147,13 @@
       "created_at": "2026-04-16T15:43:37.000Z",
       "variant": "quant:mlx",
       "family": "Qwen/Qwen3.6-35B-A3B"
+    },
+    "google/gemma-4-E4B-it-qat-w4a16-ct": {
+      "downloads": 261605,
+      "alltime": 1940787,
+      "created_at": "2026-06-04T22:28:22.000Z",
+      "variant": "quant:w4a16",
+      "family": "google/gemma-4-E4B-it"
     },
     "deepseek-ai/deepseek-coder-7b-instruct-v1.5": {
       "downloads": 261330,
@@ -2777,6 +3211,13 @@
       "variant": "quant:mlx",
       "family": "ornith-ai/Ornith-1.5-9B"
     },
+    "google/shieldgemma-9b": {
+      "downloads": 254076,
+      "alltime": 312333,
+      "created_at": "2024-07-16T20:37:09.000Z",
+      "variant": "base",
+      "family": "google/shieldgemma-9b"
+    },
     "LGAI-EXAONE/EXAONE-3.5-7.8B-Instruct-AWQ": {
       "downloads": 253272,
       "alltime": 2261529,
@@ -2825,6 +3266,13 @@
       "created_at": "2025-08-13T20:55:44.000Z",
       "variant": "quant:fp8",
       "family": "Qwen/Qwen2.5-VL-7B-Instruct"
+    },
+    "nvidia/Kimi-K2-Thinking-NVFP4": {
+      "downloads": 250553,
+      "alltime": 721798,
+      "created_at": "2025-12-02T18:58:54.000Z",
+      "variant": "quant:nvfp4",
+      "family": "moonshotai/Kimi-K2-Thinking"
     },
     "Jackrong/Qwopus3.6-35B-A3B-Coder-MTP-GGUF": {
       "downloads": 249457,
@@ -2959,6 +3407,13 @@
       "variant": "base",
       "family": "microsoft/layoutxlm-base"
     },
+    "nvidia/Cosmos-Embed1-224p": {
+      "downloads": 239338,
+      "alltime": 312176,
+      "created_at": "2025-05-26T00:51:32.000Z",
+      "variant": "base",
+      "family": "nvidia/Cosmos-Embed1-224p"
+    },
     "unsloth/flint-GGUF": {
       "downloads": 239139,
       "alltime": 239139,
@@ -2986,6 +3441,13 @@
       "created_at": "2024-09-18T13:58:16.000Z",
       "variant": "quant:gguf",
       "family": "Qwen/Qwen2.5-Coder-1.5B-Instruct"
+    },
+    "google/gemma-4-31B-it-assistant": {
+      "downloads": 236448,
+      "alltime": 3650884,
+      "created_at": "2026-04-23T18:55:29.000Z",
+      "variant": "base",
+      "family": "google/gemma-4-31B-it-assistant"
     },
     "Abiray/DeepSeek-V4.1-Flash-1017-Uncensored-GSQ-RCO-IQ2_XXS-GGUF": {
       "downloads": 234876,
@@ -3035,6 +3497,13 @@
       "created_at": "2025-08-02T16:09:37.000Z",
       "variant": "quant:gguf",
       "family": "openai/gpt-oss-120b"
+    },
+    "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-FP8": {
+      "downloads": 224261,
+      "alltime": 7660161,
+      "created_at": "2025-12-06T06:00:45.000Z",
+      "variant": "quant:fp8",
+      "family": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B"
     },
     "openbmb/MiniCPM-V-4.7-1B": {
       "downloads": 222564,
@@ -3105,6 +3574,13 @@
       "created_at": "2026-05-20T12:59:53.000Z",
       "variant": "quant:gguf",
       "family": "HuggingFaceBio/Carbon-8B"
+    },
+    "nvidia/Kimi-K2.5-NVFP4": {
+      "downloads": 216258,
+      "alltime": 5560222,
+      "created_at": "2026-01-30T20:18:44.000Z",
+      "variant": "quant:nvfp4",
+      "family": "moonshotai/Kimi-K2.5"
     },
     "deepseek-ai/DeepSeek-V4-Flash-Vision-Exp": {
       "downloads": 215777,
@@ -3274,6 +3750,13 @@
       "variant": "quant:gguf",
       "family": "babybirdprd/Experiment26-7B-passthrough-10slice"
     },
+    "openbmb/MiniCPM-V-4.6": {
+      "downloads": 198424,
+      "alltime": 3529191,
+      "created_at": "2026-04-13T09:12:47.000Z",
+      "variant": "base",
+      "family": "openbmb/MiniCPM-V-4.6"
+    },
     "google/gemma-4-26B-A4B-it-qat-q4_0-gguf": {
       "downloads": 197465,
       "alltime": 1635323,
@@ -3351,12 +3834,33 @@
       "variant": "base",
       "family": "Qwen/Qwen2-0.5B"
     },
+    "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8": {
+      "downloads": 190901,
+      "alltime": 3557801,
+      "created_at": "2026-04-24T16:10:28.000Z",
+      "variant": "quant:fp8",
+      "family": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning"
+    },
+    "nvidia/gpt-oss-120b-Eagle3-short-context": {
+      "downloads": 190890,
+      "alltime": 302658,
+      "created_at": "2025-10-06T23:47:11.000Z",
+      "variant": "finetune",
+      "family": "openai/gpt-oss-120b"
+    },
     "nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB-GGUF": {
       "downloads": 190823,
       "alltime": 190823,
       "created_at": "2026-10-07T19:15:58.000Z",
       "variant": "quant:gguf",
       "family": "nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B"
+    },
+    "nvidia/NVIDIA-Nemotron-Nano-9B-v2-FP8": {
+      "downloads": 190158,
+      "alltime": 1537897,
+      "created_at": "2025-09-22T04:45:16.000Z",
+      "variant": "quant:fp8",
+      "family": "nvidia/NVIDIA-Nemotron-Nano-9B-v2"
     },
     "bartowski/orcarouter_Qwen3.8-27B-Uncensored-GGUF": {
       "downloads": 187658,
@@ -3421,12 +3925,26 @@
       "variant": "quant:mlx",
       "family": "Qwen/Qwen2.5-VL-7B-Instruct"
     },
+    "mistralai/Mistral-Small-3.1-24B-Instruct-2503": {
+      "downloads": 180874,
+      "alltime": 4721726,
+      "created_at": "2025-03-11T17:04:58.000Z",
+      "variant": "finetune",
+      "family": "mistralai/Mistral-Small-3.1-24B-Base-2503"
+    },
     "google/gemma-4-E2B-it-qat-q4_0-gguf": {
       "downloads": 180824,
       "alltime": 1691070,
       "created_at": "2026-05-01T04:15:00.000Z",
       "variant": "quant:gguf",
       "family": "google/gemma-4-E2B-it"
+    },
+    "google/medgemma-1.5-4b-it": {
+      "downloads": 179086,
+      "alltime": 2425544,
+      "created_at": "2026-01-07T23:07:01.000Z",
+      "variant": "base",
+      "family": "google/medgemma-1.5-4b-it"
     },
     "InternScience/Agents-A1-4B-Q8_0-GGUF": {
       "downloads": 178539,
@@ -3462,6 +3980,13 @@
       "created_at": "2024-09-25T18:35:33.000Z",
       "variant": "quant:gguf",
       "family": "meta-llama/Llama-3.2-3B-Instruct"
+    },
+    "meta-llama/Llama-2-13b-chat-hf": {
+      "downloads": 174813,
+      "alltime": 16325101,
+      "created_at": "2023-07-13T15:11:20.000Z",
+      "variant": "base",
+      "family": "meta-llama/Llama-2-13b-chat-hf"
     },
     "AtomicChat/MiniCPM-V-4.7-35B-A3B-Uncensored-GGUF": {
       "downloads": 174737,
@@ -3708,6 +4233,13 @@
       "variant": "quant:gguf",
       "family": "Qwen/Qwen3-0.6B"
     },
+    "google/t5gemma-2b-2b-ul2-it": {
+      "downloads": 155209,
+      "alltime": 268917,
+      "created_at": "2025-06-19T19:59:23.000Z",
+      "variant": "finetune",
+      "family": "google/t5gemma-2b-2b-ul2"
+    },
     "google/gemma-2-2b-it": {
       "downloads": 154577,
       "alltime": 12181908,
@@ -3721,6 +4253,13 @@
       "created_at": "2026-08-18T07:30:15.000Z",
       "variant": "quant:mlx",
       "family": "ornith-ai/Ornith-1.5-35B-A3B"
+    },
+    "nvidia/NVIDIA-Nemotron-Nano-9B-v2": {
+      "downloads": 153891,
+      "alltime": 4592712,
+      "created_at": "2025-08-12T22:43:32.000Z",
+      "variant": "finetune",
+      "family": "nvidia/NVIDIA-Nemotron-Nano-12B-v2"
     },
     "Qwen/Qwen2.5-3B": {
       "downloads": 153073,
@@ -3770,6 +4309,13 @@
       "created_at": "2026-10-24T00:46:40.000Z",
       "variant": "quant:gguf",
       "family": "LiquidAI/LFM3-1.7B"
+    },
+    "mistralai/Mistral-7B-v0.3": {
+      "downloads": 150004,
+      "alltime": 10652620,
+      "created_at": "2024-05-22T09:56:38.000Z",
+      "variant": "base",
+      "family": "mistralai/Mistral-7B-v0.3"
     },
     "realrebelai/KREA-2_GGUFs": {
       "downloads": 149919,
@@ -3834,6 +4380,13 @@
       "variant": "quant:gguf",
       "family": "Qwen/Qwen3-8B"
     },
+    "google/gemma-4-E2B": {
+      "downloads": 142149,
+      "alltime": 2355092,
+      "created_at": "2026-03-02T19:59:14.000Z",
+      "variant": "base",
+      "family": "google/gemma-4-E2B"
+    },
     "allenai/Olmo-3-1025-7B": {
       "downloads": 141947,
       "alltime": 1351979,
@@ -3869,6 +4422,13 @@
       "variant": "quant:gguf",
       "family": "Qwen/Qwen3-1.7B"
     },
+    "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-NVFP4": {
+      "downloads": 138974,
+      "alltime": 7055234,
+      "created_at": "2026-04-24T16:09:58.000Z",
+      "variant": "quant:nvfp4",
+      "family": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning"
+    },
     "Qwen/Qwen2.5-Math-1.5B-Instruct": {
       "downloads": 138653,
       "alltime": 3051043,
@@ -3882,6 +4442,13 @@
       "created_at": "2025-05-05T14:41:59.000Z",
       "variant": "quant:awq",
       "family": "Qwen/Qwen3-4B"
+    },
+    "nvidia/GLM-5.3-NVFP4": {
+      "downloads": 137901,
+      "alltime": 161379,
+      "created_at": "2026-09-14T17:58:21.000Z",
+      "variant": "quant:nvfp4",
+      "family": "zai-org/GLM-5.3"
     },
     "JetBrains/Mellum2-12B-A2.5B-Instruct-GGUF-Q8_0": {
       "downloads": 137638,
@@ -3939,6 +4506,13 @@
       "variant": "quant:mlx",
       "family": "google/gemma-4-26B-A4B-it"
     },
+    "meta-llama/Meta-Llama-3-8B": {
+      "downloads": 133972,
+      "alltime": 47296364,
+      "created_at": "2024-04-17T09:35:16.000Z",
+      "variant": "base",
+      "family": "meta-llama/Meta-Llama-3-8B"
+    },
     "lmstudio-community/gemma-4-26B-A4B-it-MLX-5bit": {
       "downloads": 133665,
       "alltime": 866530,
@@ -3959,6 +4533,13 @@
       "created_at": "2026-02-23T20:06:50.000Z",
       "variant": "quant:mlx",
       "family": "LiquidAI/LFM2-24B-A2B"
+    },
+    "mistralai/Mistral-Nemo-Instruct-2407": {
+      "downloads": 131497,
+      "alltime": 10660695,
+      "created_at": "2024-07-17T17:26:49.000Z",
+      "variant": "finetune",
+      "family": "mistralai/Mistral-Nemo-Base-2407"
     },
     "lmstudio-community/LFM2-24B-A2B-MLX-5bit": {
       "downloads": 131205,
@@ -4002,6 +4583,13 @@
       "variant": "quant:fp8",
       "family": "google/gemma-4-31B-it"
     },
+    "google/umt5-xxl": {
+      "downloads": 130440,
+      "alltime": 1311358,
+      "created_at": "2023-07-02T02:15:00.000Z",
+      "variant": "base",
+      "family": "google/umt5-xxl"
+    },
     "lmstudio-community/gemma-4-31B-it-MLX-8bit": {
       "downloads": 130388,
       "alltime": 986815,
@@ -4044,6 +4632,13 @@
       "variant": "quant:gguf",
       "family": "ggml-org/test-model-router-download"
     },
+    "nvidia/Cosmos3-Nano": {
+      "downloads": 128199,
+      "alltime": 1051207,
+      "created_at": "2026-03-10T23:01:40.000Z",
+      "variant": "base",
+      "family": "nvidia/Cosmos3-Nano"
+    },
     "openbmb/MiniCPM-V-4.7-1B-gguf": {
       "downloads": 128106,
       "alltime": 128106,
@@ -4057,6 +4652,20 @@
       "created_at": "2025-04-28T16:57:39.000Z",
       "variant": "quant:gguf",
       "family": "Qwen/Qwen3-0.6B"
+    },
+    "nvidia/GLM-5.3-Flash-NVFP4": {
+      "downloads": 127227,
+      "alltime": 196379,
+      "created_at": "2026-09-02T20:37:17.000Z",
+      "variant": "quant:nvfp4",
+      "family": "zai-org/GLM-5.3-Flash"
+    },
+    "meta-llama/Llama-2-7b-chat-hf": {
+      "downloads": 126843,
+      "alltime": 32082365,
+      "created_at": "2023-07-13T16:45:23.000Z",
+      "variant": "base",
+      "family": "meta-llama/Llama-2-7b-chat-hf"
     },
     "Qwen/Qwen3-235B-A22B-Instruct-2507-FP8": {
       "downloads": 126578,
@@ -4100,6 +4709,20 @@
       "variant": "base",
       "family": "Qwen/Qwen3-VL-8B-Thinking"
     },
+    "zai-org/GLM-5.3-Flash-BF16": {
+      "downloads": 125604,
+      "alltime": 198990,
+      "created_at": "2026-08-25T06:45:05.000Z",
+      "variant": "precision:bf16",
+      "family": "zai-org/GLM-5.3-Flash"
+    },
+    "ibm-granite/granite-vision-4.1-4b": {
+      "downloads": 125548,
+      "alltime": 969194,
+      "created_at": "2026-04-16T13:58:07.000Z",
+      "variant": "base",
+      "family": "ibm-granite/granite-vision-4.1-4b"
+    },
     "lmstudio-community/gemma-4-31B-it-MLX-5bit": {
       "downloads": 125139,
       "alltime": 536961,
@@ -4107,12 +4730,26 @@
       "variant": "quant:mlx",
       "family": "google/gemma-4-31B-it"
     },
+    "ibm-granite/granite-docling-258M": {
+      "downloads": 125090,
+      "alltime": 3130781,
+      "created_at": "2025-05-19T19:53:11.000Z",
+      "variant": "base",
+      "family": "ibm-granite/granite-docling-258M"
+    },
     "gaunernst/gemma-3-12b-it-int4-awq": {
       "downloads": 124177,
       "alltime": 942346,
       "created_at": "2025-03-18T13:49:37.000Z",
       "variant": "quant:int4",
       "family": "google/gemma-3-12b-it"
+    },
+    "nvidia/NVIDIA-Nemotron-Parse-v1.1": {
+      "downloads": 123959,
+      "alltime": 3690644,
+      "created_at": "2025-11-15T15:15:54.000Z",
+      "variant": "base",
+      "family": "nvidia/NVIDIA-Nemotron-Parse-v1.1"
     },
     "unsloth/gemma-3-4b-it-GGUF": {
       "downloads": 123745,
@@ -4148,6 +4785,20 @@
       "created_at": "2026-02-27T15:45:34.000Z",
       "variant": "quant:gguf",
       "family": "Qwen/Qwen3.5-4B"
+    },
+    "nvidia/Kimi-K2.6-NVFP4": {
+      "downloads": 122719,
+      "alltime": 2415469,
+      "created_at": "2026-05-11T04:37:55.000Z",
+      "variant": "quant:nvfp4",
+      "family": "moonshotai/Kimi-K2.6"
+    },
+    "mistralai/Voxtral-Mini-3B-2507": {
+      "downloads": 122616,
+      "alltime": 6543419,
+      "created_at": "2025-07-01T14:11:46.000Z",
+      "variant": "base",
+      "family": "mistralai/Voxtral-Mini-3B-2507"
     },
     "dealignai/GLM-5.3-CYBERSECURITY-FP8": {
       "downloads": 122601,
@@ -4471,6 +5122,13 @@
       "variant": "quant:gguf",
       "family": "ibm-granite/granite-4.0-1b"
     },
+    "nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-NVFP4-DSpark": {
+      "downloads": 78431,
+      "alltime": 506766,
+      "created_at": "2026-08-05T19:16:50.000Z",
+      "variant": "quant:nvfp4",
+      "family": "nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B"
+    },
     "audreyt/DeepSeek-V4.1-Flash-Abliterated-GGUF": {
       "downloads": 77967,
       "alltime": 182211,
@@ -4519,6 +5177,20 @@
       "created_at": "2026-09-17T18:37:31.000Z",
       "variant": "quant:gguf",
       "family": "XingChen-AGI/Xing4.0-29B-A4B"
+    },
+    "ibm-granite/granite-4.2-8b": {
+      "downloads": 69386,
+      "alltime": 212516,
+      "created_at": "2026-08-07T16:29:09.000Z",
+      "variant": "finetune",
+      "family": "ibm-granite/granite-4.1-8b"
+    },
+    "nvidia/Kumo-Tabular": {
+      "downloads": 68721,
+      "alltime": 68721,
+      "created_at": "2026-09-01T07:00:05.000Z",
+      "variant": "base",
+      "family": "nvidia/Kumo-Tabular"
     },
     "sokada4/Qwen3.8-27B-GPTQ-Int4": {
       "downloads": 67893,
@@ -4660,6 +5332,13 @@
       "variant": "quant:gguf",
       "family": "Aleph-Alpha/Kolibri-1"
     },
+    "tencent/Hy-Nomas": {
+      "downloads": 59480,
+      "alltime": 59480,
+      "created_at": "2026-10-21T02:17:37.000Z",
+      "variant": "base",
+      "family": "tencent/Hy-Nomas"
+    },
     "orcarouter/Qwen3.8-27B-Uncensored-MLX": {
       "downloads": 57142,
       "alltime": 278740,
@@ -4673,6 +5352,13 @@
       "created_at": "2026-10-19T20:29:48.000Z",
       "variant": "quant:gguf",
       "family": "LiquidAI/LFM3-VL-2B"
+    },
+    "nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-BF16": {
+      "downloads": 56263,
+      "alltime": 56263,
+      "created_at": "2026-10-12T15:32:06.000Z",
+      "variant": "precision:bf16",
+      "family": "nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B"
     },
     "philbert440/Qwen3.8-27B-W4A16-AWQ": {
       "downloads": 56232,
@@ -5143,6 +5829,13 @@
       "variant": "quant:gguf",
       "family": "nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B"
     },
+    "zai-org/GLM-5.3-BF16": {
+      "downloads": 38504,
+      "alltime": 76876,
+      "created_at": "2026-08-25T06:43:55.000Z",
+      "variant": "precision:bf16",
+      "family": "zai-org/GLM-5.3"
+    },
     "prithivMLmods/Qwen3.5-9B-Uncensored-ComfyUI": {
       "downloads": 38235,
       "alltime": 40800,
@@ -5409,6 +6102,13 @@
       "variant": "quant:gguf",
       "family": "zai-org/GLM-5.3-Flash"
     },
+    "ibm-granite/granite-4.2-3b": {
+      "downloads": 33728,
+      "alltime": 100939,
+      "created_at": "2026-08-07T16:26:43.000Z",
+      "variant": "finetune",
+      "family": "ibm-granite/granite-4.1-3b"
+    },
     "na0x2c6/Sage-A1.5-GGUF": {
       "downloads": 33543,
       "alltime": 33543,
@@ -5429,6 +6129,13 @@
       "created_at": "2026-10-05T09:55:28.000Z",
       "variant": "finetune",
       "family": "LiquidAI/LFM2.5-VL-3B"
+    },
+    "ibm-granite/granite-4.2-30b": {
+      "downloads": 32879,
+      "alltime": 76663,
+      "created_at": "2026-08-07T16:29:50.000Z",
+      "variant": "finetune",
+      "family": "ibm-granite/granite-4.1-30b-base"
     },
     "TensorFold/Qwen3.8-27B-MLX-4bit": {
       "downloads": 32496,
@@ -5458,6 +6165,13 @@
       "variant": "finetune",
       "family": "LiquidAI/LFM2.5-2.6B"
     },
+    "tencent/Hy-Memory-30B-A3B-GGUF": {
+      "downloads": 30738,
+      "alltime": 30738,
+      "created_at": "2026-10-19T07:52:21.000Z",
+      "variant": "quant:gguf",
+      "family": "tencent/Hy-Memory-30B-A3B"
+    },
     "desert-ant-labs/title": {
       "downloads": 30580,
       "alltime": 53427,
@@ -5479,6 +6193,13 @@
       "variant": "quant:awq",
       "family": "kumar2235/Qwen3.5-4B"
     },
+    "nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-NVFP4": {
+      "downloads": 29196,
+      "alltime": 29196,
+      "created_at": "2026-10-12T15:32:30.000Z",
+      "variant": "quant:nvfp4",
+      "family": "nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B"
+    },
     "openbmb/MiniCPM-V-4.7-35B-A3B-AWQ": {
       "downloads": 29134,
       "alltime": 29134,
@@ -5492,6 +6213,13 @@
       "created_at": "2026-08-19T03:17:26.000Z",
       "variant": "quant:nvfp4",
       "family": "Qwen/Qwen3.8-27B"
+    },
+    "nvidia/Qwen3.8-Flash-Next-FP4-Local": {
+      "downloads": 28778,
+      "alltime": 28778,
+      "created_at": "2026-10-08T16:20:17.000Z",
+      "variant": "quant:fp4",
+      "family": "Qwen/Qwen3.8-Flash-Next"
     },
     "openbmb/MiniCPM-V-4.7-1B-AWQ": {
       "downloads": 28279,
@@ -5570,6 +6298,13 @@
       "variant": "quant:mlx",
       "family": "Qwen/Qwen3.8-27B"
     },
+    "nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB-LiLiCorr-GGUF": {
+      "downloads": 24904,
+      "alltime": 24904,
+      "created_at": "2026-10-12T14:27:49.000Z",
+      "variant": "quant:gguf",
+      "family": "nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B"
+    },
     "orcarouter/GLM-5.3-Flash-Uncensored-FP8": {
       "downloads": 24508,
       "alltime": 256178,
@@ -5583,6 +6318,13 @@
       "created_at": "2026-10-02T05:54:02.000Z",
       "variant": "base",
       "family": "Aleph-Alpha/Kolibri-1"
+    },
+    "openbmb/MiniCPM-OCR-1.0-gguf": {
+      "downloads": 23676,
+      "alltime": 23676,
+      "created_at": "2026-10-21T15:52:39.000Z",
+      "variant": "quant:gguf",
+      "family": "openbmb/MiniCPM-V-4.6"
     },
     "barrydeen/Qwen3.8-27B-AWQ-4bit": {
       "downloads": 22926,
@@ -5612,6 +6354,13 @@
       "variant": "base",
       "family": "CohereLabs/North-Micro-Vision-Instruct"
     },
+    "tencent/WeVisDoc-2B": {
+      "downloads": 21390,
+      "alltime": 30665,
+      "created_at": "2026-09-16T03:06:43.000Z",
+      "variant": "base",
+      "family": "tencent/WeVisDoc-2B"
+    },
     "LiquidAI/LFM2.5-2.6B-DSpark": {
       "downloads": 21229,
       "alltime": 36236,
@@ -5633,761 +6382,12 @@
       "variant": "quant:gguf",
       "family": "deepseek-ai/DeepSeek-V4.1-Flash-1017"
     },
-    "google/gemma-3-4b-pt": {
-      "downloads": 295401,
-      "alltime": 2710669,
-      "created_at": "2025-02-20T21:19:40.000Z",
-      "variant": "base",
-      "family": "google/gemma-3-4b-pt"
-    },
-    "google/gemma-4-12B-it": {
-      "downloads": 1728452,
-      "alltime": 13500845,
-      "created_at": "2026-05-23T01:17:15.000Z",
-      "variant": "finetune",
-      "family": "google/gemma-4-12B"
-    },
-    "google/gemma-4-12B-it-qat-w4a16-ct": {
-      "downloads": 844629,
-      "alltime": 6934924,
-      "created_at": "2026-06-05T02:50:55.000Z",
-      "variant": "quant:w4a16",
-      "family": "google/gemma-4-12B-it"
-    },
-    "google/gemma-4-26B-A4B-it": {
-      "downloads": 6032823,
-      "alltime": 74385786,
-      "created_at": "2026-03-11T21:25:57.000Z",
-      "variant": "finetune",
-      "family": "google/gemma-4-26B-A4B"
-    },
-    "google/gemma-4-26B-A4B-it-assistant": {
-      "downloads": 370008,
-      "alltime": 1472562,
-      "created_at": "2026-04-23T20:16:46.000Z",
-      "variant": "base",
-      "family": "google/gemma-4-26B-A4B-it-assistant"
-    },
-    "google/gemma-4-31B-it": {
-      "downloads": 8301351,
-      "alltime": 72274165,
-      "created_at": "2026-03-11T18:22:36.000Z",
-      "variant": "finetune",
-      "family": "google/gemma-4-31B"
-    },
-    "google/gemma-4-31B-it-assistant": {
-      "downloads": 236448,
-      "alltime": 3650884,
-      "created_at": "2026-04-23T18:55:29.000Z",
-      "variant": "base",
-      "family": "google/gemma-4-31B-it-assistant"
-    },
-    "google/gemma-4-31B-it-qat-w4a16-ct": {
-      "downloads": 309155,
-      "alltime": 5247119,
-      "created_at": "2026-06-04T22:30:30.000Z",
-      "variant": "quant:w4a16",
-      "family": "google/gemma-4-31B-it"
-    },
-    "google/gemma-4-E2B": {
-      "downloads": 142149,
-      "alltime": 2355092,
-      "created_at": "2026-03-02T19:59:14.000Z",
-      "variant": "base",
-      "family": "google/gemma-4-E2B"
-    },
-    "google/gemma-4-E2B-it": {
-      "downloads": 3311955,
-      "alltime": 23347716,
-      "created_at": "2026-03-02T19:58:09.000Z",
-      "variant": "finetune",
-      "family": "google/gemma-4-E2B"
-    },
-    "google/gemma-4-E2B-it-qat-w4a16-ct": {
-      "downloads": 331150,
-      "alltime": 2020971,
-      "created_at": "2026-06-04T22:29:35.000Z",
-      "variant": "quant:w4a16",
-      "family": "google/gemma-4-E2B-it"
-    },
-    "google/gemma-4-E4B": {
-      "downloads": 554825,
-      "alltime": 4389595,
-      "created_at": "2026-03-02T19:57:53.000Z",
-      "variant": "base",
-      "family": "google/gemma-4-E4B"
-    },
-    "google/gemma-4-E4B-it": {
-      "downloads": 4178062,
-      "alltime": 38040300,
-      "created_at": "2026-03-02T19:57:40.000Z",
-      "variant": "finetune",
-      "family": "google/gemma-4-E4B"
-    },
-    "google/gemma-4-E4B-it-qat-w4a16-ct": {
-      "downloads": 261605,
-      "alltime": 1940787,
-      "created_at": "2026-06-04T22:28:22.000Z",
-      "variant": "quant:w4a16",
-      "family": "google/gemma-4-E4B-it"
-    },
-    "google/medgemma-1.5-4b-it": {
-      "downloads": 179086,
-      "alltime": 2425544,
-      "created_at": "2026-01-07T23:07:01.000Z",
-      "variant": "base",
-      "family": "google/medgemma-1.5-4b-it"
-    },
-    "google/medgemma-4b-it": {
-      "downloads": 409850,
-      "alltime": 6489612,
-      "created_at": "2025-05-19T20:52:44.000Z",
-      "variant": "finetune",
-      "family": "google/medgemma-4b-pt"
-    },
-    "google/paligemma-3b-pt-224": {
-      "downloads": 286468,
-      "alltime": 2903672,
-      "created_at": "2024-05-12T22:53:40.000Z",
-      "variant": "base",
-      "family": "google/paligemma-3b-pt-224"
-    },
-    "google/shieldgemma-9b": {
-      "downloads": 254076,
-      "alltime": 312333,
-      "created_at": "2024-07-16T20:37:09.000Z",
-      "variant": "base",
-      "family": "google/shieldgemma-9b"
-    },
-    "google/t5gemma-2b-2b-ul2-it": {
-      "downloads": 155209,
-      "alltime": 268917,
-      "created_at": "2025-06-19T19:59:23.000Z",
-      "variant": "finetune",
-      "family": "google/t5gemma-2b-2b-ul2"
-    },
-    "google/umt5-xxl": {
-      "downloads": 130440,
-      "alltime": 1311358,
-      "created_at": "2023-07-02T02:15:00.000Z",
-      "variant": "base",
-      "family": "google/umt5-xxl"
-    },
-    "ibm-granite/granite-4.2-30b": {
-      "downloads": 32879,
-      "alltime": 76663,
-      "created_at": "2026-08-07T16:29:50.000Z",
-      "variant": "finetune",
-      "family": "ibm-granite/granite-4.1-30b-base"
-    },
-    "ibm-granite/granite-4.2-3b": {
-      "downloads": 33728,
-      "alltime": 100939,
-      "created_at": "2026-08-07T16:26:43.000Z",
-      "variant": "finetune",
-      "family": "ibm-granite/granite-4.1-3b"
-    },
-    "ibm-granite/granite-4.2-8b": {
-      "downloads": 69386,
-      "alltime": 212516,
-      "created_at": "2026-08-07T16:29:09.000Z",
-      "variant": "finetune",
-      "family": "ibm-granite/granite-4.1-8b"
-    },
-    "ibm-granite/granite-docling-258M": {
-      "downloads": 125090,
-      "alltime": 3130781,
-      "created_at": "2025-05-19T19:53:11.000Z",
-      "variant": "base",
-      "family": "ibm-granite/granite-docling-258M"
-    },
-    "ibm-granite/granite-vision-4.1-4b": {
-      "downloads": 125548,
-      "alltime": 969194,
-      "created_at": "2026-04-16T13:58:07.000Z",
-      "variant": "base",
-      "family": "ibm-granite/granite-vision-4.1-4b"
-    },
-    "meta-llama/Llama-2-13b-chat-hf": {
-      "downloads": 174813,
-      "alltime": 16325101,
-      "created_at": "2023-07-13T15:11:20.000Z",
-      "variant": "base",
-      "family": "meta-llama/Llama-2-13b-chat-hf"
-    },
-    "meta-llama/Llama-2-7b-chat-hf": {
-      "downloads": 126843,
-      "alltime": 32082365,
-      "created_at": "2023-07-13T16:45:23.000Z",
-      "variant": "base",
-      "family": "meta-llama/Llama-2-7b-chat-hf"
-    },
-    "meta-llama/Llama-2-7b-hf": {
-      "downloads": 299642,
-      "alltime": 35009150,
-      "created_at": "2023-07-13T16:16:13.000Z",
-      "variant": "base",
-      "family": "meta-llama/Llama-2-7b-hf"
-    },
-    "meta-llama/Llama-3.1-405B-FP8": {
-      "downloads": 477560,
-      "alltime": 2586019,
-      "created_at": "2024-07-20T03:20:19.000Z",
-      "variant": "quant:fp8",
-      "family": "meta-llama/Llama-3.1-405B"
-    },
-    "meta-llama/Llama-3.1-8B": {
-      "downloads": 560703,
-      "alltime": 28856010,
-      "created_at": "2024-07-14T22:20:15.000Z",
-      "variant": "base",
-      "family": "meta-llama/Llama-3.1-8B"
-    },
-    "meta-llama/Llama-3.1-8B-Instruct": {
-      "downloads": 4501381,
-      "alltime": 192294374,
-      "created_at": "2024-07-18T08:56:00.000Z",
-      "variant": "finetune",
-      "family": "meta-llama/Llama-3.1-8B"
-    },
-    "meta-llama/Llama-3.2-1B": {
-      "downloads": 483882,
-      "alltime": 60014699,
-      "created_at": "2024-09-18T15:03:14.000Z",
-      "variant": "base",
-      "family": "meta-llama/Llama-3.2-1B"
-    },
-    "meta-llama/Llama-3.2-1B-Instruct": {
-      "downloads": 1899093,
-      "alltime": 109414403,
-      "created_at": "2024-09-18T15:12:47.000Z",
-      "variant": "base",
-      "family": "meta-llama/Llama-3.2-1B-Instruct"
-    },
-    "meta-llama/Llama-3.2-3B": {
-      "downloads": 271642,
-      "alltime": 15157269,
-      "created_at": "2024-09-18T15:23:48.000Z",
-      "variant": "base",
-      "family": "meta-llama/Llama-3.2-3B"
-    },
-    "meta-llama/Llama-3.2-3B-Instruct": {
-      "downloads": 1031607,
-      "alltime": 50750463,
-      "created_at": "2024-09-18T15:19:20.000Z",
-      "variant": "base",
-      "family": "meta-llama/Llama-3.2-3B-Instruct"
-    },
-    "meta-llama/Meta-Llama-3-8B": {
-      "downloads": 133972,
-      "alltime": 47296364,
-      "created_at": "2024-04-17T09:35:16.000Z",
-      "variant": "base",
-      "family": "meta-llama/Meta-Llama-3-8B"
-    },
-    "meta-llama/Meta-Llama-3-8B-Instruct": {
-      "downloads": 318668,
-      "alltime": 48935621,
-      "created_at": "2024-04-17T09:35:12.000Z",
-      "variant": "base",
-      "family": "meta-llama/Meta-Llama-3-8B-Instruct"
-    },
-    "microsoft/Phi-3-mini-4k-instruct": {
-      "downloads": 314713,
-      "alltime": 31841851,
-      "created_at": "2024-04-22T16:18:17.000Z",
-      "variant": "base",
-      "family": "microsoft/Phi-3-mini-4k-instruct"
-    },
-    "microsoft/Phi-4-mini-instruct": {
-      "downloads": 351827,
-      "alltime": 9560426,
-      "created_at": "2025-02-19T01:00:58.000Z",
-      "variant": "base",
-      "family": "microsoft/Phi-4-mini-instruct"
-    },
-    "microsoft/phi-4": {
-      "downloads": 360054,
-      "alltime": 14873276,
-      "created_at": "2024-12-11T11:47:29.000Z",
-      "variant": "base",
-      "family": "microsoft/phi-4"
-    },
-    "mistralai/Ministral-3-14B-Reasoning-2512": {
-      "downloads": 271182,
-      "alltime": 1025137,
-      "created_at": "2025-10-31T08:42:28.000Z",
-      "variant": "finetune",
-      "family": "mistralai/Ministral-3-14B-Base-2512"
-    },
-    "mistralai/Mistral-7B-Instruct-v0.2": {
-      "downloads": 1741602,
-      "alltime": 66491206,
-      "created_at": "2023-12-11T13:18:44.000Z",
-      "variant": "base",
-      "family": "mistralai/Mistral-7B-Instruct-v0.2"
-    },
-    "mistralai/Mistral-7B-v0.1": {
-      "downloads": 447605,
-      "alltime": 28045049,
-      "created_at": "2023-09-20T13:03:50.000Z",
-      "variant": "base",
-      "family": "mistralai/Mistral-7B-v0.1"
-    },
-    "mistralai/Mistral-7B-v0.3": {
-      "downloads": 150004,
-      "alltime": 10652620,
-      "created_at": "2024-05-22T09:56:38.000Z",
-      "variant": "base",
-      "family": "mistralai/Mistral-7B-v0.3"
-    },
-    "mistralai/Mistral-Nemo-Instruct-2407": {
-      "downloads": 131497,
-      "alltime": 10660695,
-      "created_at": "2024-07-17T17:26:49.000Z",
-      "variant": "finetune",
-      "family": "mistralai/Mistral-Nemo-Base-2407"
-    },
-    "mistralai/Mistral-Small-3.1-24B-Instruct-2503": {
-      "downloads": 180874,
-      "alltime": 4721726,
-      "created_at": "2025-03-11T17:04:58.000Z",
-      "variant": "finetune",
-      "family": "mistralai/Mistral-Small-3.1-24B-Base-2503"
-    },
-    "mistralai/Mixtral-8x7B-Instruct-v0.1": {
-      "downloads": 278802,
-      "alltime": 24129042,
-      "created_at": "2023-12-10T18:47:12.000Z",
-      "variant": "finetune",
-      "family": "mistralai/Mixtral-8x7B-v0.1"
-    },
-    "mistralai/Voxtral-Mini-3B-2507": {
-      "downloads": 122616,
-      "alltime": 6543419,
-      "created_at": "2025-07-01T14:11:46.000Z",
-      "variant": "base",
-      "family": "mistralai/Voxtral-Mini-3B-2507"
-    },
-    "moonshotai/Kimi-K2.5": {
-      "downloads": 406716,
-      "alltime": 16397558,
-      "created_at": "2026-01-01T06:06:03.000Z",
-      "variant": "base",
-      "family": "moonshotai/Kimi-K2.5"
-    },
-    "nvidia/Cosmos-Embed1-224p": {
-      "downloads": 239338,
-      "alltime": 312176,
-      "created_at": "2025-05-26T00:51:32.000Z",
-      "variant": "base",
-      "family": "nvidia/Cosmos-Embed1-224p"
-    },
-    "nvidia/Cosmos-Reason2-2B": {
-      "downloads": 602406,
-      "alltime": 4276567,
-      "created_at": "2025-12-12T17:50:45.000Z",
-      "variant": "finetune",
-      "family": "Qwen/Qwen3-VL-2B-Instruct"
-    },
-    "nvidia/Cosmos3-Nano": {
-      "downloads": 128199,
-      "alltime": 1051207,
-      "created_at": "2026-03-10T23:01:40.000Z",
-      "variant": "base",
-      "family": "nvidia/Cosmos3-Nano"
-    },
-    "nvidia/GLM-5.3-Flash-NVFP4": {
-      "downloads": 127227,
-      "alltime": 196379,
-      "created_at": "2026-09-02T20:37:17.000Z",
-      "variant": "quant:nvfp4",
-      "family": "zai-org/GLM-5.3-Flash"
-    },
-    "nvidia/GLM-5.3-NVFP4": {
-      "downloads": 137901,
-      "alltime": 161379,
-      "created_at": "2026-09-14T17:58:21.000Z",
-      "variant": "quant:nvfp4",
-      "family": "zai-org/GLM-5.3"
-    },
-    "nvidia/Gemma-4-26B-A4B-NVFP4": {
-      "downloads": 1510641,
-      "alltime": 9574399,
-      "created_at": "2026-05-01T01:26:06.000Z",
-      "variant": "quant:nvfp4",
-      "family": "google/gemma-4-26B-A4B-it"
-    },
-    "nvidia/Gemma-4-31B-IT-NVFP4": {
-      "downloads": 1068894,
-      "alltime": 14053281,
-      "created_at": "2026-04-02T16:47:30.000Z",
-      "variant": "quant:nvfp4",
-      "family": "google/gemma-4-31B-it"
-    },
-    "nvidia/Kimi-K2-Thinking-NVFP4": {
-      "downloads": 250553,
-      "alltime": 721798,
-      "created_at": "2025-12-02T18:58:54.000Z",
-      "variant": "quant:nvfp4",
-      "family": "moonshotai/Kimi-K2-Thinking"
-    },
-    "nvidia/Kimi-K2.5-NVFP4": {
-      "downloads": 216258,
-      "alltime": 5560222,
-      "created_at": "2026-01-30T20:18:44.000Z",
-      "variant": "quant:nvfp4",
-      "family": "moonshotai/Kimi-K2.5"
-    },
-    "nvidia/Kimi-K2.6-NVFP4": {
-      "downloads": 122719,
-      "alltime": 2415469,
-      "created_at": "2026-05-11T04:37:55.000Z",
-      "variant": "quant:nvfp4",
-      "family": "moonshotai/Kimi-K2.6"
-    },
-    "nvidia/Kumo-Tabular": {
-      "downloads": 68721,
-      "alltime": 68721,
-      "created_at": "2026-09-01T07:00:05.000Z",
-      "variant": "base",
-      "family": "nvidia/Kumo-Tabular"
-    },
-    "nvidia/LocateAnything-3B": {
-      "downloads": 349180,
-      "alltime": 2592774,
-      "created_at": "2026-03-02T20:05:49.000Z",
-      "variant": "finetune",
-      "family": "Qwen/Qwen2.5-3B-Instruct"
-    },
-    "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-BF16": {
-      "downloads": 1763961,
-      "alltime": 11782891,
-      "created_at": "2025-12-04T03:37:11.000Z",
-      "variant": "precision:bf16",
-      "family": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B"
-    },
-    "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-FP8": {
-      "downloads": 224261,
-      "alltime": 7660161,
-      "created_at": "2025-12-06T06:00:45.000Z",
-      "variant": "quant:fp8",
-      "family": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B"
-    },
-    "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-NVFP4": {
-      "downloads": 1120240,
-      "alltime": 7441081,
-      "created_at": "2025-12-20T09:12:40.000Z",
-      "variant": "quant:nvfp4",
-      "family": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B"
-    },
-    "nvidia/NVIDIA-Nemotron-3-Nano-4B-BF16": {
-      "downloads": 1883615,
-      "alltime": 10266850,
-      "created_at": "2026-03-07T01:23:35.000Z",
-      "variant": "precision:bf16",
-      "family": "nvidia/NVIDIA-Nemotron-Nano-9B-v2"
-    },
-    "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16": {
-      "downloads": 1153587,
-      "alltime": 7576050,
-      "created_at": "2026-03-10T18:32:14.000Z",
-      "variant": "precision:bf16",
-      "family": "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B"
-    },
-    "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4": {
-      "downloads": 453951,
-      "alltime": 10621852,
-      "created_at": "2026-03-10T18:33:04.000Z",
-      "variant": "quant:nvfp4",
-      "family": "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B"
-    },
-    "nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-BF16": {
-      "downloads": 1429742,
-      "alltime": 2700746,
-      "created_at": "2026-06-03T14:50:04.000Z",
-      "variant": "precision:bf16",
-      "family": "nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B"
-    },
-    "nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB-LiLiCorr-GGUF": {
-      "downloads": 24904,
-      "alltime": 24904,
-      "created_at": "2026-10-12T14:27:49.000Z",
-      "variant": "quant:gguf",
-      "family": "nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B"
-    },
-    "nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-BF16": {
-      "downloads": 1177164,
-      "alltime": 2173841,
-      "created_at": "2026-08-01T06:55:21.000Z",
-      "variant": "precision:bf16",
-      "family": "nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B"
-    },
-    "nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-NVFP4": {
-      "downloads": 1018095,
-      "alltime": 2947928,
-      "created_at": "2026-08-04T19:10:45.000Z",
-      "variant": "quant:nvfp4",
-      "family": "nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B"
-    },
-    "nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-NVFP4-DSpark": {
-      "downloads": 78431,
-      "alltime": 506766,
-      "created_at": "2026-08-05T19:16:50.000Z",
-      "variant": "quant:nvfp4",
-      "family": "nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B"
-    },
-    "nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-BF16": {
-      "downloads": 56263,
-      "alltime": 56263,
-      "created_at": "2026-10-12T15:32:06.000Z",
-      "variant": "precision:bf16",
-      "family": "nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B"
-    },
-    "nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-NVFP4": {
-      "downloads": 29196,
-      "alltime": 29196,
-      "created_at": "2026-10-12T15:32:30.000Z",
-      "variant": "quant:nvfp4",
-      "family": "nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B"
-    },
     "nvidia/NVIDIA-Nemotron-Labs-Dory1.0-4B-GGUF": {
       "downloads": 20157,
       "alltime": 20157,
       "created_at": "2026-10-16T16:25:01.000Z",
       "variant": "quant:gguf",
       "family": "nvidia/NVIDIA-Nemotron-Labs-Dory1.0-4B"
-    },
-    "nvidia/NVIDIA-Nemotron-Nano-12B-v2-VL-NVFP4-QAD": {
-      "downloads": 272176,
-      "alltime": 625692,
-      "created_at": "2025-10-22T19:41:11.000Z",
-      "variant": "quant:nvfp4",
-      "family": "nvidia/NVIDIA-Nemotron-Nano-12B-v2-VL-NVFP4-QAD"
-    },
-    "nvidia/NVIDIA-Nemotron-Nano-9B-v2": {
-      "downloads": 153891,
-      "alltime": 4592712,
-      "created_at": "2025-08-12T22:43:32.000Z",
-      "variant": "finetune",
-      "family": "nvidia/NVIDIA-Nemotron-Nano-12B-v2"
-    },
-    "nvidia/NVIDIA-Nemotron-Nano-9B-v2-FP8": {
-      "downloads": 190158,
-      "alltime": 1537897,
-      "created_at": "2025-09-22T04:45:16.000Z",
-      "variant": "quant:fp8",
-      "family": "nvidia/NVIDIA-Nemotron-Nano-9B-v2"
-    },
-    "nvidia/NVIDIA-Nemotron-Parse-v1.1": {
-      "downloads": 123959,
-      "alltime": 3690644,
-      "created_at": "2025-11-15T15:15:54.000Z",
-      "variant": "base",
-      "family": "nvidia/NVIDIA-Nemotron-Parse-v1.1"
-    },
-    "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8": {
-      "downloads": 190901,
-      "alltime": 3557801,
-      "created_at": "2026-04-24T16:10:28.000Z",
-      "variant": "quant:fp8",
-      "family": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning"
-    },
-    "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-NVFP4": {
-      "downloads": 138974,
-      "alltime": 7055234,
-      "created_at": "2026-04-24T16:09:58.000Z",
-      "variant": "quant:nvfp4",
-      "family": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning"
-    },
-    "nvidia/Qwen2.5-VL-7B-Instruct-NVFP4": {
-      "downloads": 1571430,
-      "alltime": 3142323,
-      "created_at": "2025-09-10T03:04:44.000Z",
-      "variant": "quant:nvfp4",
-      "family": "Qwen/Qwen2.5-VL-7B-Instruct"
-    },
-    "nvidia/Qwen3.6-27B-NVFP4": {
-      "downloads": 572417,
-      "alltime": 4086110,
-      "created_at": "2026-06-22T12:24:08.000Z",
-      "variant": "quant:nvfp4",
-      "family": "Qwen/Qwen3.6-27B"
-    },
-    "nvidia/Qwen3.6-35B-A3B-NVFP4": {
-      "downloads": 3822122,
-      "alltime": 40795943,
-      "created_at": "2026-05-27T18:09:46.000Z",
-      "variant": "quant:nvfp4",
-      "family": "Qwen/Qwen3.6-35B-A3B"
-    },
-    "nvidia/Qwen3.8-Flash-Next-FP4-Local": {
-      "downloads": 28778,
-      "alltime": 28778,
-      "created_at": "2026-10-08T16:20:17.000Z",
-      "variant": "quant:fp4",
-      "family": "Qwen/Qwen3.8-Flash-Next"
-    },
-    "nvidia/Qwen3.8-Flash-Next-NVFP4": {
-      "downloads": 316071,
-      "alltime": 608761,
-      "created_at": "2026-09-02T04:03:35.000Z",
-      "variant": "quant:nvfp4",
-      "family": "Qwen/Qwen3.8-Flash-Next"
-    },
-    "nvidia/gpt-oss-120b-Eagle3-short-context": {
-      "downloads": 190890,
-      "alltime": 302658,
-      "created_at": "2025-10-06T23:47:11.000Z",
-      "variant": "finetune",
-      "family": "openai/gpt-oss-120b"
-    },
-    "openbmb/MiniCPM-OCR-1.0-gguf": {
-      "downloads": 23676,
-      "alltime": 23676,
-      "created_at": "2026-10-21T15:52:39.000Z",
-      "variant": "quant:gguf",
-      "family": "openbmb/MiniCPM-V-4.6"
-    },
-    "openbmb/MiniCPM-V-4.6": {
-      "downloads": 198424,
-      "alltime": 3529191,
-      "created_at": "2026-04-13T09:12:47.000Z",
-      "variant": "base",
-      "family": "openbmb/MiniCPM-V-4.6"
-    },
-    "openbmb/MiniCPM-V-4.7-35B-A3B": {
-      "downloads": 422545,
-      "alltime": 422545,
-      "created_at": "2026-10-07T07:07:30.000Z",
-      "variant": "base",
-      "family": "openbmb/MiniCPM-V-4.7-35B-A3B"
-    },
-    "openbmb/MiniCPM5-1B": {
-      "downloads": 290084,
-      "alltime": 2939502,
-      "created_at": "2026-05-21T07:27:59.000Z",
-      "variant": "base",
-      "family": "openbmb/MiniCPM5-1B"
-    },
-    "openbmb/MiniCPM5-2B": {
-      "downloads": 1083600,
-      "alltime": 2136210,
-      "created_at": "2026-09-06T11:12:19.000Z",
-      "variant": "base",
-      "family": "openbmb/MiniCPM5-2B"
-    },
-    "tencent/HunyuanOCR": {
-      "downloads": 724991,
-      "alltime": 7264607,
-      "created_at": "2025-11-18T04:08:56.000Z",
-      "variant": "base",
-      "family": "tencent/HunyuanOCR"
-    },
-    "tencent/Hy-Memory-30B-A3B-GGUF": {
-      "downloads": 30738,
-      "alltime": 30738,
-      "created_at": "2026-10-19T07:52:21.000Z",
-      "variant": "quant:gguf",
-      "family": "tencent/Hy-Memory-30B-A3B"
-    },
-    "tencent/Hy-Nomas": {
-      "downloads": 59480,
-      "alltime": 59480,
-      "created_at": "2026-10-21T02:17:37.000Z",
-      "variant": "base",
-      "family": "tencent/Hy-Nomas"
-    },
-    "tencent/Hy3": {
-      "downloads": 1331157,
-      "alltime": 1661464,
-      "created_at": "2026-07-02T13:23:54.000Z",
-      "variant": "base",
-      "family": "tencent/Hy3"
-    },
-    "tencent/WeVisDoc-2B": {
-      "downloads": 21390,
-      "alltime": 30665,
-      "created_at": "2026-09-16T03:06:43.000Z",
-      "variant": "base",
-      "family": "tencent/WeVisDoc-2B"
-    },
-    "thinkingmachines/Inkling": {
-      "downloads": 2084207,
-      "alltime": 3175569,
-      "created_at": "2026-07-14T13:23:14.000Z",
-      "variant": "base",
-      "family": "thinkingmachines/Inkling"
-    },
-    "thinkingmachines/Inkling-Small": {
-      "downloads": 1411262,
-      "alltime": 2337834,
-      "created_at": "2026-07-27T22:33:44.000Z",
-      "variant": "base",
-      "family": "thinkingmachines/Inkling-Small"
-    },
-    "thinkingmachines/Inkling-Small-NVFP4": {
-      "downloads": 494353,
-      "alltime": 1154454,
-      "created_at": "2026-07-27T22:34:05.000Z",
-      "variant": "quant:nvfp4",
-      "family": "thinkingmachines/Inkling-Small"
-    },
-    "zai-org/GLM-4.5-Air": {
-      "downloads": 1328974,
-      "alltime": 6320392,
-      "created_at": "2025-07-20T03:25:55.000Z",
-      "variant": "base",
-      "family": "zai-org/GLM-4.5-Air"
-    },
-    "zai-org/GLM-4.7-Flash": {
-      "downloads": 968875,
-      "alltime": 15399767,
-      "created_at": "2026-01-19T06:28:10.000Z",
-      "variant": "base",
-      "family": "zai-org/GLM-4.7-Flash"
-    },
-    "zai-org/GLM-5": {
-      "downloads": 1615751,
-      "alltime": 3308676,
-      "created_at": "2026-02-11T04:55:46.000Z",
-      "variant": "base",
-      "family": "zai-org/GLM-5"
-    },
-    "zai-org/GLM-5.1": {
-      "downloads": 998572,
-      "alltime": 1974632,
-      "created_at": "2026-04-03T09:28:47.000Z",
-      "variant": "base",
-      "family": "zai-org/GLM-5.1"
-    },
-    "zai-org/GLM-5.2": {
-      "downloads": 263303,
-      "alltime": 4925739,
-      "created_at": "2026-06-16T07:39:20.000Z",
-      "variant": "base",
-      "family": "zai-org/GLM-5.2"
-    },
-    "zai-org/GLM-5.3-BF16": {
-      "downloads": 38504,
-      "alltime": 76876,
-      "created_at": "2026-08-25T06:43:55.000Z",
-      "variant": "precision:bf16",
-      "family": "zai-org/GLM-5.3"
-    },
-    "zai-org/GLM-5.3-Flash-BF16": {
-      "downloads": 125604,
-      "alltime": 198990,
-      "created_at": "2026-08-25T06:45:05.000Z",
-      "variant": "precision:bf16",
-      "family": "zai-org/GLM-5.3-Flash"
-    },
-    "zai-org/chatglm2-6b": {
-      "downloads": 490024,
-      "alltime": 23389394,
-      "created_at": "2023-06-24T16:26:27.000Z",
-      "variant": "base",
-      "family": "zai-org/chatglm2-6b"
     }
   }
 }
