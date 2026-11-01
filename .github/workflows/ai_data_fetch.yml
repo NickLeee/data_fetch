@@ -1,7 +1,10 @@
 name: ai_data 每日取数
 
-# 设计见 ai_data/AGENTS.md：matrix 每源一个 job 互相隔离，各自 commit 本源数据，
-# 末尾 health-check 汇总检查。fetcher 纯标准库，无需安装依赖。
+# 设计见 ai_data/AGENTS.md：matrix 每源一个 job 互相隔离，并发抓取。
+# 抓取 job 不再各自 push —— 14 个 job 同时 commit+push 必然互相踩，
+# 每天都有一两个输家（日志里全是 failed to push some refs），
+# 输家那天的数据就永久丢了（snapshot 类源无法回补）。
+# 现在：抓取 job 只把「当天改动」上传成 artifact，末尾 commit job 汇总一次提交。
 # plan job 把手动指定的单源转成 matrix，定时触发时跑全部。
 
 on:
@@ -16,6 +19,11 @@ on:
 
 permissions:
   contents: write
+
+# 同一时间只跑一个取数流程，避免手动补抓和定时任务互相推
+concurrency:
+  group: ai-data-daily
+  cancel-in-progress: false
 
 jobs:
   plan:
@@ -52,34 +60,122 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python ai_data/fetchers/${{ matrix.source }}.py
+
+      # 只打包本源当天新增/修改的文件，raw 目录动辄上百 MB，不能整包上传
+      - name: 打包当日改动
+        if: success()
+        run: |
+          STAGE=/tmp/stage
+          mkdir -p "$STAGE"
+          git status --porcelain --untracked-files=all -- ai_data/data > /tmp/changed.txt
+          cut -c4- /tmp/changed.txt | while IFS= read -r f; do
+            [ -f "$f" ] || continue
+            rel="${f#ai_data/data/}"
+            mkdir -p "$STAGE/$(dirname "$rel")"
+            cp "$f" "$STAGE/$rel"
+          done
+          echo "待上传文件：$(find "$STAGE" -type f | wc -l) 个"
+          find "$STAGE" -type f -exec du -h {} + | sort -h | tail -5
+
+      - name: 上传产物 ${{ matrix.source }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: data-${{ matrix.source }}
+          path: /tmp/stage
+          retention-days: 7
+          if-no-files-found: warn
+
+      # 抓取失败时留个标记，commit job 汇总出来告诉人缺了哪个源
+      - name: 标记失败源
+        if: failure()
+        run: |
+          mkdir -p .failed
+          echo "${{ matrix.source }}" > ".failed/${{ matrix.source }}.txt"
+      - name: 上传失败标记
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: failed-${{ matrix.source }}
+          path: .failed
+          retention-days: 7
+
+  commit:
+    needs: fetch
+    if: always()
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0 # 后面要 rebase，浅克隆会炸
+
+      # 合并各源产物；全部抓取失败时没有 artifact，不让它中断流程
+      - name: 汇总产物
+        uses: actions/download-artifact@v4
+        continue-on-error: true
+        with:
+          pattern: data-*
+          path: ai_data/data
+          merge-multiple: true
+
+      - name: 收集失败源
+        continue-on-error: true
+        uses: actions/download-artifact@v4
+        with:
+          pattern: failed-*
+          path: .failed-list
+          merge-multiple: true
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: 健康检查
+        id: health
+        continue-on-error: true
+        run: python ai_data/tools/health_check.py
+
+      # 先提交再报错：别让告警把当天数据卡在 runner 里
       - name: 提交数据
         run: |
           git config user.name "ai-data-bot"
           git config user.email "ai-data-bot@users.noreply.github.com"
-          git add ai_data/data
+          git add -A ai_data/data
           if git diff --cached --quiet; then
             echo "无数据变化"
-            exit 0
+          else
+            CHANGED=$(git diff --cached --name-only ai_data/data/series \
+              | xargs -n1 basename | sed 's/\.jsonl$//' | paste -sd, -)
+            git commit -m "data: $(date -u +%F)${CHANGED:+ ($CHANGED)}"
+            PUSHED=false
+            for i in 1 2 3; do
+              if git pull --rebase origin main && git push; then PUSHED=true; break; fi
+              echo "push 第 $i 次失败，重试"
+              sleep $((i * 5))
+            done
+            if [ "$PUSHED" != "true" ]; then
+              echo "::error::推送失败，当天数据只留在 runner 上"
+              exit 1
+            fi
+            echo "✓ 已提交：$(git log -1 --pretty=%s)"
           fi
-          git commit -m "data(${{ matrix.source }}): $(date -u +%F)"
-          for i in 1 2 3 4 5; do
-            git pull --rebase origin main && git push && exit 0
-            sleep $((i * 5))
-          done
-          echo "push 重试耗尽"
-          exit 1
 
-  health-check:
-    needs: fetch
-    if: always()
-    runs-on: ubuntu-latest
-    timeout-minutes: 5
-    steps:
-      - uses: actions/checkout@v4
-        with:
-          ref: main # 取各 fetch job 推送后的最新 main
-      - uses: actions/setup-python@v5
-        with:
-          python-version: "3.12"
-      - name: 健康检查
-        run: python ai_data/tools/health_check.py
+      - name: 汇报本次失败源
+        if: always()
+        run: |
+          if compgen -G ".failed-list/*.txt" > /dev/null; then
+            echo "::warning::本次有源抓取失败，这些源当天没有数据"
+            for f in .failed-list/*.txt; do
+              echo "  - $(cat "$f")"
+            done
+          else
+            echo "本次没有抓取失败"
+          fi
+
+      # 健康检查挂了就把流程标红，但数据已经提交，可以手动补抓
+      - name: 健康检查结果
+        if: steps.health.outcome == 'failure'
+        run: |
+          echo "::error::健康检查未通过（详见上方输出），数据已提交，请补抓"
+          exit 1
