@@ -4,8 +4,14 @@
 走 hf-mirror.com（官方域名本机被墙，API 兼容；Actions 上同样直连可用）。
 hf-mirror 偶发被 SNI 干扰（连接级 SSL 断，间歇性）——本地调试可设环境变量
 HF_API_BASE=https://huggingface.co/api/models/ 走代理用官方域名验证逻辑，
-线上默认行为不变。注意口径：HF 的 downloads 字段是「近 30 天下载量」（滚动窗口），
-不是总量、也不是日增量。
+线上默认行为不变。
+
+口径（重要）：
+- `downloads` 是「近 30 天下载量」的滚动窗口，不是总量、也不是日增量；
+  两个日期的差值是「下载速度的变化」，不是「这段时间新增了多少下载」。
+- `downloadsAllTime` 才是累计下载量。从 2026-11-01 起同时记录它，
+  攒够两天就能算真实日增量 = allTime(t) - allTime(t-1)。
+  历史行没有这个字段，图表要能容忍 null。
 """
 
 import os
@@ -16,38 +22,34 @@ import common
 
 SOURCE = "hf_downloads"
 API = os.environ.get("HF_API_BASE", "https://hf-mirror.com/api/models/")
+EXPAND = "?expand[]=downloads&expand[]=downloadsAllTime&expand[]=likes"
 
-# 选型策略（2026-10-13 重排）：每家当红旗舰 + 上代存量主力 + 长青锚点。
+# 选型策略（2026-11-01 重排）：每家当红旗舰 + 上代存量 + 长青锚点，
+# 用 role 标出来，出图时只取 flagship；存量与锚点只做历史对照。
 # 老型号留在 series 历史里不删，只是不再增量。
-MODELS = [
-    # 长青锚点（基线参照）
-    "meta-llama/Meta-Llama-3.1-8B-Instruct",
-    "deepseek-ai/DeepSeek-R1",
-    # DeepSeek：V4.1-Flash 当红，V4/V3.2 存量
-    "deepseek-ai/DeepSeek-V4.1-Flash",
-    "deepseek-ai/DeepSeek-V4-Flash-0731",
-    "deepseek-ai/DeepSeek-V3.2",
-    # Kimi：K3 当红（赞全场最高）
-    "moonshotai/Kimi-K3",
-    "moonshotai/Kimi-K2.6",
-    # Qwen：3.8-27B 当红中尺寸，3.5-9B 上代存量
-    "Qwen/Qwen3.8-27B",
-    "Qwen/Qwen3.5-9B",
-    # GLM：5.3-Flash 当红
-    "zai-org/GLM-5.3-Flash",
-    "zai-org/GLM-5.3",
-    # Mistral：开源线收缩，留 7B 锚点 + Devstral 编码线
-    "mistralai/Mistral-7B-Instruct-v0.3",
-    "mistralai/Devstral-Small-2-24B-Instruct-2512",
-    # Llama-4 线（观察 Llama 新品牵引力）
-    "meta-llama/Llama-4-Scout-17B-16E-Instruct",
-    # OpenAI 开源权重
-    "openai/gpt-oss-120b",
-    "openai/gpt-oss-20b",
-    # MiniMax：H3 当红
-    "MiniMaxAI/MiniMax-H3",
-    "MiniMaxAI/MiniMax-M3",
-]
+MODELS = {
+    # 当红旗舰
+    "deepseek-ai/DeepSeek-V4.1-Flash": "flagship",
+    "moonshotai/Kimi-K3": "flagship",
+    "Qwen/Qwen3.8-27B": "flagship",
+    "zai-org/GLM-5.3-Flash": "flagship",
+    "zai-org/GLM-5.3": "flagship",
+    "MiniMaxAI/MiniMax-H3": "flagship",
+    "MiniMaxAI/MiniMax-M3": "flagship",
+    "openai/gpt-oss-120b": "flagship",
+    "openai/gpt-oss-20b": "flagship",
+    "meta-llama/Llama-4-Scout-17B-16E-Instruct": "flagship",
+    "mistralai/Devstral-Small-2-24B-Instruct-2512": "flagship",
+    # 上代存量（看换代速度）
+    "deepseek-ai/DeepSeek-V4-Flash-0731": "legacy",
+    "deepseek-ai/DeepSeek-V3.2": "legacy",
+    "moonshotai/Kimi-K2.6": "legacy",
+    "Qwen/Qwen3.5-9B": "legacy",
+    # 长青锚点（基线参照，几乎不动）
+    "meta-llama/Meta-Llama-3.1-8B-Instruct": "anchor",
+    "mistralai/Mistral-7B-Instruct-v0.3": "anchor",
+    "deepseek-ai/DeepSeek-R1": "anchor",
+}
 
 
 def main():
@@ -55,16 +57,18 @@ def main():
         date = common.utc_today()
         raw = {}
         rows = []
-        for m in MODELS:
-            d = common.http_json(API + m, timeout=30)
-            raw[m] = d
+        for model, role in MODELS.items():
+            d = common.http_json(API + model + EXPAND, timeout=30)
+            raw[model] = d
             if d.get("downloads") is None:
-                raise RuntimeError(f"model {m}: no downloads field (renamed or removed?)")
+                raise RuntimeError(f"model {model}: no downloads field (renamed or removed?)")
             rows.append({
                 "date": date,
-                "model": m,
+                "model": model,
                 "downloads": d["downloads"],
+                "downloads_alltime": d.get("downloadsAllTime"),
                 "likes": d.get("likes"),
+                "role": role,
             })
             time.sleep(0.2)
         if not rows:
