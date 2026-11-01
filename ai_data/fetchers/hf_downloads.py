@@ -88,9 +88,9 @@ LEGACY_SEED = [
 ]
 
 QUANT_MARK = re.compile(
-    r"(?i)[-_](gguf|awq|gptq|mlx|int4|int8|w4a16|w8a8|bnb|nvfp4|mxfp8|exl2|hqq)\b")
-QUANT_TAGS = {"gguf", "awq", "gptq", "mlx", "int4", "int8", "w4a16", "bnb",
-              "nvfp4", "mxfp8", "exl2", "hqq"}
+    r"(?i)[-_](gguf|awq|gptq|mlx|fp8|fp4|int4|int8|w4a16|w8a8|bnb|nvfp4|mxfp8|exl2|hqq)\b")
+QUANT_TAGS = {"gguf", "awq", "gptq", "mlx", "fp8", "fp4", "int4", "int8", "w4a16",
+              "bnb", "nvfp4", "mxfp8", "exl2", "hqq", "w8a8"}
 PRECISION_MARK = re.compile(r"(?i)[-_](bf16|fp16|fp32)\b")  # 全精度重打包，不算量化
 DISTILL_MARK = re.compile(r"(?i)(distill|蒸馏)")
 EDIT_MARK = re.compile(r"(?i)(uncensored|abliterated|obliterated)")
@@ -174,10 +174,20 @@ def family_of(repo, tags):
     return strip_suffix(repo)
 
 
+AUDIO_TAGS = {"text-to-audio", "text-to-speech", "text-to-music", "music", "audio",
+              "audio-to-audio", "automatic-speech-recognition", "voice-cloning"}
+IMAGE_TAGS = {"text-to-image", "image-to-image", "text-to-video", "image-to-video",
+              "image-classification", "object-detection", "image-segmentation",
+              "depth-estimation", "image-feature-extraction"}
+
+
 def scope_of(repo, tags, pipeline):
     """是不是语言模型。单条 repo 接口不给 pipeline_tag（常为 null），
     那种情况只靠名字排除，不能当成非语言模型——否则所有量化分支都会被漏掉。"""
     if NON_LLM_NAME.search(repo.split("/")[-1]):
+        return "other"
+    ts = {t.lower() for t in tags}
+    if ts & (AUDIO_TAGS | IMAGE_TAGS):
         return "other"
     if pipeline:
         return "llm" if pipeline in LLM_PIPELINE else "other"
@@ -414,8 +424,11 @@ def main():
             futs = [ex.submit(fetch_one, r) for r in picked]
             for f in as_completed(futs):
                 results.append(f.result())
+        skipped = sum(1 for r in results if not r)
         if timed_out:
             print(f"  ⚠ 预算用完，{len(timed_out)} 条没抓到（次日按优先级补）", file=sys.stderr)
+        if skipped:
+            print(f"  ⚠ 跳过 {skipped}/{len(picked)} 条（取数失败或无下载字段）", file=sys.stderr)
         for res in results:
             if not res:
                 continue
