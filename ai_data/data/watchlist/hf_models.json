@@ -57,6 +57,7 @@
    "family": "deepseek-ai/DeepSeek-V4.1-Flash",
    "pipeline": "image-text-to-text",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "quant:gguf",
    "why": "quant_gguf"
   },
@@ -76,6 +77,7 @@
    "family": "Aleph-Alpha/Kolibri-1",
    "pipeline": "text-generation",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "base",
    "why": "quant_fp8"
   },
@@ -153,6 +155,7 @@
    "created": "2026-08-14",
    "family": "LiquidAI/LFM2.5-2.6B",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "quant:gguf",
    "why": "quant_gguf"
   },
@@ -212,6 +215,7 @@
    "family": "ornith-ai/Ornith-1.5-9B",
    "pipeline": "image-text-to-text",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "quant:gguf",
    "why": "quant_gguf"
   },
@@ -241,6 +245,7 @@
    "family": "Qwen/Qwen3.8-Flash-Next",
    "pipeline": "text-generation",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "quant:gguf",
    "why": "quant_gguf"
   },
@@ -260,6 +265,7 @@
    "family": "prism-ml/Ternary-Bonsai-2-27B",
    "pipeline": "text-generation",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "quant:gguf",
    "why": "quant_gguf"
   },
@@ -279,6 +285,7 @@
    "family": "CohereLabs/North-Micro-Vision-Instruct",
    "pipeline": "image-text-to-text",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "base",
    "why": "org_top"
   },
@@ -377,6 +384,7 @@
    "family": "Qwen/Qwen3.8-27B",
    "pipeline": "image-text-to-text",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "quant:gguf",
    "why": "quant_gguf"
   },
@@ -386,6 +394,7 @@
    "family": "Qwen/Qwen3.8-27B",
    "pipeline": "image-text-to-text",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "quant:gguf",
    "why": "quant_gguf"
   },
@@ -462,6 +471,7 @@
    "family": "google/gemma-4-E4B-it",
    "pipeline": "image-text-to-text",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "quant:gguf",
    "why": "quant_gguf"
   },
@@ -500,6 +510,7 @@
    "created": "2026-08-14",
    "family": "Qwen/Qwen3.8-27B",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "quant:w8a8",
    "why": "quant_gptq"
   },
@@ -627,6 +638,7 @@
    "family": "XiaomiMiMo/MiMo-V2.6-Distill-Qwen-9B",
    "pipeline": "image-text-to-text",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "quant:gguf",
    "why": "quant_gguf"
   },
@@ -703,6 +715,7 @@
    "created": "2026-10-18",
    "family": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "quant:gguf",
    "why": "quant_gptq"
   },
@@ -822,6 +835,7 @@
    "family": "Qwen/Qwen3.8-27B",
    "pipeline": "image-text-to-text",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "quant:mlx",
    "why": "quant_mlx"
   },
@@ -831,6 +845,7 @@
    "family": "Qwen/Qwen3.8-Flash-Next",
    "pipeline": "image-text-to-text",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "quant:mlx",
    "why": "quant_mlx"
   },
@@ -840,6 +855,7 @@
    "family": "KRAFTON/Raon-1-mini-preview",
    "pipeline": "text-generation",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "quant:gguf",
    "why": "quant_gguf"
   },
@@ -929,6 +945,7 @@
    "family": "LiquidAI/LFM2.5-2.6B",
    "pipeline": "text-generation",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "finetune",
    "why": "org_top"
   },
@@ -938,6 +955,7 @@
    "family": "LiquidAI/LFM2.5-2.6B-DSpark",
    "pipeline": "text-generation",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "quant:gguf",
    "why": "org_top"
   },
@@ -977,6 +995,7 @@
    "family": "LiquidAI/LFM2.5-24B-A2B",
    "pipeline": "text-generation",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "finetune",
    "why": "org_top"
   },
@@ -986,6 +1005,7 @@
    "family": "LiquidAI/LFM2.5-24B-A2B",
    "pipeline": "text-generation",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "quant:fp8",
    "why": "org_top"
   },
@@ -1005,6 +1025,7 @@
    "family": "LiquidAI/LFM2.5-2.6B",
    "pipeline": "image-text-to-text",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "finetune",
    "why": "org_top"
   },
@@ -1014,6 +1035,7 @@
    "family": "LiquidAI/LFM2.5-VL-3B",
    "pipeline": "image-text-to-text",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "quant:gguf",
    "why": "org_top"
   },
@@ -1023,6 +1045,7 @@
    "family": "LiquidAI/LFM3-1.7B",
    "pipeline": "text-generation",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "finetune",
    "why": "org_top"
   },
@@ -1062,6 +1085,7 @@
    "family": "LiquidAI/LFM2.5-VL-3B",
    "pipeline": "image-text-to-text",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "finetune",
    "why": "org_top"
   },
@@ -1081,6 +1105,7 @@
    "family": "LiquidAI/LFM2.5-Encoder-350M",
    "pipeline": "image-text-to-text",
    "scope": "other",
+   "seen": "2026-11-01",
    "variant": "finetune",
    "why": "org_top"
   },
@@ -1119,6 +1144,7 @@
    "family": "huihui-ai/Huihui-Qwen3.8-Flash-Next-abliterated",
    "pipeline": "text-generation",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "quant:nvfp4",
    "why": "quant_gptq"
   },
@@ -1187,6 +1213,7 @@
    "family": "MiniMaxAI/MiniMax-M3.1-Flash",
    "pipeline": "image-text-to-text",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "base",
    "why": "org_top"
   },
@@ -1216,6 +1243,7 @@
    "family": "empero-ai/Qwen3.8-9B-Distill",
    "pipeline": "text-generation",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "quant:nvfp4",
    "why": "quant_gguf"
   },
@@ -1363,6 +1391,7 @@
    "family": "Qwen/Qwen1.5-1.8B-Chat",
    "pipeline": "text-generation",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "base",
    "why": "org_top"
   },
@@ -1372,6 +1401,7 @@
    "family": "Qwen/Qwen2-0.5B",
    "pipeline": "text-generation",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "base",
    "why": "org_top"
   },
@@ -1381,6 +1411,7 @@
    "family": "Qwen/Qwen2-0.5B",
    "pipeline": "text-generation",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "finetune",
    "why": "org_top"
   },
@@ -1390,6 +1421,7 @@
    "family": "Qwen/Qwen2-1.5B",
    "pipeline": "text-generation",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "base",
    "why": "org_top"
   },
@@ -1399,6 +1431,7 @@
    "family": "Qwen/Qwen2-7B",
    "pipeline": "text-generation",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "base",
    "why": "org_top"
   },
@@ -1408,6 +1441,7 @@
    "family": "Qwen/Qwen2-7B",
    "pipeline": "text-generation",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "finetune",
    "why": "org_top"
   },
@@ -1417,6 +1451,7 @@
    "family": "Qwen/Qwen2-VL-2B",
    "pipeline": "image-text-to-text",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "finetune",
    "why": "org_top"
   },
@@ -1426,6 +1461,7 @@
    "family": "Qwen/Qwen2-VL-7B",
    "pipeline": "image-text-to-text",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "finetune",
    "why": "org_top"
   },
@@ -1445,6 +1481,7 @@
    "family": "Qwen/Qwen2.5-0.5B",
    "pipeline": "text-generation",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "base",
    "why": "org_top"
   },
@@ -1454,6 +1491,7 @@
    "family": "Qwen/Qwen2.5-0.5B",
    "pipeline": "text-generation",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "finetune",
    "why": "org_top"
   },
@@ -1473,6 +1511,7 @@
    "family": "Qwen/Qwen2.5-1.5B",
    "pipeline": "text-generation",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "base",
    "why": "org_top"
   },
@@ -1482,6 +1521,7 @@
    "family": "Qwen/Qwen2.5-1.5B",
    "pipeline": "text-generation",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "finetune",
    "why": "org_top"
   },
@@ -1501,6 +1541,7 @@
    "family": "Qwen/Qwen2.5-14B",
    "pipeline": "text-generation",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "finetune",
    "why": "org_top"
   },
@@ -1520,6 +1561,7 @@
    "family": "Qwen/Qwen2.5-32B",
    "pipeline": "text-generation",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "finetune",
    "why": "org_top"
   },
@@ -1549,6 +1591,7 @@
    "family": "Qwen/Qwen2.5-3B",
    "pipeline": "text-generation",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "base",
    "why": "org_top"
   },
@@ -1558,6 +1601,7 @@
    "family": "Qwen/Qwen2.5-3B",
    "pipeline": "text-generation",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "finetune",
    "why": "org_top"
   },
@@ -1607,6 +1651,7 @@
    "family": "Qwen/Qwen2.5-7B",
    "pipeline": "text-generation",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "base",
    "why": "org_top"
   },
@@ -1616,6 +1661,7 @@
    "family": "Qwen/Qwen2.5-7B",
    "pipeline": "text-generation",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "finetune",
    "why": "org_top"
   },
@@ -1655,6 +1701,7 @@
    "family": "Qwen/Qwen2.5-1.5B",
    "pipeline": "text-generation",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "finetune",
    "why": "org_top"
   },
@@ -1664,6 +1711,7 @@
    "family": "Qwen/Qwen2.5-Coder-1.5B",
    "pipeline": "text-generation",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "finetune",
    "why": "org_top"
   },
@@ -1683,6 +1731,7 @@
    "family": "Qwen/Qwen2.5-Coder-14B",
    "pipeline": "text-generation",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "finetune",
    "why": "org_top"
   },
@@ -1712,6 +1761,7 @@
    "family": "Qwen/Qwen2.5-Coder-32B",
    "pipeline": "text-generation",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "finetune",
    "why": "org_top"
   },
@@ -1731,6 +1781,7 @@
    "family": "Qwen/Qwen2.5-Coder-3B",
    "pipeline": "text-generation",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "finetune",
    "why": "org_top"
   },
@@ -1740,6 +1791,7 @@
    "family": "Qwen/Qwen2.5-7B",
    "pipeline": "text-generation",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "finetune",
    "why": "org_top"
   },
@@ -1749,6 +1801,7 @@
    "family": "Qwen/Qwen2.5-Coder-7B",
    "pipeline": "text-generation",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "finetune",
    "why": "org_top"
   },
@@ -1788,6 +1841,7 @@
    "family": "Qwen/Qwen2.5-1.5B",
    "pipeline": "text-generation",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "finetune",
    "why": "org_top"
   },
@@ -1797,6 +1851,7 @@
    "family": "Qwen/Qwen2.5-Math-1.5B",
    "pipeline": "text-generation",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "finetune",
    "why": "org_top"
   },
@@ -1806,6 +1861,7 @@
    "family": "Qwen/Qwen2.5-Omni-7B",
    "pipeline": "any-to-any",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "base",
    "why": "org_top"
   },
@@ -1815,6 +1871,7 @@
    "family": "Qwen/Qwen2.5-VL-32B-Instruct",
    "pipeline": "image-text-to-text",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "base",
    "why": "org_top"
   },
@@ -1834,6 +1891,7 @@
    "family": "Qwen/Qwen2.5-VL-3B-Instruct",
    "pipeline": "image-text-to-text",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "base",
    "why": "org_top"
   },
@@ -1853,6 +1911,7 @@
    "family": "Qwen/Qwen2.5-VL-7B-Instruct",
    "pipeline": "image-text-to-text",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "base",
    "why": "org_top"
   },
@@ -1872,6 +1931,7 @@
    "family": "Qwen/Qwen3-0.6B-Base",
    "pipeline": "text-generation",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "finetune",
    "why": "org_top"
   },
@@ -1881,6 +1941,7 @@
    "family": "Qwen/Qwen3-0.6B-Base",
    "pipeline": "text-generation",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "base",
    "why": "org_top"
   },
@@ -1900,6 +1961,7 @@
    "family": "Qwen/Qwen3-1.7B-Base",
    "pipeline": "text-generation",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "finetune",
    "why": "org_top"
   },
@@ -1909,6 +1971,7 @@
    "family": "Qwen/Qwen3-1.7B-Base",
    "pipeline": "text-generation",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "base",
    "why": "org_top"
   },
@@ -1928,6 +1991,7 @@
    "family": "Qwen/Qwen3-14B",
    "pipeline": "text-generation",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "finetune",
    "why": "org_top"
   },
@@ -1957,6 +2021,7 @@
    "family": "Qwen/Qwen3-235B-A22B",
    "pipeline": "text-generation",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "base",
    "why": "org_top"
   },
@@ -1976,6 +2041,7 @@
    "family": "Qwen/Qwen3-30B-A3B-Base",
    "pipeline": "text-generation",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "finetune",
    "why": "org_top"
   },
@@ -1985,6 +2051,7 @@
    "family": "Qwen/Qwen3-30B-A3B-Instruct-2507",
    "pipeline": "text-generation",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "base",
    "why": "org_top"
   },
@@ -2024,6 +2091,7 @@
    "family": "Qwen/Qwen3-4B-Base",
    "pipeline": "text-generation",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "finetune",
    "why": "org_top"
   },
@@ -2043,6 +2111,7 @@
    "family": "Qwen/Qwen3-4B-Base",
    "pipeline": "text-generation",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "base",
    "why": "org_top"
   },
@@ -2062,6 +2131,7 @@
    "family": "Qwen/Qwen3-4B-Instruct-2507",
    "pipeline": "text-generation",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "base",
    "why": "org_top"
   },
@@ -2081,6 +2151,7 @@
    "family": "Qwen/Qwen3-4B-Thinking-2507",
    "pipeline": "text-generation",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "base",
    "why": "org_top"
   },
@@ -2090,6 +2161,7 @@
    "family": "Qwen/Qwen3-8B-Base",
    "pipeline": "text-generation",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "finetune",
    "why": "org_top"
   },
@@ -2109,6 +2181,7 @@
    "family": "Qwen/Qwen3-8B-Base",
    "pipeline": "text-generation",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "base",
    "why": "org_top"
   },
@@ -2138,6 +2211,7 @@
    "family": "Qwen/Qwen3-Coder-30B-A3B-Instruct",
    "pipeline": "text-generation",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "base",
    "why": "org_top"
   },
@@ -2167,6 +2241,7 @@
    "family": "Qwen/Qwen3-Coder-Next",
    "pipeline": "text-generation",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "base",
    "why": "org_top"
   },
@@ -2196,6 +2271,7 @@
    "family": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
    "pipeline": "any-to-any",
    "scope": "other",
+   "seen": "2026-11-01",
    "variant": "base",
    "why": "org_top"
   },
@@ -2205,6 +2281,7 @@
    "family": "Qwen/Qwen3-Omni-30B-A3B-Thinking",
    "pipeline": "any-to-any",
    "scope": "other",
+   "seen": "2026-11-01",
    "variant": "base",
    "why": "org_top"
   },
@@ -2214,6 +2291,7 @@
    "family": "Qwen/Qwen3-VL-235B-A22B-Instruct",
    "pipeline": "image-text-to-text",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "base",
    "why": "org_top"
   },
@@ -2223,6 +2301,7 @@
    "family": "Qwen/Qwen3-VL-2B-Instruct",
    "pipeline": "image-text-to-text",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "base",
    "why": "org_top"
   },
@@ -2242,6 +2321,7 @@
    "family": "Qwen/Qwen3-VL-30B-A3B-Instruct",
    "pipeline": "image-text-to-text",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "base",
    "why": "org_top"
   },
@@ -2251,6 +2331,7 @@
    "family": "Qwen/Qwen3-VL-32B-Instruct",
    "pipeline": "image-text-to-text",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "base",
    "why": "org_top"
   },
@@ -2270,6 +2351,7 @@
    "family": "Qwen/Qwen3-VL-4B-Instruct",
    "pipeline": "image-text-to-text",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "base",
    "why": "org_top"
   },
@@ -2299,6 +2381,7 @@
    "family": "Qwen/Qwen3-VL-8B-Instruct",
    "pipeline": "image-text-to-text",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "base",
    "why": "org_top"
   },
@@ -2328,6 +2411,7 @@
    "family": "Qwen/Qwen3-VL-8B-Thinking",
    "pipeline": "image-text-to-text",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "base",
    "why": "org_top"
   },
@@ -2337,6 +2421,7 @@
    "family": "Qwen/Qwen3.5-0.8B-Base",
    "pipeline": "image-text-to-text",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "finetune",
    "why": "org_top"
   },
@@ -2346,6 +2431,7 @@
    "family": "Qwen/Qwen3.5-0.8B-Base",
    "pipeline": "image-text-to-text",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "base",
    "why": "org_top"
   },
@@ -2355,6 +2441,7 @@
    "family": "Qwen/Qwen3.5-122B-A10B",
    "pipeline": "image-text-to-text",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "base",
    "why": "org_top"
   },
@@ -2384,6 +2471,7 @@
    "family": "Qwen/Qwen3.5-27B",
    "pipeline": "image-text-to-text",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "base",
    "why": "org_top"
   },
@@ -2403,6 +2491,7 @@
    "family": "Qwen/Qwen3.5-2B-Base",
    "pipeline": "image-text-to-text",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "finetune",
    "why": "org_top"
   },
@@ -2412,6 +2501,7 @@
    "family": "Qwen/Qwen3.5-2B-Base",
    "pipeline": "image-text-to-text",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "base",
    "why": "org_top"
   },
@@ -2421,6 +2511,7 @@
    "family": "Qwen/Qwen3.5-35B-A3B-Base",
    "pipeline": "image-text-to-text",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "finetune",
    "why": "org_top"
   },
@@ -2430,6 +2521,7 @@
    "family": "Qwen/Qwen3.5-35B-A3B-Base",
    "pipeline": "image-text-to-text",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "base",
    "why": "org_top"
   },
@@ -2459,6 +2551,7 @@
    "family": "Qwen/Qwen3.5-397B-A17B",
    "pipeline": "image-text-to-text",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "base",
    "why": "org_top"
   },
@@ -2478,6 +2571,7 @@
    "family": "Qwen/Qwen3.5-4B-Base",
    "pipeline": "image-text-to-text",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "finetune",
    "why": "org_top"
   },
@@ -2487,6 +2581,7 @@
    "family": "Qwen/Qwen3.5-4B-Base",
    "pipeline": "image-text-to-text",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "base",
    "why": "org_top"
   },
@@ -2506,6 +2601,7 @@
    "family": "Qwen/Qwen3.5-9B-Base",
    "pipeline": "image-text-to-text",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "base",
    "why": "org_top"
   },
@@ -2515,6 +2611,7 @@
    "family": "Qwen/Qwen3.6-27B",
    "pipeline": "image-text-to-text",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "base",
    "why": "org_top"
   },
@@ -2534,6 +2631,7 @@
    "family": "Qwen/Qwen3.6-35B-A3B",
    "pipeline": "image-text-to-text",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "base",
    "why": "org_top"
   },
@@ -2553,6 +2651,7 @@
    "family": "Qwen/Qwen3.8-2.4T-A95B",
    "pipeline": "text-generation",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "base",
    "why": "org_top"
   },
@@ -2582,6 +2681,7 @@
    "family": "Qwen/Qwen3.8-Flash-Next",
    "pipeline": "image-text-to-text",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "base",
    "why": "org_top"
   },
@@ -2641,6 +2741,7 @@
    "family": "meta-models/Muse-Glimmer-30B",
    "pipeline": "image-text-to-text",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "quant:fp8",
    "why": "quant_fp8"
   },
@@ -2720,6 +2821,7 @@
    "family": "XHToken/Spark-X2.6-4B",
    "pipeline": "text-generation",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "quant:gguf",
    "why": "quant_gguf"
   },
@@ -2739,6 +2841,7 @@
    "family": "Qwen/Qwen3.8-27B",
    "pipeline": "text-generation",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "quant:gptq",
    "why": "quant_gptq"
   },
@@ -2795,6 +2898,7 @@
    "family": "nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B",
    "pipeline": "text-generation",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "quant:mlx",
    "why": "quant_mlx"
   },
@@ -2804,6 +2908,7 @@
    "family": "Qwen/Qwen3.8-27B",
    "pipeline": "image-text-to-text",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "quant:mlx",
    "why": "quant_mlx"
   },
@@ -2813,6 +2918,7 @@
    "family": "meta-models/Muse-Glimmer-30B",
    "pipeline": "image-text-to-text",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "quant:gguf",
    "why": "quant_gguf"
   },
@@ -2842,6 +2948,7 @@
    "family": "Qwen/Qwen3.8-27B",
    "pipeline": "image-text-to-text",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "quant:w4a16",
    "why": "quant_gptq"
   },
@@ -2870,6 +2977,7 @@
    "created": "2026-10-05",
    "family": "Qwen/Qwen3.8-Flash-Next",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "quant:gguf",
    "why": "quant_gguf"
   },
@@ -2919,6 +3027,7 @@
    "family": "XiaomiMiMo/MiMo-V2.6-Pro-RL",
    "pipeline": "text-generation",
    "scope": "other",
+   "seen": "2026-11-01",
    "variant": "base",
    "why": "org_top"
   },
@@ -2928,6 +3037,7 @@
    "family": "Qwen/Qwen3.8-27B",
    "pipeline": "text-generation",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "quant:mlx",
    "why": "quant_mlx"
   },
@@ -2957,6 +3067,7 @@
    "family": "Qwen/Qwen3.8-27B",
    "pipeline": "image-text-to-text",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "quant:gguf",
    "why": "quant_gguf"
   },
@@ -2976,6 +3087,7 @@
    "family": "Qwen/Qwen3.8-Flash-Next",
    "pipeline": "text-generation",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "quant:gguf",
    "why": "quant_gguf"
   },
@@ -3005,6 +3117,7 @@
    "family": "Qwen/Qwen3.8-Flash-Next",
    "pipeline": "image-text-to-text",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "quant:gguf",
    "why": "quant_gguf"
   },
@@ -3044,6 +3157,7 @@
    "family": "allenai/Olmo-3-1025-7B",
    "pipeline": "text-generation",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "base",
    "why": "org_top"
   },
@@ -3091,6 +3205,7 @@
    "family": "Qwen/Qwen3.8-27B",
    "pipeline": "image-text-to-text",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "quant:awq",
    "why": "quant_awq"
   },
@@ -3147,6 +3262,7 @@
    "family": "zai-org/GLM-5.3-Flash",
    "pipeline": "text-generation",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "quant:gguf",
    "why": "quant_gguf"
   },
@@ -3156,6 +3272,7 @@
    "family": "Qwen/Qwen3.8-27B",
    "pipeline": "image-text-to-text",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "quant:awq",
    "why": "quant_awq"
   },
@@ -3203,6 +3320,7 @@
    "family": "baidu/Unlimited-OCR",
    "pipeline": "image-text-to-text",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "base",
    "why": "org_top"
   },
@@ -3212,6 +3330,7 @@
    "family": "baidu/Unlimited-OCR-2",
    "pipeline": "image-text-to-text",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "base",
    "why": "org_top"
   },
@@ -3221,6 +3340,7 @@
    "family": "Qwen/Qwen3.8-27B",
    "pipeline": "image-text-to-text",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "quant:awq",
    "why": "quant_awq"
   },
@@ -3230,6 +3350,7 @@
    "family": "Cloudflare/clef",
    "pipeline": "image-text-to-text",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "quant:gguf",
    "why": "quant_gguf"
   },
@@ -3269,6 +3390,7 @@
    "family": "inclusionAI/Ling-3.0-tiny",
    "pipeline": "text-generation",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "quant:gguf",
    "why": "quant_gguf"
   },
@@ -3318,6 +3440,7 @@
    "family": "nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B",
    "pipeline": "text-generation",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "quant:gguf",
    "why": "quant_gguf"
   },
@@ -3447,6 +3570,7 @@
    "family": "TheDrummer/Orion-26B-A4B-v1.1",
    "pipeline": "any-to-any",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "quant:gguf",
    "why": "quant_gguf"
   },
@@ -3526,6 +3650,7 @@
    "family": "kumar2235/Qwen3.5-4B",
    "pipeline": "text-generation",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "quant:awq",
    "why": "quant_awq"
   },
@@ -3573,6 +3698,7 @@
    "created": "2026-10-25",
    "family": "Qwen/Qwen3.5-4B",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "quant:gguf",
    "why": "quant_gguf"
   },
@@ -3640,6 +3766,7 @@
    "family": "Qwen/Qwen3.8-Flash-Next",
    "pipeline": "image-text-to-text",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "quant:w4a16",
    "why": "quant_awq"
   },
@@ -3649,6 +3776,7 @@
    "family": "deepseek-ai/DeepSeek-V4.1-Flash",
    "pipeline": "image-text-to-text",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "quant:fp8",
    "why": "quant_fp8"
   },
@@ -3668,6 +3796,7 @@
    "family": "openbmb/MiniCPM-V-4.7-35B-A3B",
    "pipeline": "image-text-to-text",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "quant:gguf",
    "why": "quant_gguf"
   },
@@ -3687,6 +3816,7 @@
    "family": "deepseek-ai/DeepSeek-Coder-V2-Lite-Instruct",
    "pipeline": "text-generation",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "base",
    "why": "org_top"
   },
@@ -3696,6 +3826,7 @@
    "family": "deepseek-ai/DeepSeek-OCR",
    "pipeline": "image-text-to-text",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "base",
    "why": "org_top"
   },
@@ -3705,6 +3836,7 @@
    "family": "deepseek-ai/DeepSeek-OCR-2",
    "pipeline": "image-text-to-text",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "base",
    "why": "org_top"
   },
@@ -3734,6 +3866,7 @@
    "family": "deepseek-ai/DeepSeek-R1-0528-Qwen3-8B",
    "pipeline": "text-generation",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "base",
    "why": "org_top"
   },
@@ -3743,6 +3876,7 @@
    "family": "deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B",
    "pipeline": "text-generation",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "distill",
    "why": "org_top"
   },
@@ -3752,6 +3886,7 @@
    "family": "deepseek-ai/DeepSeek-R1-Distill-Qwen-14B",
    "pipeline": "text-generation",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "distill",
    "why": "org_top"
   },
@@ -3761,6 +3896,7 @@
    "family": "deepseek-ai/DeepSeek-R1-Distill-Qwen-32B",
    "pipeline": "text-generation",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "distill",
    "why": "org_top"
   },
@@ -3770,6 +3906,7 @@
    "family": "deepseek-ai/DeepSeek-R1-Distill-Qwen-7B",
    "pipeline": "text-generation",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "distill",
    "why": "org_top"
   },
@@ -3779,6 +3916,7 @@
    "family": "deepseek-ai/DeepSeek-V2-Lite",
    "pipeline": "text-generation",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "base",
    "why": "org_top"
   },
@@ -3908,6 +4046,7 @@
    "family": "deepseek-ai/deepseek-coder-7b-instruct-v1.5",
    "pipeline": "text-generation",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "base",
    "why": "org_top"
   },
@@ -3927,6 +4066,7 @@
    "family": "desert-ant-labs/title",
    "pipeline": "text-generation",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "quant:mlx",
    "why": "quant_mlx"
   },
@@ -3936,6 +4076,7 @@
    "family": "dongfangshuo/Dongfangshuo-Qwen3.8-27B-NSFW",
    "pipeline": "text-generation",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "quant:gguf",
    "why": "quant_gguf"
   },
@@ -3945,6 +4086,7 @@
    "family": "huihui-ai/Huihui-Qwen3.8-27B-abliterated",
    "pipeline": "image-text-to-text",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "quant:gguf",
    "why": "quant_gguf"
   },
@@ -3954,6 +4096,7 @@
    "family": "huihui-ai/Huihui-Qwen3.8-Flash-Next-abliterated",
    "pipeline": "image-text-to-text",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "quant:gguf",
    "why": "quant_gguf"
   },
@@ -3963,6 +4106,7 @@
    "family": "ornith-ai/Ornith-1.5-35B-A3B",
    "pipeline": "image-text-to-text",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "quant:gguf",
    "why": "quant_gguf"
   },
@@ -4051,6 +4195,7 @@
    "created": "2026-10-28",
    "family": "engmauriciodias33/aura-fleet-gguf-part1",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "quant:gguf",
    "why": "quant_gguf"
   },
@@ -4068,6 +4213,7 @@
    "created": "2026-10-28",
    "family": "engmauriciodias33/aura-fleet-gguf-part3",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "quant:gguf",
    "why": "quant_gguf"
   },
@@ -4077,6 +4223,7 @@
    "family": "google/gemma-4-E2B-it",
    "pipeline": "image-text-to-text",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "quant:gguf",
    "why": "quant_gguf"
   },
@@ -4126,6 +4273,7 @@
    "family": "ornith-ai/Ornith-1.5-35B-A3B",
    "pipeline": "image-text-to-text",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "quant:gguf",
    "why": "quant_gguf"
   },
@@ -4145,6 +4293,7 @@
    "family": "Cloudflare/clef",
    "pipeline": "image-text-to-text",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "quant:gguf",
    "why": "quant_gguf"
   },
@@ -4327,6 +4476,7 @@
    "family": "google/diffusiongemma-26B-A4B-it",
    "pipeline": "image-text-to-text",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "base",
    "why": "org_top"
   },
@@ -4335,6 +4485,7 @@
    "created": "2022-10-21",
    "family": "google/flan-t5-base",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "base",
    "why": "org_top"
   },
@@ -4343,6 +4494,7 @@
    "created": "2022-10-21",
    "family": "google/flan-t5-large",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "base",
    "why": "org_top"
   },
@@ -4351,6 +4503,7 @@
    "created": "2022-10-21",
    "family": "google/flan-t5-small",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "base",
    "why": "org_top"
   },
@@ -4359,6 +4512,7 @@
    "created": "2022-10-21",
    "family": "google/flan-t5-xl",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "base",
    "why": "org_top"
   },
@@ -4377,6 +4531,7 @@
    "family": "google/gemma-2-2b",
    "pipeline": "text-generation",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "finetune",
    "why": "org_top"
   },
@@ -4386,6 +4541,7 @@
    "family": "google/gemma-2-9b",
    "pipeline": "text-generation",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "finetune",
    "why": "org_top"
   },
@@ -4395,6 +4551,7 @@
    "family": "google/gemma-3-12b-pt",
    "pipeline": "image-text-to-text",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "finetune",
    "why": "org_top"
   },
@@ -4404,6 +4561,7 @@
    "family": "google/gemma-3-1b-pt",
    "pipeline": "text-generation",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "finetune",
    "why": "org_top"
   },
@@ -4413,6 +4571,7 @@
    "family": "google/gemma-3-27b-pt",
    "pipeline": "image-text-to-text",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "finetune",
    "why": "org_top"
   },
@@ -4422,6 +4581,7 @@
    "family": "google/gemma-3-4b-pt",
    "pipeline": "image-text-to-text",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "finetune",
    "why": "org_top"
   },
@@ -4766,6 +4926,7 @@
    "family": "nerkyor/Qwen3.8-27B-Coder390-EfficientThink-Opus5.5-GPT6Astra-Grok4.7-DSV4Pro-K3-SFT-RLOO-MTP-DFlash2",
    "pipeline": "image-text-to-text",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "quant:gguf",
    "why": "quant_gguf"
   },
@@ -4926,6 +5087,7 @@
    "family": "Qwen/Qwen3.8-Flash-Next",
    "pipeline": "image-text-to-text",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "quant:gguf",
    "why": "quant_gguf"
   },
@@ -4984,6 +5146,7 @@
    "family": "Qwen/Qwen3.5-122B-A10B",
    "pipeline": "image-text-to-text",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "quant:gguf",
    "why": "quant_gguf"
   },
@@ -5819,6 +5982,7 @@
    "family": "Qwen/Qwen3.8-27B",
    "pipeline": "text-generation",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "quant:gptq",
    "why": "quant_gptq"
   },
@@ -5950,6 +6114,7 @@
    "family": "Qwen/Qwen3.8-27B",
    "pipeline": "image-text-to-text",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "quant:mlx",
    "why": "quant_mlx"
   },
@@ -6017,6 +6182,7 @@
    "created": "2026-09-30",
    "family": "Qwen/Qwen-Image-2.1-PE-I2I",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "quant:gguf",
    "why": "quant_gguf"
   },
@@ -6070,6 +6236,7 @@
    "created": "2026-08-17",
    "family": "huihui-ai/Huihui-Qwen3.8-27B-abliterated",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "quant:gguf",
    "why": "quant_gguf"
   },
@@ -6160,6 +6327,7 @@
    "created": "2026-09-21",
    "family": "Qwen/Qwen3.8-27B",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "quant:gguf",
    "why": "quant_gguf"
   },
@@ -6168,6 +6336,7 @@
    "created": "2026-08-24",
    "family": "empero-ai/Qwen3.8-9B-Distill",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "quant:gguf",
    "why": "quant_gguf"
   },
@@ -6249,6 +6418,7 @@
    "family": "InternScience/Sage-A1.5",
    "pipeline": "text-generation",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "quant:gguf",
    "why": "quant_gguf"
   },
@@ -6314,6 +6484,7 @@
    "created": "2026-08-04",
    "family": "Qwen/Qwen3-VL-32B-Instruct",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "quant:gguf",
    "why": "quant_gguf"
   },
@@ -6348,6 +6519,7 @@
    "family": "deepseek-ai/DeepSeek-V4.1-Flash",
    "pipeline": "image-text-to-text",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "quant:nvfp4",
    "why": "org_top"
   },
@@ -6700,6 +6872,7 @@
    "created": "2026-10-16",
    "family": "onicubag/xTTSv2",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "quant:gguf",
    "why": "quant_gguf"
   },
@@ -6757,6 +6930,7 @@
    "family": "openbmb/MiniCPM-V-4.7-1B",
    "pipeline": "image-text-to-text",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "quant:awq",
    "why": "org_top"
   },
@@ -6766,6 +6940,7 @@
    "family": "openbmb/MiniCPM-V-4.7-1B-DSpark",
    "pipeline": "text-generation",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "base",
    "why": "org_top"
   },
@@ -6775,6 +6950,7 @@
    "family": "openbmb/MiniCPM-V-4.7-1B",
    "pipeline": "image-text-to-text",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "quant:gptq",
    "why": "org_top"
   },
@@ -6784,6 +6960,7 @@
    "family": "openbmb/MiniCPM-V-4.7-1B",
    "pipeline": "image-text-to-text",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "quant:gguf",
    "why": "org_top"
   },
@@ -6812,6 +6989,7 @@
    "family": "openbmb/MiniCPM-V-4.7-35B-A3B",
    "pipeline": "image-text-to-text",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "quant:awq",
    "why": "org_top"
   },
@@ -6831,6 +7009,7 @@
    "family": "openbmb/MiniCPM-V-4.7-35B-A3B-DSpark",
    "pipeline": "text-generation",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "quant:gguf",
    "why": "org_top"
   },
@@ -6850,6 +7029,7 @@
    "family": "openbmb/MiniCPM-V-4.7-35B-A3B",
    "pipeline": "image-text-to-text",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "quant:gptq",
    "why": "org_top"
   },
@@ -6937,6 +7117,7 @@
    "family": "zai-org/GLM-5.3-Flash",
    "pipeline": "text-generation",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "quant:fp8",
    "why": "quant_fp8"
   },
@@ -6946,6 +7127,7 @@
    "family": "Qwen/Qwen3.8-27B",
    "pipeline": "image-text-to-text",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "quant:gguf",
    "why": "quant_gguf"
   },
@@ -6985,6 +7167,7 @@
    "family": "Qwen/Qwen3.8-27B",
    "pipeline": "image-text-to-text",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "quant:nvfp4",
    "why": "quant_fp8"
   },
@@ -7174,6 +7357,7 @@
    "family": "zai-org/GLM-5.3-Flash",
    "pipeline": "text-generation",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "quant:gguf",
    "why": "quant_gguf"
   },
@@ -7213,6 +7397,7 @@
    "family": "zai-org/GLM-5.3-Flash",
    "pipeline": "text-generation",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "quant:gguf",
    "why": "quant_gguf"
   },
@@ -7282,6 +7467,7 @@
    "family": "Qwen/Qwen3.8-Flash-Next",
    "pipeline": "text-generation",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "quant:gguf",
    "why": "quant_gguf"
   },
@@ -7301,6 +7487,7 @@
    "family": "Qwen/Qwen3.8-Flash-Next",
    "pipeline": "image-text-to-text",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "quant:gguf",
    "why": "quant_gguf"
   },
@@ -7349,6 +7536,7 @@
    "family": "Qwen/Qwen3-VL-32B-Instruct",
    "pipeline": "image-text-to-text",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "quant:gguf",
    "why": "quant_gguf"
   },
@@ -7357,6 +7545,7 @@
    "created": "2026-09-22",
    "family": "Qwen/Qwen-Image-2.1-PE-I2I",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "quant:gguf",
    "why": "quant_gguf"
   },
@@ -7365,6 +7554,7 @@
    "created": "2026-09-21",
    "family": "pottokao/Qwen-Image-2.1-PE-T2I-Heretic",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "quant:gguf",
    "why": "quant_gguf"
   },
@@ -7413,6 +7603,7 @@
    "family": "Qwen/Qwen3.8-27B",
    "pipeline": "text-generation",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "quant:mlx",
    "why": "quant_mlx"
   },
@@ -7492,6 +7683,7 @@
    "family": "Qwen/Qwen3.5-9B",
    "pipeline": "image-text-to-text",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "uncensored",
    "why": "quant_fp8"
   },
@@ -7655,6 +7847,7 @@
    "family": "Qwen/Qwen3.8-27B",
    "pipeline": "text-generation",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "quant:gguf",
    "why": "quant_gguf"
   },
@@ -7702,6 +7895,7 @@
    "created": "2026-09-10",
    "family": "tatjr13/tpn004-cand-v1f-aim",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "quant:gguf",
    "why": "quant_gguf"
   },
@@ -7710,6 +7904,7 @@
    "created": "2026-09-11",
    "family": "tatjr13/tpn004-cand-v3f-aim",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "quant:gguf",
    "why": "quant_gguf"
   },
@@ -7718,6 +7913,7 @@
    "created": "2026-09-12",
    "family": "tatjr13/tpn004-cand-v3f-l1im",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "quant:gguf",
    "why": "quant_gguf"
   },
@@ -7726,6 +7922,7 @@
    "created": "2026-09-12",
    "family": "tatjr13/tpn004-cand-v4f-aim",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "quant:gguf",
    "why": "quant_gguf"
   },
@@ -7734,6 +7931,7 @@
    "created": "2026-09-12",
    "family": "tatjr13/tpn004-cand-v4f-l1im",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "quant:gguf",
    "why": "quant_gguf"
   },
@@ -7878,6 +8076,7 @@
    "created": "2026-10-09",
    "family": "twinkapp/mobileai",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "quant:gguf",
    "why": "quant_gguf"
   },
@@ -7887,6 +8086,7 @@
    "family": "Qwen/Qwen3.8-27B",
    "pipeline": "image-text-to-text",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "quant:awq",
    "why": "quant_awq"
   },
@@ -8094,6 +8294,7 @@
    "family": "nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B",
    "pipeline": "image-text-to-text",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "quant:gguf",
    "why": "quant_gguf"
   },
@@ -8625,5 +8826,5 @@
    "why": "org_top"
   }
  },
- "updated_at": "2026-11-01T13:05:08+00:00"
+ "updated_at": "2026-11-01T13:16:45+00:00"
 }
