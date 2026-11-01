@@ -89,8 +89,10 @@ LEGACY_SEED = [
 
 QUANT_MARK = re.compile(
     r"(?i)[-_](gguf|awq|gptq|mlx|fp8|fp4|int4|int8|w4a16|w8a8|bnb|nvfp4|mxfp8|exl2|hqq)\b")
-QUANT_TAGS = {"gguf", "awq", "gptq", "mlx", "fp8", "fp4", "int4", "int8", "w4a16",
-              "bnb", "nvfp4", "mxfp8", "exl2", "hqq", "w8a8"}
+# 只放「出现即等于量化分支」的 tag。fp8 / int8 这种 tag 官方原版也打
+# （DeepSeek、GLM 的原生权重就是 FP8），拿来判分支会把基座判成量化，
+# 所以 fp8/fp4 只在仓库名后缀里生效（-FP8 / -FP4 才是重打包）。
+QUANT_TAGS = {"gguf", "awq", "gptq", "mlx", "exl2", "hqq", "w4a16", "w8a8", "bnb"}
 PRECISION_MARK = re.compile(r"(?i)[-_](bf16|fp16|fp32)\b")  # 全精度重打包，不算量化
 DISTILL_MARK = re.compile(r"(?i)(distill|蒸馏)")
 EDIT_MARK = re.compile(r"(?i)(uncensored|abliterated|obliterated)")
