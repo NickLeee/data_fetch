@@ -102,8 +102,8 @@ MERGE_MARK = re.compile(r"(?i)([-_]merge|merge[-_]|merged)")
 NEW_DAYS = 90           # createdAt 在 90 天内算「新模型」
 MIN_DOWNLOADS = 120_000  # 发现门槛：老 repo 低于这个量不值得天天抓
 MIN_DOWNLOADS_NEW = 20_000  # 新发布（≤90 天）门槛放低，别漏首发
-MAX_TRACK = int(os.environ.get("HF_MAX_TRACK", 800))  # 每天跟踪多少条（按 owner 批量取）
-MAX_WATCH = 1_500       # 观察名单上限，超了按下载量裁掉尾部
+MAX_TRACK = int(os.environ.get("HF_MAX_TRACK", 1200))  # 每天跟踪多少条（按 owner 批量取，多跟踪几条几乎不加请求）
+MAX_WATCH = 2_000       # 观察名单上限，超了按下载量裁掉尾部
 THREADS = int(os.environ.get("HF_THREADS", 4))  # 并发数：官方 API 超过 4 就 429
 BUDGET_SEC = int(os.environ.get("HF_BUDGET_SEC", 660))  # 取数预算，超了就用已抓到的收工
 DISCOVER_BUDGET_SEC = int(os.environ.get("HF_DISCOVER_BUDGET_SEC", 240))  # 发现阶段预算
@@ -455,7 +455,7 @@ def main():
                     return None
 
             with ThreadPoolExecutor(max_workers=2) as ex:
-                for res in ex.map(fetch_one, missing[:120]):
+                for res in ex.map(fetch_one, missing[:200]):
                     if res:
                         fetched[res[0]] = res[1]
 
