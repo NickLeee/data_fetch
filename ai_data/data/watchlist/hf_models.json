@@ -76,7 +76,7 @@
    "family": "Aleph-Alpha/Kolibri-1",
    "pipeline": "text-generation",
    "scope": "llm",
-   "variant": "quant:fp8",
+   "variant": "base",
    "why": "quant_fp8"
   },
   "AngelSlim/Hy3-GGUF": {
@@ -405,6 +405,7 @@
    "family": "ISTA-DASLab/Qwen3.8-Flash-Next-GSQ-RCO",
    "pipeline": "image-text-to-text",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "quant:gguf",
    "why": "quant_gguf"
   },
@@ -616,6 +617,7 @@
    "family": "Qwen/Qwen3.5-0.8B",
    "pipeline": "image-text-to-text",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "quant:gguf",
    "why": "quant_gguf"
   },
@@ -761,7 +763,7 @@
    "pipeline": "image-text-to-text",
    "scope": "llm",
    "seen": "2026-11-01",
-   "variant": "quant:fp4",
+   "variant": "quant:gptq",
    "why": "quant_gptq"
   },
   "Jackrong/Qwopus3.6-35B-A3B-Coder-MTP-GGUF": {
@@ -907,6 +909,7 @@
    "family": "LiquidAI/LFM2.5-1.2B-Base",
    "pipeline": "text-generation",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "finetune",
    "why": "org_top"
   },
@@ -1086,6 +1089,7 @@
    "created": "2026-08-23",
    "family": "LocalAI-io/Llama-3-Kimodo-GGML",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "quant:gguf",
    "why": "quant_gguf"
   },
@@ -1154,7 +1158,7 @@
    "pipeline": "text-generation",
    "scope": "llm",
    "seen": "2026-11-01",
-   "variant": "quant:fp8",
+   "variant": "base",
    "why": "org_top"
   },
   "MiniMaxAI/MiniMax-M2.7": {
@@ -1164,7 +1168,7 @@
    "pipeline": "text-generation",
    "scope": "llm",
    "seen": "2026-11-01",
-   "variant": "quant:fp8",
+   "variant": "base",
    "why": "org_top"
   },
   "MiniMaxAI/MiniMax-M3": {
@@ -1183,7 +1187,7 @@
    "family": "MiniMaxAI/MiniMax-M3.1-Flash",
    "pipeline": "image-text-to-text",
    "scope": "llm",
-   "variant": "quant:mxfp8",
+   "variant": "base",
    "why": "org_top"
   },
   "Myric/Laguna-S-2.1-APEX-GGUF": {
@@ -1289,6 +1293,7 @@
    "created": "2026-07-23",
    "family": "ProCreations/grug-27b",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "quant:gguf",
    "why": "quant_gguf"
   },
@@ -1961,6 +1966,7 @@
    "family": "Qwen/Qwen3-235B-A22B",
    "pipeline": "text-generation",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "quant:fp8",
    "why": "org_top"
   },
@@ -2273,6 +2279,7 @@
    "family": "Qwen/Qwen3-VL-4B-Instruct",
    "pipeline": "image-text-to-text",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "quant:fp8",
    "why": "org_top"
   },
@@ -2768,6 +2775,7 @@
    "family": "Qwen/Qwen3.5-4B",
    "pipeline": "image-text-to-text",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "quant:gguf",
    "why": "quant_gguf"
   },
@@ -2843,6 +2851,7 @@
    "family": "Qwen/Qwen3.8-27B",
    "pipeline": "image-text-to-text",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "quant:gguf",
    "why": "quant_gguf"
   },
@@ -2901,7 +2910,7 @@
    "pipeline": "text-generation",
    "scope": "other",
    "seen": "2026-11-01",
-   "variant": "quant:fp8",
+   "variant": "base",
    "why": "org_top"
   },
   "XiaomiMiMo/MiMo-V2.6-Pro-RL": {
@@ -2910,7 +2919,7 @@
    "family": "XiaomiMiMo/MiMo-V2.6-Pro-RL",
    "pipeline": "text-generation",
    "scope": "other",
-   "variant": "quant:fp8",
+   "variant": "base",
    "why": "org_top"
   },
   "Youssofal/Qwen3.8-27B-MTPLX-Optimized-Speed": {
@@ -3025,6 +3034,7 @@
    "family": "allenai/OLMo-2-0425-1B",
    "pipeline": "text-generation",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "base",
    "why": "org_top"
   },
@@ -3118,6 +3128,7 @@
    "family": "Qwen/Qwen3.8-Flash-Next",
    "pipeline": "text-generation",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "quant:gguf",
    "why": "quant_gguf"
   },
@@ -3153,6 +3164,7 @@
    "created": "2026-10-05",
    "family": "Qwen/Qwen3.8-Flash-Next",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "quant:gguf",
    "why": "quant_gguf"
   },
@@ -3315,6 +3327,7 @@
    "family": "Nanbeige/Nanbeige4.3-33B",
    "pipeline": "text-generation",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "quant:gguf",
    "why": "quant_gguf"
   },
@@ -3384,6 +3397,7 @@
    "family": "Qwen/Qwen3-0.6B",
    "pipeline": "text-generation",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "quant:gguf",
    "why": "quant_gguf"
   },
@@ -3393,6 +3407,7 @@
    "family": "Qwen/Qwen3.5-4B",
    "pipeline": "image-text-to-text",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "quant:gguf",
    "why": "quant_gguf"
   },
@@ -3643,6 +3658,7 @@
    "family": "zai-org/GLM-5",
    "pipeline": "text-generation",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "quant:fp8",
    "why": "quant_fp8"
   },
@@ -3699,7 +3715,7 @@
    "pipeline": "text-generation",
    "scope": "llm",
    "seen": "2026-11-01",
-   "variant": "quant:fp8",
+   "variant": "base",
    "why": "legacy"
   },
   "deepseek-ai/DeepSeek-R1-0528": {
@@ -3709,7 +3725,7 @@
    "pipeline": "text-generation",
    "scope": "llm",
    "seen": "2026-11-01",
-   "variant": "quant:fp8",
+   "variant": "base",
    "why": "org_top"
   },
   "deepseek-ai/DeepSeek-R1-0528-Qwen3-8B": {
@@ -3773,7 +3789,7 @@
    "pipeline": "text-generation",
    "scope": "llm",
    "seen": "2026-11-01",
-   "variant": "quant:fp8",
+   "variant": "base",
    "why": "org_top"
   },
   "deepseek-ai/DeepSeek-V3-0324": {
@@ -3783,7 +3799,7 @@
    "pipeline": "text-generation",
    "scope": "llm",
    "seen": "2026-11-01",
-   "variant": "quant:fp8",
+   "variant": "base",
    "why": "org_top"
   },
   "deepseek-ai/DeepSeek-V3.1": {
@@ -3793,7 +3809,7 @@
    "pipeline": "text-generation",
    "scope": "llm",
    "seen": "2026-11-01",
-   "variant": "quant:fp8",
+   "variant": "base",
    "why": "org_top"
   },
   "deepseek-ai/DeepSeek-V3.2": {
@@ -3803,7 +3819,7 @@
    "pipeline": "text-generation",
    "scope": "llm",
    "seen": "2026-11-01",
-   "variant": "quant:fp8",
+   "variant": "finetune",
    "why": "legacy"
   },
   "deepseek-ai/DeepSeek-V4-Flash": {
@@ -3813,7 +3829,7 @@
    "pipeline": "text-generation",
    "scope": "llm",
    "seen": "2026-11-01",
-   "variant": "quant:fp8",
+   "variant": "base",
    "why": "org_top"
   },
   "deepseek-ai/DeepSeek-V4-Flash-0731": {
@@ -3823,7 +3839,7 @@
    "pipeline": "text-generation",
    "scope": "llm",
    "seen": "2026-11-01",
-   "variant": "quant:fp8",
+   "variant": "base",
    "why": "legacy"
   },
   "deepseek-ai/DeepSeek-V4-Flash-DSpark": {
@@ -3833,7 +3849,7 @@
    "pipeline": "text-generation",
    "scope": "llm",
    "seen": "2026-11-01",
-   "variant": "quant:fp8",
+   "variant": "base",
    "why": "org_top"
   },
   "deepseek-ai/DeepSeek-V4-Flash-Vision-Exp": {
@@ -3843,7 +3859,7 @@
    "pipeline": "image-text-to-text",
    "scope": "llm",
    "seen": "2026-11-01",
-   "variant": "quant:fp8",
+   "variant": "base",
    "why": "org_top"
   },
   "deepseek-ai/DeepSeek-V4-Pro": {
@@ -3853,7 +3869,7 @@
    "pipeline": "text-generation",
    "scope": "llm",
    "seen": "2026-11-01",
-   "variant": "quant:fp8",
+   "variant": "base",
    "why": "org_top"
   },
   "deepseek-ai/DeepSeek-V4-Pro-0813": {
@@ -3863,7 +3879,7 @@
    "pipeline": "text-generation",
    "scope": "llm",
    "seen": "2026-11-01",
-   "variant": "quant:fp8",
+   "variant": "base",
    "why": "org_top"
   },
   "deepseek-ai/DeepSeek-V4.1-Flash": {
@@ -3873,7 +3889,7 @@
    "pipeline": "image-text-to-text",
    "scope": "llm",
    "seen": "2026-11-01",
-   "variant": "quant:fp8",
+   "variant": "base",
    "why": "legacy"
   },
   "deepseek-ai/DeepSeek-V4.1-Flash-1017": {
@@ -3883,7 +3899,7 @@
    "pipeline": "image-text-to-text",
    "scope": "llm",
    "seen": "2026-11-01",
-   "variant": "quant:fp8",
+   "variant": "base",
    "why": "org_top"
   },
   "deepseek-ai/deepseek-coder-7b-instruct-v1.5": {
@@ -4090,6 +4106,7 @@
    "family": "google/gemma-3-12b-it",
    "pipeline": "image-text-to-text",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "quant:int4",
    "why": "quant_awq"
   },
@@ -4282,6 +4299,7 @@
    "created": "2026-06-02",
    "family": "ggml-org/test-model-router-download",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "quant:gguf",
    "why": "quant_gguf"
   },
@@ -5063,6 +5081,7 @@
    "created": "2026-08-10",
    "family": "lmstudio-community/Muse-Glimmer-30B",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "quant:gguf",
    "why": "quant_gguf"
   },
@@ -5080,6 +5099,7 @@
    "created": "2026-02-02",
    "family": "Qwen/Qwen3-Coder-Next",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "quant:mlx",
    "why": "quant_mlx"
   },
@@ -5088,6 +5108,7 @@
    "created": "2026-02-02",
    "family": "Qwen/Qwen3-Coder-Next",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "quant:mlx",
    "why": "quant_mlx"
   },
@@ -5262,6 +5283,7 @@
    "created": "2026-10-20",
    "family": "RecursiveSI/flint",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "quant:gguf",
    "why": "quant_gguf"
   },
@@ -5380,6 +5402,7 @@
    "family": "google/gemma-4-31B-it",
    "pipeline": "image-text-to-text",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "quant:mlx",
    "why": "quant_mlx"
   },
@@ -5389,6 +5412,7 @@
    "family": "google/gemma-4-31B-it",
    "pipeline": "image-text-to-text",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "quant:mlx",
    "why": "quant_mlx"
   },
@@ -5701,6 +5725,7 @@
    "created": "2022-03-02",
    "family": "microsoft/layoutlm-base-uncased",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "base",
    "why": "org_top"
   },
@@ -5755,6 +5780,7 @@
    "created": "2023-02-02",
    "family": "microsoft/speecht5_hifigan",
    "scope": "other",
+   "seen": "2026-11-01",
    "variant": "base",
    "why": "org_top"
   },
@@ -5802,7 +5828,7 @@
    "family": "mistralai/Mistral-Small-3.1-24B-Base-2503",
    "scope": "llm",
    "seen": "2026-11-01",
-   "variant": "quant:fp8",
+   "variant": "base",
    "why": "legacy"
   },
   "mistralai/Ministral-3-14B-Instruct-2512": {
@@ -5811,7 +5837,7 @@
    "family": "mistralai/Ministral-3-14B-Base-2512",
    "scope": "llm",
    "seen": "2026-11-01",
-   "variant": "quant:fp8",
+   "variant": "base",
    "why": "org_top"
   },
   "mistralai/Ministral-3-14B-Reasoning-2512": {
@@ -5954,7 +5980,7 @@
    "pipeline": "text-generation",
    "scope": "llm",
    "seen": "2026-11-01",
-   "variant": "quant:fp8",
+   "variant": "base",
    "why": "org_top"
   },
   "moonshotai/Kimi-K2.5": {
@@ -6061,6 +6087,7 @@
    "created": "2026-10-03",
    "family": "huihui-ai/Huihui-Qwen3.8-Flash-Next-abliterated",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "quant:gguf",
    "why": "quant_gguf"
   },
@@ -6230,6 +6257,7 @@
    "created": "2026-10-18",
    "family": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "quant:gguf",
    "why": "quant_gguf"
   },
@@ -6250,7 +6278,7 @@
    "pipeline": "image-text-to-text",
    "scope": "llm",
    "seen": "2026-11-01",
-   "variant": "quant:fp8",
+   "variant": "quant:gguf",
    "why": "quant_gguf"
   },
   "nerkyor/Qwen3.8-27B-EfficientThink-Uncensored-K3-Opus5-Grok4.6-GPT5.6Sol-SFT-SimPO-DFlash2-GGUF": {
@@ -6937,6 +6965,7 @@
    "family": "Qwen/Qwen3.8-27B",
    "pipeline": "image-text-to-text",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "quant:gguf",
    "why": "quant_gguf"
   },
@@ -7463,7 +7492,7 @@
    "family": "Qwen/Qwen3.5-9B",
    "pipeline": "image-text-to-text",
    "scope": "llm",
-   "variant": "quant:fp8",
+   "variant": "uncensored",
    "why": "quant_fp8"
   },
   "pyrodog/DeepSeek-V4.1-Flash-UNCENSORED-DwarfStar-Q2": {
@@ -7567,6 +7596,7 @@
    "family": "Qwen/Qwen3.8-Flash-Next",
    "pipeline": "text-generation",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "quant:gguf",
    "why": "quant_gguf"
   },
@@ -7663,6 +7693,7 @@
    "family": "ibm-granite/granite-4.2-3b",
    "pipeline": "text-generation",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "quant:gguf",
    "why": "quant_gguf"
   },
@@ -8338,6 +8369,7 @@
    "family": "google/gemma-3-4b-it",
    "pipeline": "image-text-to-text",
    "scope": "llm",
+   "seen": "2026-11-01",
    "variant": "quant:gguf",
    "why": "quant_gguf"
   },
@@ -8553,7 +8585,7 @@
    "pipeline": "text-generation",
    "scope": "llm",
    "seen": "2026-11-01",
-   "variant": "quant:fp8",
+   "variant": "base",
    "why": "legacy"
   },
   "zai-org/GLM-5.3-BF16": {
@@ -8572,7 +8604,7 @@
    "pipeline": "image-text-to-text",
    "scope": "llm",
    "seen": "2026-11-01",
-   "variant": "quant:fp8",
+   "variant": "base",
    "why": "legacy"
   },
   "zai-org/GLM-5.3-Flash-BF16": {
@@ -8593,5 +8625,5 @@
    "why": "org_top"
   }
  },
- "updated_at": "2026-11-01T13:01:52+00:00"
+ "updated_at": "2026-11-01T13:05:08+00:00"
 }
