@@ -31,6 +31,7 @@ import os
 import re
 import sys
 import time
+from collections import defaultdict
 
 import common
 
@@ -101,9 +102,9 @@ MERGE_MARK = re.compile(r"(?i)([-_]merge|merge[-_]|merged)")
 NEW_DAYS = 90           # createdAt 在 90 天内算「新模型」
 MIN_DOWNLOADS = 120_000  # 发现门槛：老 repo 低于这个量不值得天天抓
 MIN_DOWNLOADS_NEW = 20_000  # 新发布（≤90 天）门槛放低，别漏首发
-MAX_TRACK = int(os.environ.get("HF_MAX_TRACK", 600))  # 每天最多抓多少条
+MAX_TRACK = int(os.environ.get("HF_MAX_TRACK", 800))  # 每天跟踪多少条（按 owner 批量取）
 MAX_WATCH = 1_500       # 观察名单上限，超了按下载量裁掉尾部
-THREADS = int(os.environ.get("HF_THREADS", 8))  # 并发数（hf-mirror 单条 1~2s，串行太慢）
+THREADS = int(os.environ.get("HF_THREADS", 4))  # 并发数：官方 API 超过 4 就 429
 BUDGET_SEC = int(os.environ.get("HF_BUDGET_SEC", 660))  # 取数预算，超了就用已抓到的收工
 DISCOVER_BUDGET_SEC = int(os.environ.get("HF_DISCOVER_BUDGET_SEC", 240))  # 发现阶段预算
 MIN_NEW_DOWNLOADS = 2_000
@@ -335,12 +336,16 @@ def main():
         def out_of_time():
             return time.time() > discover_deadline
 
+        org_cache = {}  # owner -> 该 owner 的下载榜，采集阶段直接复用
+
         # 1) 官方 org：下载量 top（全部）+ 最近发布（只看最活跃的几家）
         for org in SEED_ORGS:
             if out_of_time():
                 print("  ⚠ 发现阶段预算用完，剩余 org 跳过", file=sys.stderr)
                 break
-            for m in list_models(f"?author={org}&sort=downloads&direction=-1&limit=60"):
+            batch = list_models(f"?author={org}&sort=downloads&direction=-1&limit=60")
+            org_cache[org] = batch
+            for m in batch:
                 offer(m, "org_top")
             if org in ACTIVE_ORGS:
                 for m in list_models(f"?author={org}&sort=createdAt&direction=-1&limit=20"):
@@ -404,37 +409,68 @@ def main():
                  if _is_new(m.get("created"))][:40]
         picked = list(dict.fromkeys(picked + fresh))
 
-        from concurrent.futures import ThreadPoolExecutor, as_completed
+        # 按 owner 批量取：一次 listing 拿 100 条，比逐条 GET 少 3~4 倍请求。
+        # 逐条 GET 600 次会把官方 API 打到 429，反而丢数据。
+        # 发现阶段已经拉过的 org 直接复用缓存，只有第三方量化 org 需要新拉。
+        by_owner = defaultdict(list)
+        for repo in picked:
+            by_owner[repo.split("/")[0]].append(repo)
+
         deadline = time.time() + BUDGET_SEC
-        timed_out = []
+        timed_out, fetched = [], {}
 
-        def fetch_one(repo):
+        def fetch_owner(owner, repos):
             if time.time() > deadline:
-                timed_out.append(repo)
-                return None
-            try:
-                d = common.http_json(f"{API}/{repo}{EX_REPO}", timeout=30, retries=1)
-            except Exception as e:
-                print(f"  skip {repo}: {e}", file=sys.stderr)
-                return None
-            if d.get("downloads") is None:
-                return None
-            return repo, d
+                timed_out.extend(repos)
+                return owner, {}
+            batch = org_cache.get(owner)
+            if batch is None:
+                try:
+                    batch = list_models(f"?author={owner}&sort=downloads&direction=-1&limit=100")
+                except Exception as e:
+                    print(f"  skip owner {owner}: {e}", file=sys.stderr)
+                    return owner, {}
+            want = set(repos)
+            return owner, {m["id"]: m for m in batch if m.get("id") in want}
 
-        raw, rows, results = {}, [], []
+        from concurrent.futures import ThreadPoolExecutor, as_completed
         with ThreadPoolExecutor(max_workers=THREADS) as ex:
-            futs = [ex.submit(fetch_one, r) for r in picked]
+            futs = [ex.submit(fetch_owner, o, rs) for o, rs in by_owner.items()]
             for f in as_completed(futs):
-                results.append(f.result())
-        skipped = sum(1 for r in results if not r)
+                o, got = f.result()
+                fetched.update(got)
+
+        missing = [r for r in picked if r not in fetched]
+        if missing:
+            # 榜单只给前 100 条，个别老仓库会掉出去，逐条补
+            def fetch_one(repo):
+                if time.time() > deadline:
+                    timed_out.append(repo)
+                    return None
+                try:
+                    return repo, common.http_json(f"{API}/{repo}{EX_REPO}",
+                                                  timeout=30, retries=2)
+                except Exception as e:
+                    print(f"  skip {repo}: {e}", file=sys.stderr)
+                    return None
+
+            with ThreadPoolExecutor(max_workers=2) as ex:
+                for res in ex.map(fetch_one, missing[:120]):
+                    if res:
+                        fetched[res[0]] = res[1]
+
+        skipped = len(picked) - len(fetched)
         if timed_out:
             print(f"  ⚠ 预算用完，{len(timed_out)} 条没抓到（次日按优先级补）", file=sys.stderr)
         if skipped:
-            print(f"  ⚠ 跳过 {skipped}/{len(picked)} 条（取数失败或无下载字段）", file=sys.stderr)
-        for res in results:
-            if not res:
+            print(f"  ⚠ 跳过 {skipped}/{len(picked)} 条（接口没返回或取数失败）",
+                  file=sys.stderr)
+
+        raw, rows = {}, []
+        for repo in picked:
+            d = fetched.get(repo)
+            if not d or d.get("downloads") is None:
                 continue
-            repo, d = res
             meta = watch[repo]
             tags = raw_tags(d)
             var = variant_of(repo, tags)
