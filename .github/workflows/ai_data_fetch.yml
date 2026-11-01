@@ -59,6 +59,9 @@ jobs:
       - name: 抓取 ${{ matrix.source }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # 美国机房直连 huggingface.co：比国内镜像快、不限流（hf_* 抓取器读这个变量，
+          # 不通时抓取器自己回落到 hf-mirror）
+          HF_API_BASE: https://huggingface.co/api/models
         run: python ai_data/fetchers/${{ matrix.source }}.py
 
       # 只打包本源当天新增/修改的文件，raw 目录动辄上百 MB，不能整包上传

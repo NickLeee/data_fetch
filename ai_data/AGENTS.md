@@ -10,6 +10,7 @@
   - `data/raw/<source>/<YYYY-MM-DD>.json` — 原始快照，只增不改（审计底账、重解析依据）
   - `data/series/<source>.jsonl` — 时间序列，每天 append 一行（日报/图表只读这里）
   - `data/health/<source>.json` — 每源健康状态：`{"source","last_success","rows","status"}`
+  - `data/watchlist/<source>.json` — 只给**名单会自己长**的源用（目前只有 hf_downloads）：记录「要跟踪哪些对象」，由发现流程自动增删。文件要稳定，别每天都变（易变的字段放 series，不放这里）
 - **调度**：GitHub Actions cron（美国机房，被墙源直连）。matrix 每源一个 job，`fail-fast: false`；保留 `workflow_dispatch` 手动补抓；每个 job 设 `timeout-minutes`
 - **提交**：抓取 job 只把当天改动的文件上传成 artifact，末尾 `commit` job 汇总后一次 commit + push。**不要让多个 job 各自 push**——14 个 job 并发推同一个分支，每天都有一两个输家，输家那天的数据就永久丢了（snapshot 类源无法回补）
 - **监控**：workflow 末尾 health-check（今日有无数据、行数为零、环比暴跌 >90% → 失败）；失败源会在 commit job 里列出来；Actions 失败邮件；早报 agent 读数时自查 freshness
