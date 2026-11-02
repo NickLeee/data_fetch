@@ -1,13 +1,23 @@
 #!/usr/bin/env python3
-"""GitHub 日报 → series github_daily.jsonl（核心仓库 star/fork）+ github_new_repos.jsonl（近 7 天新建热门 AI 仓库），日级。
+"""GitHub 日报 → series github_daily.jsonl（核心仓库 star/fork）+ github_new_repos.jsonl（新项目增速榜），日级。
 
-匿名 60 req/h（本文件 18 仓库 + 1 次 search，够用）；环境变量 GITHUB_TOKEN 存在时带
-Authorization header（Actions 上建议配，更稳）。search API 单独限额 10 次/分。
+两个产物解决两个问题：
+- github_daily：18 个底座项目的 star/fork 存量，只做长期基线（同比/换代），
+  单日增量意义不大——这些仓库体量太大，一天涨几百星说明不了什么。
+- github_new_repos：**看板真正要的东西**——近 30 天新建、按「每天涨多少星」
+  （stars / 建仓天数）排序的 AI 项目。绝对星数会被建仓时间带偏：同样 5 千星，
+  10 天攒出来的和 300 天攒出来的不是一回事。同时记 created_at / forks / language，
+  才能判断是真项目还是内容站。
+
+匿名 60 req/h（18 仓库 + 4 次 search，够用）；环境变量 GITHUB_TOKEN 存在时带
+Authorization header（Actions 上建议配，更稳）。search API 单独限额 10 次/分，
+所以搜索词控制在 4 个以内。
 """
 
 import os
 import sys
 import time
+import re
 import urllib.parse
 from datetime import datetime, timedelta, timezone
 
@@ -39,8 +49,18 @@ REPOS = [
     "openai/skills",
 ]
 
-NEW_REPO_DAYS = 7
-NEW_REPO_TOP_N = 15
+NEW_REPO_DAYS = 30      # 窗口：近 30 天新建才算「新项目」
+NEW_REPO_SCAN = 60      # 每路搜索取多少条（合并后再筛）
+NEW_REPO_KEEP = 20      # 最终写入多少条
+MIN_AGE_DAYS = 2        # 建仓不到两天的，涨星再快也是噪声
+QUERIES = ["ai", "llm", "agent", "inference"]
+
+# 内容型仓库（图库、合集、教程）不是「项目」，涨星再快也不进榜。
+# 只看描述：真项目的描述通常在讲它做什么，内容站在讲它收录了什么。
+CONTENT_RE = re.compile(
+    r"(?i)(图库|图集|壁纸|合集|资源|模板|教程|指南|大全|精选|素材|"
+    r"awesome|curated|collection|wallpaper|playbook|cheat|roadmap|"
+    r"interview|course|book|notes|prompt\s*list)")
 
 
 def gh_headers():
@@ -70,26 +90,58 @@ def main():
             })
             time.sleep(0.2)
 
-        # 近 7 天新建、按 star 排序的 AI 相关热门仓库
-        since = (datetime.now(timezone.utc) - timedelta(days=NEW_REPO_DAYS)).strftime("%Y-%m-%d")
-        q = urllib.parse.quote(f"AI created:>{since}")
-        search = common.http_json(
-            f"{API}/search/repositories?q={q}&sort=stars&order=desc&per_page={NEW_REPO_TOP_N}",
-            headers=headers, timeout=30)
-        new_rows = [{
-            "date": date,
-            "repo": it["full_name"],
-            "stars": it.get("stargazers_count"),
-            "description": (it.get("description") or "")[:200],
-            "url": it.get("html_url"),
-        } for it in search.get("items", [])]
+        # 新项目增速榜：多路搜索合并去重，按 stars/天 排序
+        since_dt = datetime.now(timezone.utc) - timedelta(days=NEW_REPO_DAYS)
+        since = since_dt.strftime("%Y-%m-%d")
+        today = datetime.now(timezone.utc)
+        cand = {}
+        for q_ in QUERIES:
+            q = urllib.parse.quote(f"{q_} created:>{since}")
+            res = common.http_json(
+                f"{API}/search/repositories?q={q}&sort=stars&order=desc"
+                f"&per_page={NEW_REPO_SCAN}",
+                headers=headers, timeout=30)
+            for it in res.get("items", []):
+                cand[it["full_name"]] = it
+            time.sleep(1.0)  # search API 单独限流，别贴脸
+
+        new_rows = []
+        for it in cand.values():
+            created = (it.get("created_at") or "")[:10]
+            desc = it.get("description") or ""
+            if not created or not desc or CONTENT_RE.search(desc):
+                continue
+            try:
+                age = max((today - datetime.fromisoformat(created + "T00:00:00+00:00")).days, 1)
+            except Exception:
+                continue
+            if age < MIN_AGE_DAYS:
+                continue
+            stars = it.get("stargazers_count") or 0
+            new_rows.append({
+                "date": date,
+                "repo": it["full_name"],
+                "stars": stars,
+                "stars_per_day": round(stars / age, 1),
+                "created_at": created,
+                "age_days": age,
+                "forks": it.get("forks_count"),
+                "language": it.get("language"),
+                "topics": (it.get("topics") or [])[:6],
+                "description": desc[:200],
+                "url": it.get("html_url"),
+            })
+        new_rows.sort(key=lambda r: -r["stars_per_day"])
+        new_rows = new_rows[:NEW_REPO_KEEP]
 
         if not rows:
             raise RuntimeError("no repo rows")
         common.write_raw(SOURCE, {
             "fetched_at": common.utc_now_iso(),
             "repos": raw_repos,
-            "new_repo_search": search,
+            "new_repo_candidates": len(cand),
+            "new_repo_top": [{k: r[k] for k in ("repo", "stars", "stars_per_day", "age_days")}
+                             for r in new_rows],
         })
         added = common.append_series(SOURCE, rows, ["repo"])
         added_new = common.append_series("github_new_repos", new_rows, ["repo"])
