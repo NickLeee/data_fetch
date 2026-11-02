@@ -1,15 +1,15 @@
 {
-  "fetched_at": "2026-11-02T13:33:37+00:00",
-  "universe": 522,
+  "fetched_at": "2026-11-02T22:49:39+00:00",
+  "universe": 523,
   "snapshot": 522,
   "trending": 26,
-  "new_candidates": 145,
+  "new_candidates": 144,
   "growth_top": [
     {
       "repo": "deepseek-ai/dsh-superagent-prototype",
-      "gain": 11559,
+      "gain": 12970,
       "window_days": 2,
-      "stars_per_day": 5779.5,
+      "stars_per_day": 6485.0,
       "age_days": 2,
       "signal": "new"
     },
@@ -30,6 +30,14 @@
       "signal": "trending"
     },
     {
+      "repo": "heydamir/unslop",
+      "gain": 6182,
+      "window_days": 4,
+      "stars_per_day": 1545.5,
+      "age_days": 4,
+      "signal": "new"
+    },
+    {
       "repo": "cloudflare/security-audit-skill",
       "gain": 10069,
       "window_days": 7,
@@ -38,18 +46,10 @@
       "signal": "trending"
     },
     {
-      "repo": "heydamir/unslop",
-      "gain": 5556,
-      "window_days": 4,
-      "stars_per_day": 1389.0,
-      "age_days": 4,
-      "signal": "new"
-    },
-    {
       "repo": "wangzan101/Mika",
-      "gain": 4937,
+      "gain": 5239,
       "window_days": 4,
-      "stars_per_day": 1234.2,
+      "stars_per_day": 1309.8,
       "age_days": 4,
       "signal": "new"
     },
