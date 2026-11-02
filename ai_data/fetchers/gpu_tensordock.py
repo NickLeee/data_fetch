@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
-"""TensorDock hostnode GPU 报价 → series gpu_tensordock.jsonl，日级，免 key。
+"""【已退役 2026-11-03】不再进 workflow matrix。原因见 SOURCES.md：只覆盖 4090/5090/3090/A6000/V100 这类消费卡与旧卡，没有 H100/H200/B200，进不了「同一张卡四个市场」的对比，单独成图也讲不出趋势。文件保留以便回溯。
+
+TensorDock hostnode GPU 报价 → series gpu_tensordock.jsonl，日级，免 key。
 
 实际响应结构（2026-09 实测）：{"hostnodes": {uuid: node}, "success": true}，
 每个 node 的 specs.gpu 是 {slug: {"amount","price","vram","pcie","rtx","gtx"}} 字典，

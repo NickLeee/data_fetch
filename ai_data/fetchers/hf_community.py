@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
-"""HuggingFace 社区热门改造模型榜 → series hf_community.jsonl，日级。
+"""【已退役 2026-11-03】不再进 workflow matrix。原因见 SOURCES.md：榜单与 hf_downloads 的 watchlist 高度重复（最新一天 20 条里 14 条已在下载榜中），增量只有 6 条 uncensored/GGUF 改造，噪声大于信息。文件保留以便回溯。
+
+HuggingFace 社区热门改造模型榜 → series hf_community.jsonl，日级。
 
 口径：text-generation 按近 30 天下载量取 top 100，剔除官方 org（基座模型的
 "供给侧"）后剩下的就是社区改造（GGUF 量化 / uncensored / 微调 merge 等），取 top 20。
