@@ -15,7 +15,7 @@
 | # | 源 | 抓什么 | 接入方式 | 备注 |
 |---|---|---|---|---|
 | 2 | 算力价格 | GPU 时租价格日线，两层：市场报价 + 成交结算指数 | ① **Shadeform** 免 key API 聚合 19 家云厂商挂牌价（替代单独抓 Lambda/Crusoe/Nebius）② vast.ai / RunPod / TensorDock 免 key API（散户市场 min/median/max）③ **Ornn OCPI** 成交指数（api.ornnai.com 免 key 5 型号，彭博+ICE 基准） | 不抓：国内平台、AWS/Azure/GCP（二期月度快照）；参考实现 gpu-pricing-tracker |
-| 3 | GitHub 日报 | ① 核心项目 star/fork 日增 ② 近期新项目（近 7 天创建、增速最快的 AI 仓库）③ anthropics/skills、openai/skills 官方仓库 | GitHub REST API | 配 token 更稳 |
+| 3 | GitHub 日报 | ① **增速榜**：不按建仓时间筛，所有 AI 仓库同一根轴上比「过去 7 天日均涨星」，老项目突然爆也进榜 ② 宇宙快照：18 个底座 + AI 主题头部（topic:llm 等 4 路按 star 取头部）+ 趋势榜 + 新仓库搜索，累积成 `data/watchlist/github_repos.json`，每天快照 500 多个仓库 ③ 三路信号各有窗口：自有快照(7d) > 趋势榜周榜(7d) > 新仓库按建仓以来 | GraphQL 批量（100 个/次）+ REST search + github.com/trending HTML | 配 token 必要（GraphQL/搜索）；daily 趋势只做注脚，1 天突增不参与排名 |
 | 4 | HuggingFace | ① 开源模型下载量（**自动发现**：官方 org 下载榜+最近发布 × trending × 量化榜三路捞，名单存在 `data/watchlist/hf_models.json` 自己长，不再手工维护）② 按 family 汇总「基座 + 量化/精度/微调分支」，量化分支单独成榜 ③ 社区热门改造 top 20（text-generation 下载榜剔除官方 org） | hf-mirror.com（国内镜像，API 兼容） | 官方域名本机被墙；`downloads` 是近 30 天滚动窗口，累计看 `downloadsAllTime` |
 | 5 | 金融市场 | 股价+市值：NVDA / MSFT / GOOG / META / 阿里 / 百度；期货：纳指100(NQ)、标普500(ES)；国债：美债 10Y / 2Y | stooq 免费 CSV；FRED 官方 API（国债） | |
 | 6 | Polymarket | ① 本月最大市值公司 ② 本年底最大市值公司 ③ 最强 AI 模型系列（月度+年度） | 官方 gamma API，需代理 | 市场名单执行时逐个确认 |
