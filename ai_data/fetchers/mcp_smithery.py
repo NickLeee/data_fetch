@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
-"""Smithery MCP 使用量榜 → series mcp_smithery.jsonl，日级，免 key。
+"""【已退役 2026-11-02】不再进 workflow matrix。原因见 SOURCES.md：Smithery 的 useCount 21 天零变化，做不了趋势；registry 只有总量增长。文件保留以便回溯。
+
+Smithery MCP 使用量榜 → series mcp_smithery.jsonl，日级，免 key。
 
 实现方式：GET https://smithery.ai/servers（服务端渲染页），从 Next.js RSC
 内嵌数据（self.__next_f.push chunks）中提取 qualifiedName/useCount/displayName。

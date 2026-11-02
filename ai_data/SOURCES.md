@@ -20,8 +20,8 @@
 | 5 | 金融市场 | 股价+市值：NVDA / MSFT / GOOG / META / 阿里 / 百度；期货：纳指100(NQ)、标普500(ES)；国债：美债 10Y / 2Y | stooq 免费 CSV；FRED 官方 API（国债） | |
 | 6 | Polymarket | ① 本月最大市值公司 ② 本年底最大市值公司 ③ 最强 AI 模型系列（月度+年度） | 官方 gamma API，需代理 | 市场名单执行时逐个确认 |
 | 7 | Cloudflare Radar | AI 爬虫 UA 流量趋势、robots.txt 封锁率、AI 域名热度榜 | 官方 API（免费 token） | 用法待定，先抓存着；UA 口径注意仿冒噪音 |
-| 8 | MCP 生态 | 官方 Registry 总量/日增/新上架名单 + Smithery 使用量榜 | registry.modelcontextprotocol.io 免 key API；Smithery 页面 | |
-| 9 | skills.sh | skills 安装榜、anthropics/openai 官方 skill 安装量 | 公开 search API（免 key JSON） | |
+| 8 | ~~MCP 生态~~ | **2026-11-02 退役**（用户判断：意义不大）。原因留档：Smithery 的 `useCount` 是静态烘焙进页面的值，21 天零变化，做不了趋势；官方 registry 只有总量在涨。抓取器保留在 `fetchers/` 但不再调度 | — | — |
+| 9 | ~~skills.sh~~ | **2026-11-02 退役**（同上）。抓取器保留但不再调度 | — | — |
 | 10 | Meta 广告库 | AI 公司在投广告数、新素材、投放地区（EU 区有曝光量级） | 官方 Ad Library API（需开发者 token） | 盯 OpenAI/Anthropic/Google/Perplexity/Mistral/字节等广告主主页 |
 | 11 | Ornn OTPI（token 价格指数） | 各厂商 token 每日成交结算价（$/M tokens，成交量加权）：OpenAI / Anthropic / Google / DeepSeek | api.ornnai.com/api/otpi 免 key（4 家厂商、近 1 个月窗口，自己每天攒历史） | 2026-06 才开始结算的新指数；与 OpenRouter 挂牌价互补（挂牌 vs 成交） |
 

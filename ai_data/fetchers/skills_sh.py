@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
-"""skills.sh 安装榜 → series skills_sh.jsonl，日级，免 key。
+"""【已退役 2026-11-02】不再进 workflow matrix。原因见 SOURCES.md：安装量榜没有可用的动态指标。文件保留以便回溯。
+
+skills.sh 安装榜 → series skills_sh.jsonl，日级，免 key。
 
 两部分合并到一个 series（键 date+skill，top 榜优先）：
 1. 每日 top 榜快照：GET 首页，从 Next.js RSC payload（self.__next_f.push chunks）

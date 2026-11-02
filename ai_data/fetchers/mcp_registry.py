@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
-"""MCP 官方 Registry → series mcp_registry.jsonl，日级，免 key。
+"""【已退役 2026-11-02】不再进 workflow matrix。原因见 SOURCES.md：Smithery 的 useCount 21 天零变化，做不了趋势；registry 只有总量增长。文件保留以便回溯。
+
+MCP 官方 Registry → series mcp_registry.jsonl，日级，免 key。
 
 GET https://registry.modelcontextprotocol.io/v0/servers?version=latest 拉全量。
 已知服务端行为（2026-10 实测）：
