@@ -65,7 +65,7 @@ CORE_REPOS = [
 WINDOW_DAYS = 7         # 增速窗口：过去 7 天
 NEW_REPO_DAYS = 30      # 新仓库搜索窗口
 NEW_REPO_SCAN = 60      # 每路搜索取多少条
-UNIVERSE_CAP = 600      # 每天快照的仓库上限（GraphQL 100/次）
+UNIVERSE_CAP = 1000     # 每天快照的仓库上限（GraphQL 100 个/次，实测不烧点数）
 BOARD_KEEP = 25         # 增速榜保留多少条
 MIN_WINDOW = 2          # 窗口至少 2 天：1 天的突增波动太大，只当注脚不进榜
 MIN_GAIN = 200          # 窗口内至少涨这么多星才进榜
@@ -248,6 +248,16 @@ def load_series(name):
     return rows
 
 
+def drop_today(name, date):
+    """同一天重跑时先删掉今天的行，避免一边保留旧数一边追加新数。"""
+    path = common.DATA_DIR / "series" / f"{name}.jsonl"
+    if not path.exists():
+        return
+    lines = [ln for ln in path.read_text(encoding="utf-8").splitlines() if ln.strip()]
+    keep = [ln for ln in lines if json.loads(ln).get("date") != date]
+    path.write_text("\n".join(keep) + ("\n" if keep else ""), encoding="utf-8")
+
+
 def window_gain(hist, today, target_days=WINDOW_DAYS):
     """从自有快照取「target_days 天前」的存量，返回 {repo: (gain, window_days)}。
 
@@ -347,9 +357,10 @@ def main():
         print(f"seed universe: {len(seeds)}")
 
         # ---- 2. 快照宇宙 ----
+        # 今天新发现的排前面，历史名单垫底（超上限时先丢最久没被发现的）
         universe = list(dict.fromkeys(
-            CORE_REPOS + sorted(seeds) + read_watchlist()
-            + list(trend) + list(new_cands)))[:UNIVERSE_CAP]
+            CORE_REPOS + sorted(seeds) + list(trend) + list(new_cands)
+            + read_watchlist()))[:UNIVERSE_CAP]
         snap = graphql_snapshot(universe)
         if not snap:
             print("graphql unavailable, REST fallback (core only)", file=sys.stderr)
@@ -424,7 +435,8 @@ def main():
         board.sort(key=lambda r: -r["stars_per_day"])
         board = board[:BOARD_KEEP]
 
-        write_watchlist(sorted({r["repo"] for r in rows} | set(trend) | set(new_cands) | seeds))
+        seen = [r["repo"] for r in rows] + list(trend) + list(new_cands) + sorted(seeds)
+        write_watchlist(list(dict.fromkeys(seen + read_watchlist())))
 
         common.write_raw(SOURCE, {
             "fetched_at": common.utc_now_iso(),
@@ -433,6 +445,8 @@ def main():
             "growth_top": [{k: r[k] for k in ("repo", "gain", "window_days", "stars_per_day",
                                              "age_days", "signal")} for r in board[:15]],
         })
+        drop_today(SOURCE, date)
+        drop_today(GROWTH_SERIES, date)
         added = common.append_series(SOURCE, rows, ["repo"])
         added_g = common.append_series(GROWTH_SERIES, board, ["repo"])
         common.write_health(SOURCE, len(rows) + len(board))
