@@ -1,0 +1,129 @@
+{
+  "fetched_at": "2026-11-03T20:33:09+00:00",
+  "universe": 533,
+  "snapshot": 531,
+  "trending": 22,
+  "new_candidates": 143,
+  "growth_top": [
+    {
+      "repo": "deepseek-ai/dsh-superagent-prototype",
+      "gain": 16462,
+      "window_days": 3,
+      "stars_per_day": 5487.3,
+      "age_days": 3,
+      "signal": "new"
+    },
+    {
+      "repo": "pbakaus/impeccable",
+      "gain": 11754,
+      "window_days": 7,
+      "stars_per_day": 1679.1,
+      "age_days": 352,
+      "signal": "trending"
+    },
+    {
+      "repo": "Nutlope/hallmark",
+      "gain": 10517,
+      "window_days": 7,
+      "stars_per_day": 1502.4,
+      "age_days": 190,
+      "signal": "trending"
+    },
+    {
+      "repo": "heydamir/unslop",
+      "gain": 7373,
+      "window_days": 5,
+      "stars_per_day": 1474.6,
+      "age_days": 5,
+      "signal": "new"
+    },
+    {
+      "repo": "pingdotgg/t3code",
+      "gain": 9770,
+      "window_days": 7,
+      "stars_per_day": 1395.7,
+      "age_days": 268,
+      "signal": "trending"
+    },
+    {
+      "repo": "cloudflare/security-audit-skill",
+      "gain": 9155,
+      "window_days": 7,
+      "stars_per_day": 1307.9,
+      "age_days": 138,
+      "signal": "trending"
+    },
+    {
+      "repo": "wangzan101/Mika",
+      "gain": 6014,
+      "window_days": 5,
+      "stars_per_day": 1202.8,
+      "age_days": 5,
+      "signal": "new"
+    },
+    {
+      "repo": "thedotmack/claude-mem",
+      "gain": 7255,
+      "window_days": 7,
+      "stars_per_day": 1036.4,
+      "age_days": 429,
+      "signal": "trending"
+    },
+    {
+      "repo": "affaan-m/ECC",
+      "gain": 6201,
+      "window_days": 7,
+      "stars_per_day": 885.9,
+      "age_days": 289,
+      "signal": "trending"
+    },
+    {
+      "repo": "obra/superpowers",
+      "gain": 5956,
+      "window_days": 7,
+      "stars_per_day": 850.9,
+      "age_days": 390,
+      "signal": "trending"
+    },
+    {
+      "repo": "caru-ini/stack-diagram",
+      "gain": 1490,
+      "window_days": 2,
+      "stars_per_day": 745.0,
+      "age_days": 2,
+      "signal": "new"
+    },
+    {
+      "repo": "JetBrains/thinkrail",
+      "gain": 4812,
+      "window_days": 7,
+      "stars_per_day": 687.4,
+      "age_days": 118,
+      "signal": "trending"
+    },
+    {
+      "repo": "TauricResearch/TradingAgents",
+      "gain": 4603,
+      "window_days": 7,
+      "stars_per_day": 657.6,
+      "age_days": 675,
+      "signal": "trending"
+    },
+    {
+      "repo": "multica-ai/andrej-karpathy-skills",
+      "gain": 4397,
+      "window_days": 7,
+      "stars_per_day": 628.1,
+      "age_days": 280,
+      "signal": "trending"
+    },
+    {
+      "repo": "AgriciDaniel/claude-seo",
+      "gain": 4091,
+      "window_days": 7,
+      "stars_per_day": 584.4,
+      "age_days": 269,
+      "signal": "trending"
+    }
+  ]
+}
