@@ -1,0 +1,129 @@
+{
+  "fetched_at": "2026-11-07T18:52:07+00:00",
+  "universe": 594,
+  "snapshot": 587,
+  "trending": 19,
+  "new_candidates": 142,
+  "growth_top": [
+    {
+      "repo": "deepseek-ai/dsh-superagent-prototype",
+      "gain": 20763,
+      "window_days": 7,
+      "stars_per_day": 2966.1,
+      "age_days": 7,
+      "signal": "new"
+    },
+    {
+      "repo": "pingdotgg/t3code",
+      "gain": 16782,
+      "window_days": 7,
+      "stars_per_day": 2397.4,
+      "age_days": 272,
+      "signal": "trending"
+    },
+    {
+      "repo": "mattpocock/skills",
+      "gain": 9589,
+      "window_days": 7,
+      "stars_per_day": 1369.9,
+      "age_days": 277,
+      "signal": "trending"
+    },
+    {
+      "repo": "thedotmack/claude-mem",
+      "gain": 8726,
+      "window_days": 7,
+      "stars_per_day": 1246.6,
+      "age_days": 433,
+      "signal": "trending"
+    },
+    {
+      "repo": "pbakaus/impeccable",
+      "gain": 8172,
+      "window_days": 7,
+      "stars_per_day": 1167.4,
+      "age_days": 356,
+      "signal": "trending"
+    },
+    {
+      "repo": "worldonlyu/Google_AI_Pro_2Year_ZeroCost_Auto",
+      "gain": 3034,
+      "window_days": 3,
+      "stars_per_day": 1011.3,
+      "age_days": 3,
+      "signal": "new"
+    },
+    {
+      "repo": "Nutlope/hallmark",
+      "gain": 6900,
+      "window_days": 7,
+      "stars_per_day": 985.7,
+      "age_days": 194,
+      "signal": "trending"
+    },
+    {
+      "repo": "KKKKhazix/agent-autoloop",
+      "gain": 3938,
+      "window_days": 4,
+      "stars_per_day": 984.5,
+      "age_days": 4,
+      "signal": "new"
+    },
+    {
+      "repo": "Donchitos/Claude-Code-Game-Studios",
+      "gain": 6018,
+      "window_days": 7,
+      "stars_per_day": 859.7,
+      "age_days": 268,
+      "signal": "trending"
+    },
+    {
+      "repo": "obra/superpowers",
+      "gain": 4577,
+      "window_days": 7,
+      "stars_per_day": 653.9,
+      "age_days": 394,
+      "signal": "trending"
+    },
+    {
+      "repo": "calesthio/OpenMontage",
+      "gain": 4405,
+      "window_days": 7,
+      "stars_per_day": 629.3,
+      "age_days": 223,
+      "signal": "trending"
+    },
+    {
+      "repo": "anthropics/skills",
+      "gain": 3159,
+      "window_days": 7,
+      "stars_per_day": 451.3,
+      "age_days": 411,
+      "signal": "trending"
+    },
+    {
+      "repo": "shiyu-coder/Kronos",
+      "gain": 2984,
+      "window_days": 7,
+      "stars_per_day": 426.3,
+      "age_days": 494,
+      "signal": "trending"
+    },
+    {
+      "repo": "voyager-so/vork",
+      "gain": 792,
+      "window_days": 2,
+      "stars_per_day": 396.0,
+      "age_days": 2,
+      "signal": "new"
+    },
+    {
+      "repo": "caru-ini/stack-diagram",
+      "gain": 2051,
+      "window_days": 6,
+      "stars_per_day": 341.8,
+      "age_days": 6,
+      "signal": "new"
+    }
+  ]
+}
