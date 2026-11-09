@@ -1,0 +1,129 @@
+{
+  "fetched_at": "2026-11-09T23:28:40+00:00",
+  "universe": 621,
+  "snapshot": 609,
+  "trending": 17,
+  "new_candidates": 143,
+  "growth_top": [
+    {
+      "repo": "pingdotgg/t3code",
+      "gain": 15379,
+      "window_days": 7,
+      "stars_per_day": 2197.0,
+      "age_days": 274,
+      "signal": "trending"
+    },
+    {
+      "repo": "vercel-labs/agent-desktop",
+      "gain": 13712,
+      "window_days": 7,
+      "stars_per_day": 1958.9,
+      "age_days": 263,
+      "signal": "trending"
+    },
+    {
+      "repo": "cloudflare/security-audit-skill",
+      "gain": 10600,
+      "window_days": 7,
+      "stars_per_day": 1514.3,
+      "age_days": 144,
+      "signal": "trending"
+    },
+    {
+      "repo": "mattpocock/skills",
+      "gain": 9635,
+      "window_days": 7,
+      "stars_per_day": 1376.4,
+      "age_days": 279,
+      "signal": "trending"
+    },
+    {
+      "repo": "NVIDIA/auto-ontology",
+      "gain": 9327,
+      "window_days": 7,
+      "stars_per_day": 1332.4,
+      "age_days": 196,
+      "signal": "trending"
+    },
+    {
+      "repo": "thedotmack/claude-mem",
+      "gain": 6443,
+      "window_days": 7,
+      "stars_per_day": 920.4,
+      "age_days": 435,
+      "signal": "trending"
+    },
+    {
+      "repo": "Nutlope/hallmark",
+      "gain": 6356,
+      "window_days": 7,
+      "stars_per_day": 908.0,
+      "age_days": 196,
+      "signal": "trending"
+    },
+    {
+      "repo": "Donchitos/Claude-Code-Game-Studios",
+      "gain": 5235,
+      "window_days": 7,
+      "stars_per_day": 747.9,
+      "age_days": 270,
+      "signal": "trending"
+    },
+    {
+      "repo": "KKKKhazix/agent-autoloop",
+      "gain": 4270,
+      "window_days": 6,
+      "stars_per_day": 711.7,
+      "age_days": 6,
+      "signal": "new"
+    },
+    {
+      "repo": "DIYgod/pinky",
+      "gain": 1420,
+      "window_days": 3,
+      "stars_per_day": 473.3,
+      "age_days": 3,
+      "signal": "new"
+    },
+    {
+      "repo": "anthropics/skills",
+      "gain": 3169,
+      "window_days": 7,
+      "stars_per_day": 452.7,
+      "age_days": 413,
+      "signal": "trending"
+    },
+    {
+      "repo": "janestreet/agent_skills",
+      "gain": 2014,
+      "window_days": 6,
+      "stars_per_day": 335.7,
+      "age_days": 6,
+      "signal": "new"
+    },
+    {
+      "repo": "max-sixty/worktrunk",
+      "gain": 2313,
+      "window_days": 7,
+      "stars_per_day": 330.4,
+      "age_days": 388,
+      "signal": "trending"
+    },
+    {
+      "repo": "voyager-so/vork",
+      "gain": 1286,
+      "window_days": 4,
+      "stars_per_day": 321.5,
+      "age_days": 4,
+      "signal": "new"
+    },
+    {
+      "repo": "sarpstar/cinecode",
+      "gain": 1910,
+      "window_days": 6,
+      "stars_per_day": 318.3,
+      "age_days": 6,
+      "signal": "new"
+    }
+  ]
+}
