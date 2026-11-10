@@ -1,0 +1,129 @@
+{
+  "fetched_at": "2026-11-10T20:54:16+00:00",
+  "universe": 631,
+  "snapshot": 619,
+  "trending": 16,
+  "new_candidates": 146,
+  "growth_top": [
+    {
+      "repo": "pingdotgg/t3code",
+      "gain": 13448,
+      "window_days": 7,
+      "stars_per_day": 1921.1,
+      "age_days": 275,
+      "signal": "trending"
+    },
+    {
+      "repo": "vercel-labs/agent-desktop",
+      "gain": 12120,
+      "window_days": 7,
+      "stars_per_day": 1731.4,
+      "age_days": 264,
+      "signal": "trending"
+    },
+    {
+      "repo": "cloudflare/security-audit-skill",
+      "gain": 10695,
+      "window_days": 7,
+      "stars_per_day": 1527.9,
+      "age_days": 145,
+      "signal": "trending"
+    },
+    {
+      "repo": "NVIDIA/auto-ontology",
+      "gain": 10159,
+      "window_days": 7,
+      "stars_per_day": 1451.3,
+      "age_days": 197,
+      "signal": "trending"
+    },
+    {
+      "repo": "mattpocock/skills",
+      "gain": 9800,
+      "window_days": 7,
+      "stars_per_day": 1400.0,
+      "age_days": 280,
+      "signal": "trending"
+    },
+    {
+      "repo": "thedotmack/claude-mem",
+      "gain": 5130,
+      "window_days": 7,
+      "stars_per_day": 732.9,
+      "age_days": 436,
+      "signal": "trending"
+    },
+    {
+      "repo": "KKKKhazix/agent-autoloop",
+      "gain": 4420,
+      "window_days": 7,
+      "stars_per_day": 631.4,
+      "age_days": 7,
+      "signal": "new"
+    },
+    {
+      "repo": "Donchitos/Claude-Code-Game-Studios",
+      "gain": 4324,
+      "window_days": 7,
+      "stars_per_day": 617.7,
+      "age_days": 271,
+      "signal": "trending"
+    },
+    {
+      "repo": "anthropics/skills",
+      "gain": 3796,
+      "window_days": 7,
+      "stars_per_day": 542.3,
+      "age_days": 414,
+      "signal": "trending"
+    },
+    {
+      "repo": "janestreet/agent_skills",
+      "gain": 3611,
+      "window_days": 7,
+      "stars_per_day": 515.9,
+      "age_days": 7,
+      "signal": "new"
+    },
+    {
+      "repo": "vercel-labs/agent-browser",
+      "gain": 2994,
+      "window_days": 7,
+      "stars_per_day": 427.7,
+      "age_days": 303,
+      "signal": "trending"
+    },
+    {
+      "repo": "DIYgod/pinky",
+      "gain": 1653,
+      "window_days": 4,
+      "stars_per_day": 413.2,
+      "age_days": 4,
+      "signal": "new"
+    },
+    {
+      "repo": "max-sixty/worktrunk",
+      "gain": 2395,
+      "window_days": 7,
+      "stars_per_day": 342.1,
+      "age_days": 389,
+      "signal": "trending"
+    },
+    {
+      "repo": "sarpstar/cinecode",
+      "gain": 2045,
+      "window_days": 7,
+      "stars_per_day": 292.1,
+      "age_days": 7,
+      "signal": "new"
+    },
+    {
+      "repo": "voyager-so/vork",
+      "gain": 1355,
+      "window_days": 5,
+      "stars_per_day": 271.0,
+      "age_days": 5,
+      "signal": "new"
+    }
+  ]
+}
