@@ -1,0 +1,129 @@
+{
+  "fetched_at": "2026-11-11T21:28:16+00:00",
+  "universe": 643,
+  "snapshot": 630,
+  "trending": 16,
+  "new_candidates": 147,
+  "growth_top": [
+    {
+      "repo": "cloudflare/security-audit-skill",
+      "gain": 10967,
+      "window_days": 7,
+      "stars_per_day": 1566.7,
+      "age_days": 146,
+      "signal": "trending"
+    },
+    {
+      "repo": "mattpocock/skills",
+      "gain": 9872,
+      "window_days": 7,
+      "stars_per_day": 1410.3,
+      "age_days": 281,
+      "signal": "trending"
+    },
+    {
+      "repo": "NVIDIA/auto-ontology",
+      "gain": 9621,
+      "window_days": 7,
+      "stars_per_day": 1374.4,
+      "age_days": 198,
+      "signal": "trending"
+    },
+    {
+      "repo": "vercel-labs/agent-desktop",
+      "gain": 9502,
+      "window_days": 7,
+      "stars_per_day": 1357.4,
+      "age_days": 265,
+      "signal": "trending"
+    },
+    {
+      "repo": "anthropics/skills",
+      "gain": 5014,
+      "window_days": 7,
+      "stars_per_day": 716.3,
+      "age_days": 415,
+      "signal": "trending"
+    },
+    {
+      "repo": "Donchitos/Claude-Code-Game-Studios",
+      "gain": 3730,
+      "window_days": 7,
+      "stars_per_day": 532.9,
+      "age_days": 272,
+      "signal": "trending"
+    },
+    {
+      "repo": "vercel-labs/agent-browser",
+      "gain": 3606,
+      "window_days": 7,
+      "stars_per_day": 515.1,
+      "age_days": 304,
+      "signal": "trending"
+    },
+    {
+      "repo": "DIYgod/pinky",
+      "gain": 1857,
+      "window_days": 5,
+      "stars_per_day": 371.4,
+      "age_days": 5,
+      "signal": "new"
+    },
+    {
+      "repo": "herdrdev/herdr",
+      "gain": 2196,
+      "window_days": 7,
+      "stars_per_day": 313.7,
+      "age_days": 229,
+      "signal": "trending"
+    },
+    {
+      "repo": "google/skills",
+      "gain": 2024,
+      "window_days": 7,
+      "stars_per_day": 289.1,
+      "age_days": 225,
+      "signal": "trending"
+    },
+    {
+      "repo": "hembramneeraj3-create/aida-64-extreme",
+      "gain": 1304,
+      "window_days": 5,
+      "stars_per_day": 260.8,
+      "age_days": 5,
+      "signal": "new"
+    },
+    {
+      "repo": "Arda313131882/aion-2-trainer-tool",
+      "gain": 1296,
+      "window_days": 5,
+      "stars_per_day": 259.2,
+      "age_days": 5,
+      "signal": "new"
+    },
+    {
+      "repo": "voyager-so/vork",
+      "gain": 1429,
+      "window_days": 6,
+      "stars_per_day": 238.2,
+      "age_days": 6,
+      "signal": "new"
+    },
+    {
+      "repo": "Dodaios/ste80-humanizer",
+      "gain": 400,
+      "window_days": 2,
+      "stars_per_day": 200.0,
+      "age_days": 2,
+      "signal": "new"
+    },
+    {
+      "repo": "JosssphZhou/poki",
+      "gain": 970,
+      "window_days": 6,
+      "stars_per_day": 161.7,
+      "age_days": 6,
+      "signal": "new"
+    }
+  ]
+}
