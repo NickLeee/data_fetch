@@ -1,0 +1,129 @@
+{
+  "fetched_at": "2026-11-13T20:56:18+00:00",
+  "universe": 669,
+  "snapshot": 656,
+  "trending": 18,
+  "new_candidates": 149,
+  "growth_top": [
+    {
+      "repo": "cloudflare/security-audit-skill",
+      "gain": 10700,
+      "window_days": 7,
+      "stars_per_day": 1528.6,
+      "age_days": 148,
+      "signal": "trending"
+    },
+    {
+      "repo": "mattpocock/skills",
+      "gain": 8731,
+      "window_days": 7,
+      "stars_per_day": 1247.3,
+      "age_days": 283,
+      "signal": "trending"
+    },
+    {
+      "repo": "vercel-labs/agent-desktop",
+      "gain": 6414,
+      "window_days": 7,
+      "stars_per_day": 916.3,
+      "age_days": 267,
+      "signal": "trending"
+    },
+    {
+      "repo": "anthropics/skills",
+      "gain": 6055,
+      "window_days": 7,
+      "stars_per_day": 865.0,
+      "age_days": 417,
+      "signal": "trending"
+    },
+    {
+      "repo": "NVIDIA/auto-ontology",
+      "gain": 5802,
+      "window_days": 7,
+      "stars_per_day": 828.9,
+      "age_days": 200,
+      "signal": "trending"
+    },
+    {
+      "repo": "google/elephant-goldfish-model",
+      "gain": 5555,
+      "window_days": 7,
+      "stars_per_day": 793.6,
+      "age_days": 61,
+      "signal": "trending"
+    },
+    {
+      "repo": "vercel-labs/agent-browser",
+      "gain": 4601,
+      "window_days": 7,
+      "stars_per_day": 657.3,
+      "age_days": 306,
+      "signal": "trending"
+    },
+    {
+      "repo": "ZhuLinsen/daily_stock_analysis",
+      "gain": 3569,
+      "window_days": 7,
+      "stars_per_day": 509.9,
+      "age_days": 307,
+      "signal": "trending"
+    },
+    {
+      "repo": "addyosmani/agent-skills",
+      "gain": 3199,
+      "window_days": 7,
+      "stars_per_day": 457.0,
+      "age_days": 271,
+      "signal": "trending"
+    },
+    {
+      "repo": "agentes-chat/agentes-chat",
+      "gain": 1330,
+      "window_days": 4,
+      "stars_per_day": 332.5,
+      "age_days": 4,
+      "signal": "new"
+    },
+    {
+      "repo": "DIYgod/pinky",
+      "gain": 2078,
+      "window_days": 7,
+      "stars_per_day": 296.9,
+      "age_days": 7,
+      "signal": "new"
+    },
+    {
+      "repo": "anthropics/claude-quickstarts",
+      "gain": 1710,
+      "window_days": 7,
+      "stars_per_day": 244.3,
+      "age_days": 806,
+      "signal": "trending"
+    },
+    {
+      "repo": "hembramneeraj3-create/aida-64-extreme",
+      "gain": 1208,
+      "window_days": 7,
+      "stars_per_day": 172.6,
+      "age_days": 7,
+      "signal": "new"
+    },
+    {
+      "repo": "Arda313131882/aion-2-trainer-tool",
+      "gain": 1199,
+      "window_days": 7,
+      "stars_per_day": 171.3,
+      "age_days": 7,
+      "signal": "new"
+    },
+    {
+      "repo": "lobehub/lobehub",
+      "gain": 1186,
+      "window_days": 7,
+      "stars_per_day": 169.4,
+      "age_days": 1272,
+      "signal": "trending"
+    }
+  ]
+}
