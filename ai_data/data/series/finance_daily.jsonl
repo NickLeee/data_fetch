@@ -7410,3 +7410,5 @@
 {"date": "2026-11-13", "symbol": "BIDU", "close": 78.075, "volume": 2616030}
 {"date": "2026-11-13", "symbol": "NQ=F", "close": 27996.5, "volume": 730174}
 {"date": "2026-11-13", "symbol": "ES=F", "close": 7569.25, "volume": 1635035}
+{"date": "2026-11-12", "symbol": "DGS10", "close": 5.1, "volume": null}
+{"date": "2026-11-12", "symbol": "DGS2", "close": 4.86, "volume": null}

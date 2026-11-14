@@ -1,0 +1,113 @@
+{
+  "fetched_at": "2026-11-14T19:14:33+00:00",
+  "universe": 698,
+  "snapshot": 684,
+  "trending": 19,
+  "new_candidates": 152,
+  "growth_top": [
+    {
+      "repo": "meta/astryx",
+      "gain": 13375,
+      "window_days": 7,
+      "stars_per_day": 1910.7,
+      "age_days": 309,
+      "signal": "trending"
+    },
+    {
+      "repo": "anthropics/skills",
+      "gain": 6169,
+      "window_days": 7,
+      "stars_per_day": 881.3,
+      "age_days": 418,
+      "signal": "trending"
+    },
+    {
+      "repo": "google/elephant-goldfish-model",
+      "gain": 5560,
+      "window_days": 7,
+      "stars_per_day": 794.3,
+      "age_days": 62,
+      "signal": "trending"
+    },
+    {
+      "repo": "vercel-labs/agent-browser",
+      "gain": 4360,
+      "window_days": 7,
+      "stars_per_day": 622.9,
+      "age_days": 307,
+      "signal": "trending"
+    },
+    {
+      "repo": "ZhuLinsen/daily_stock_analysis",
+      "gain": 3778,
+      "window_days": 7,
+      "stars_per_day": 539.7,
+      "age_days": 308,
+      "signal": "trending"
+    },
+    {
+      "repo": "addyosmani/agent-skills",
+      "gain": 3502,
+      "window_days": 7,
+      "stars_per_day": 500.3,
+      "age_days": 272,
+      "signal": "trending"
+    },
+    {
+      "repo": "agentes-chat/agentes-chat",
+      "gain": 1388,
+      "window_days": 5,
+      "stars_per_day": 277.6,
+      "age_days": 5,
+      "signal": "new"
+    },
+    {
+      "repo": "anthropics/claude-quickstarts",
+      "gain": 1731,
+      "window_days": 7,
+      "stars_per_day": 247.3,
+      "age_days": 807,
+      "signal": "trending"
+    },
+    {
+      "repo": "dabingfy-dot/solo-to-team-skills",
+      "gain": 877,
+      "window_days": 7,
+      "stars_per_day": 125.3,
+      "age_days": 7,
+      "signal": "new"
+    },
+    {
+      "repo": "Dodaios/ste80-humanizer",
+      "gain": 568,
+      "window_days": 5,
+      "stars_per_day": 113.6,
+      "age_days": 5,
+      "signal": "new"
+    },
+    {
+      "repo": "lxe/phoneuse",
+      "gain": 659,
+      "window_days": 7,
+      "stars_per_day": 94.1,
+      "age_days": 7,
+      "signal": "new"
+    },
+    {
+      "repo": "backnotprop/plannotator",
+      "gain": 511,
+      "window_days": 7,
+      "stars_per_day": 73.0,
+      "age_days": 321,
+      "signal": "trending"
+    },
+    {
+      "repo": "huawei-csl/MACaQ",
+      "gain": 250,
+      "window_days": 4,
+      "stars_per_day": 62.5,
+      "age_days": 4,
+      "signal": "new"
+    }
+  ]
+}
