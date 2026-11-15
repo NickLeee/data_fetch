@@ -1,0 +1,105 @@
+{
+  "fetched_at": "2026-11-15T19:50:15+00:00",
+  "universe": 733,
+  "snapshot": 719,
+  "trending": 18,
+  "new_candidates": 149,
+  "growth_top": [
+    {
+      "repo": "meta/astryx",
+      "gain": 13660,
+      "window_days": 7,
+      "stars_per_day": 1951.4,
+      "age_days": 310,
+      "signal": "trending"
+    },
+    {
+      "repo": "anthropics/skills",
+      "gain": 6220,
+      "window_days": 7,
+      "stars_per_day": 888.6,
+      "age_days": 419,
+      "signal": "trending"
+    },
+    {
+      "repo": "google/elephant-goldfish-model",
+      "gain": 5539,
+      "window_days": 7,
+      "stars_per_day": 791.3,
+      "age_days": 63,
+      "signal": "trending"
+    },
+    {
+      "repo": "vercel-labs/agent-browser",
+      "gain": 4601,
+      "window_days": 7,
+      "stars_per_day": 657.3,
+      "age_days": 308,
+      "signal": "trending"
+    },
+    {
+      "repo": "ZhuLinsen/daily_stock_analysis",
+      "gain": 4526,
+      "window_days": 7,
+      "stars_per_day": 646.6,
+      "age_days": 309,
+      "signal": "trending"
+    },
+    {
+      "repo": "addyosmani/agent-skills",
+      "gain": 3670,
+      "window_days": 7,
+      "stars_per_day": 524.3,
+      "age_days": 273,
+      "signal": "trending"
+    },
+    {
+      "repo": "agentes-chat/agentes-chat",
+      "gain": 1485,
+      "window_days": 6,
+      "stars_per_day": 247.5,
+      "age_days": 6,
+      "signal": "new"
+    },
+    {
+      "repo": "hitkeeen/blender-ai-mcp-addon",
+      "gain": 568,
+      "window_days": 3,
+      "stars_per_day": 189.3,
+      "age_days": 3,
+      "signal": "new"
+    },
+    {
+      "repo": "linknimiball1974/ai-texture-forge",
+      "gain": 682,
+      "window_days": 4,
+      "stars_per_day": 170.5,
+      "age_days": 4,
+      "signal": "new"
+    },
+    {
+      "repo": "backnotprop/plannotator",
+      "gain": 818,
+      "window_days": 7,
+      "stars_per_day": 116.9,
+      "age_days": 322,
+      "signal": "trending"
+    },
+    {
+      "repo": "Dodaios/ste80-humanizer",
+      "gain": 684,
+      "window_days": 6,
+      "stars_per_day": 114.0,
+      "age_days": 6,
+      "signal": "new"
+    },
+    {
+      "repo": "huawei-csl/MACaQ",
+      "gain": 311,
+      "window_days": 5,
+      "stars_per_day": 62.2,
+      "age_days": 5,
+      "signal": "new"
+    }
+  ]
+}
