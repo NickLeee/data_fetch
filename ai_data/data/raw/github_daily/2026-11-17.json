@@ -1,0 +1,129 @@
+{
+  "fetched_at": "2026-11-17T22:29:34+00:00",
+  "universe": 753,
+  "snapshot": 734,
+  "trending": 21,
+  "new_candidates": 150,
+  "growth_top": [
+    {
+      "repo": "meta/astryx",
+      "gain": 10939,
+      "window_days": 7,
+      "stars_per_day": 1562.7,
+      "age_days": 312,
+      "signal": "trending"
+    },
+    {
+      "repo": "GoogleChrome/modern-web-guidance-src",
+      "gain": 6542,
+      "window_days": 7,
+      "stars_per_day": 934.6,
+      "age_days": 294,
+      "signal": "trending"
+    },
+    {
+      "repo": "anthropics/skills",
+      "gain": 5666,
+      "window_days": 7,
+      "stars_per_day": 809.4,
+      "age_days": 421,
+      "signal": "trending"
+    },
+    {
+      "repo": "ZhuLinsen/daily_stock_analysis",
+      "gain": 4355,
+      "window_days": 7,
+      "stars_per_day": 622.1,
+      "age_days": 311,
+      "signal": "trending"
+    },
+    {
+      "repo": "addyosmani/agent-skills",
+      "gain": 3960,
+      "window_days": 7,
+      "stars_per_day": 565.7,
+      "age_days": 275,
+      "signal": "trending"
+    },
+    {
+      "repo": "vercel-labs/agent-browser",
+      "gain": 3760,
+      "window_days": 7,
+      "stars_per_day": 537.1,
+      "age_days": 310,
+      "signal": "trending"
+    },
+    {
+      "repo": "duwqijlk/muse-protocol",
+      "gain": 1578,
+      "window_days": 3,
+      "stars_per_day": 526.0,
+      "age_days": 3,
+      "signal": "new"
+    },
+    {
+      "repo": "alibaba/open-code-review",
+      "gain": 3056,
+      "window_days": 7,
+      "stars_per_day": 436.6,
+      "age_days": 183,
+      "signal": "trending"
+    },
+    {
+      "repo": "ChromeDevTools/chrome-devtools-mcp",
+      "gain": 2593,
+      "window_days": 7,
+      "stars_per_day": 370.4,
+      "age_days": 432,
+      "signal": "trending"
+    },
+    {
+      "repo": "tradermonty/claude-trading-skills",
+      "gain": 2407,
+      "window_days": 7,
+      "stars_per_day": 343.9,
+      "age_days": 394,
+      "signal": "trending"
+    },
+    {
+      "repo": "Immortal-Protocols/lastbook",
+      "gain": 1687,
+      "window_days": 5,
+      "stars_per_day": 337.4,
+      "age_days": 5,
+      "signal": "new"
+    },
+    {
+      "repo": "openai/codex-security",
+      "gain": 2352,
+      "window_days": 7,
+      "stars_per_day": 336.0,
+      "age_days": 127,
+      "signal": "trending"
+    },
+    {
+      "repo": "backnotprop/plannotator",
+      "gain": 2325,
+      "window_days": 7,
+      "stars_per_day": 332.1,
+      "age_days": 324,
+      "signal": "trending"
+    },
+    {
+      "repo": "haziqahmedqasmi/PeakCut",
+      "gain": 852,
+      "window_days": 3,
+      "stars_per_day": 284.0,
+      "age_days": 3,
+      "signal": "new"
+    },
+    {
+      "repo": "elementalsouls/Claude-BugHunter",
+      "gain": 1747,
+      "window_days": 7,
+      "stars_per_day": 249.6,
+      "age_days": 196,
+      "signal": "trending"
+    }
+  ]
+}
