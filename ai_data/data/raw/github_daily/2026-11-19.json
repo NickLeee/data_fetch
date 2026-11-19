@@ -1,0 +1,129 @@
+{
+  "fetched_at": "2026-11-19T22:16:14+00:00",
+  "universe": 773,
+  "snapshot": 754,
+  "trending": 20,
+  "new_candidates": 145,
+  "growth_top": [
+    {
+      "repo": "GoogleChrome/modern-web-guidance-src",
+      "gain": 7257,
+      "window_days": 7,
+      "stars_per_day": 1036.7,
+      "age_days": 296,
+      "signal": "trending"
+    },
+    {
+      "repo": "dream-num/univer",
+      "gain": 6840,
+      "window_days": 7,
+      "stars_per_day": 977.1,
+      "age_days": 1512,
+      "signal": "trending"
+    },
+    {
+      "repo": "meta/astryx",
+      "gain": 6250,
+      "window_days": 7,
+      "stars_per_day": 892.9,
+      "age_days": 314,
+      "signal": "trending"
+    },
+    {
+      "repo": "alibaba/open-code-review",
+      "gain": 4383,
+      "window_days": 7,
+      "stars_per_day": 626.1,
+      "age_days": 185,
+      "signal": "trending"
+    },
+    {
+      "repo": "backnotprop/plannotator",
+      "gain": 3290,
+      "window_days": 7,
+      "stars_per_day": 470.0,
+      "age_days": 326,
+      "signal": "trending"
+    },
+    {
+      "repo": "tradermonty/claude-trading-skills",
+      "gain": 3242,
+      "window_days": 7,
+      "stars_per_day": 463.1,
+      "age_days": 396,
+      "signal": "trending"
+    },
+    {
+      "repo": "ag-ui-protocol/ag-ui",
+      "gain": 3221,
+      "window_days": 7,
+      "stars_per_day": 460.1,
+      "age_days": 561,
+      "signal": "trending"
+    },
+    {
+      "repo": "ChromeDevTools/chrome-devtools-mcp",
+      "gain": 3143,
+      "window_days": 7,
+      "stars_per_day": 449.0,
+      "age_days": 434,
+      "signal": "trending"
+    },
+    {
+      "repo": "sybil-solutions/inference-optimisation-skill",
+      "gain": 1254,
+      "window_days": 3,
+      "stars_per_day": 418.0,
+      "age_days": 3,
+      "signal": "new"
+    },
+    {
+      "repo": "kajisho5/ffmpeg-skill",
+      "gain": 2894,
+      "window_days": 7,
+      "stars_per_day": 413.4,
+      "age_days": 77,
+      "signal": "trending"
+    },
+    {
+      "repo": "Immortal-Protocols/lastbook",
+      "gain": 2536,
+      "window_days": 7,
+      "stars_per_day": 362.3,
+      "age_days": 7,
+      "signal": "new"
+    },
+    {
+      "repo": "mvanhorn/last30days-skill",
+      "gain": 2423,
+      "window_days": 7,
+      "stars_per_day": 346.1,
+      "age_days": 300,
+      "signal": "trending"
+    },
+    {
+      "repo": "duwqijlk/muse-protocol",
+      "gain": 1655,
+      "window_days": 5,
+      "stars_per_day": 331.0,
+      "age_days": 5,
+      "signal": "new"
+    },
+    {
+      "repo": "haziqahmedqasmi/PeakCut",
+      "gain": 1328,
+      "window_days": 5,
+      "stars_per_day": 265.6,
+      "age_days": 5,
+      "signal": "new"
+    },
+    {
+      "repo": "boringmarketer/boring-marketing-skills",
+      "gain": 714,
+      "window_days": 3,
+      "stars_per_day": 238.0,
+      "age_days": 3,
+      "signal": "new"
+    }
+  ]
+}
