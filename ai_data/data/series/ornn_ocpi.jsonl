@@ -785,3 +785,10 @@
 {"date": "2026-11-18", "gpu": "H200", "usd_per_hr": 7.11}
 {"date": "2026-11-18", "gpu": "RTX 5090", "usd_per_hr": 0.68}
 {"date": "2026-11-18", "gpu": "RTX PRO 6000 WS", "usd_per_hr": 1.54}
+{"date": "2026-11-19", "gpu": "A100 SXM4", "usd_per_hr": 1}
+{"date": "2026-11-19", "gpu": "B200", "usd_per_hr": 9.17}
+{"date": "2026-11-19", "gpu": "B300", "usd_per_hr": 11.66}
+{"date": "2026-11-19", "gpu": "H100 SXM", "usd_per_hr": 2.78}
+{"date": "2026-11-19", "gpu": "H200", "usd_per_hr": 6.4}
+{"date": "2026-11-19", "gpu": "RTX 5090", "usd_per_hr": 0.67}
+{"date": "2026-11-19", "gpu": "RTX PRO 6000 WS", "usd_per_hr": 1.56}

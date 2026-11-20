@@ -354,3 +354,7 @@
 {"date": "2026-11-18", "lab": "openai", "usd_per_mtok": 0.3200673672133125}
 {"date": "2026-11-18", "lab": "google", "usd_per_mtok": 0.7784426710426569}
 {"date": "2026-11-18", "lab": "deepseek", "usd_per_mtok": 0.03760640972457815}
+{"date": "2026-11-19", "lab": "anthropic", "usd_per_mtok": 0.7457952461719837}
+{"date": "2026-11-19", "lab": "openai", "usd_per_mtok": 0.30009739926270695}
+{"date": "2026-11-19", "lab": "google", "usd_per_mtok": 0.7277713332620159}
+{"date": "2026-11-19", "lab": "deepseek", "usd_per_mtok": 0.034345414075708555}
