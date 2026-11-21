@@ -1,0 +1,129 @@
+{
+  "fetched_at": "2026-11-21T20:36:03+00:00",
+  "universe": 795,
+  "snapshot": 773,
+  "trending": 20,
+  "new_candidates": 148,
+  "growth_top": [
+    {
+      "repo": "bookwjitchieni1986/blender-ai-mcp-addon",
+      "gain": 2201,
+      "window_days": 2,
+      "stars_per_day": 1100.5,
+      "age_days": 2,
+      "signal": "new"
+    },
+    {
+      "repo": "dream-num/univer",
+      "gain": 7539,
+      "window_days": 7,
+      "stars_per_day": 1077.0,
+      "age_days": 1514,
+      "signal": "trending"
+    },
+    {
+      "repo": "iamajmeena/neonclipping",
+      "gain": 1712,
+      "window_days": 2,
+      "stars_per_day": 856.0,
+      "age_days": 2,
+      "signal": "new"
+    },
+    {
+      "repo": "GoogleChrome/modern-web-guidance-src",
+      "gain": 5224,
+      "window_days": 7,
+      "stars_per_day": 746.3,
+      "age_days": 298,
+      "signal": "trending"
+    },
+    {
+      "repo": "alibaba/open-code-review",
+      "gain": 4457,
+      "window_days": 7,
+      "stars_per_day": 636.7,
+      "age_days": 187,
+      "signal": "trending"
+    },
+    {
+      "repo": "meta/astryx",
+      "gain": 4131,
+      "window_days": 7,
+      "stars_per_day": 590.1,
+      "age_days": 316,
+      "signal": "trending"
+    },
+    {
+      "repo": "mvanhorn/last30days-skill",
+      "gain": 3788,
+      "window_days": 7,
+      "stars_per_day": 541.1,
+      "age_days": 302,
+      "signal": "trending"
+    },
+    {
+      "repo": "ag-ui-protocol/ag-ui",
+      "gain": 3621,
+      "window_days": 7,
+      "stars_per_day": 517.3,
+      "age_days": 563,
+      "signal": "trending"
+    },
+    {
+      "repo": "backnotprop/plannotator",
+      "gain": 3555,
+      "window_days": 7,
+      "stars_per_day": 507.9,
+      "age_days": 328,
+      "signal": "trending"
+    },
+    {
+      "repo": "tradermonty/claude-trading-skills",
+      "gain": 3471,
+      "window_days": 7,
+      "stars_per_day": 495.9,
+      "age_days": 398,
+      "signal": "trending"
+    },
+    {
+      "repo": "ChromeDevTools/chrome-devtools-mcp",
+      "gain": 3306,
+      "window_days": 7,
+      "stars_per_day": 472.3,
+      "age_days": 436,
+      "signal": "trending"
+    },
+    {
+      "repo": "kajisho5/ffmpeg-skill",
+      "gain": 3268,
+      "window_days": 7,
+      "stars_per_day": 466.9,
+      "age_days": 79,
+      "signal": "trending"
+    },
+    {
+      "repo": "google-labs-code/stitch-skills",
+      "gain": 2152,
+      "window_days": 7,
+      "stars_per_day": 307.4,
+      "age_days": 309,
+      "signal": "trending"
+    },
+    {
+      "repo": "sybil-solutions/inference-optimisation-skill",
+      "gain": 1467,
+      "window_days": 5,
+      "stars_per_day": 293.4,
+      "age_days": 5,
+      "signal": "new"
+    },
+    {
+      "repo": "duwqijlk/muse-protocol",
+      "gain": 1725,
+      "window_days": 7,
+      "stars_per_day": 246.4,
+      "age_days": 7,
+      "signal": "new"
+    }
+  ]
+}
