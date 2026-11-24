@@ -7462,3 +7462,7 @@
 {"date": "2026-11-20", "symbol": "ES=F", "close": 6970.75, "volume": 2853697}
 {"date": "2026-11-19", "symbol": "DGS10", "close": 5.04, "volume": null}
 {"date": "2026-11-19", "symbol": "DGS2", "close": 4.76, "volume": null}
+{"date": "2026-11-23", "symbol": "NQ=F", "close": 26920.5, "volume": 36268}
+{"date": "2026-11-23", "symbol": "ES=F", "close": 7285.5, "volume": 37738}
+{"date": "2026-11-20", "symbol": "DGS10", "close": 4.92, "volume": null}
+{"date": "2026-11-20", "symbol": "DGS2", "close": 4.63, "volume": null}
