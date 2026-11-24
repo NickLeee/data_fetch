@@ -6294,3 +6294,6 @@
 {"date": "2026-11-24", "cloud": "verda", "gpu": "B200", "num_gpus": 2, "instance": "B200x2", "usd_hr": 10.115}
 {"date": "2026-11-24", "cloud": "scaleway", "gpu": "H100", "num_gpus": 1, "instance": "H100", "usd_hr": 3.3}
 {"date": "2026-11-24", "cloud": "excesssupply", "gpu": "A100_80G", "num_gpus": 8, "instance": "A100_SXM4_80Gx8_3", "usd_hr": 1.35}
+{"date": "2026-11-24", "cloud": "excesssupply", "gpu": "RTX_5090", "num_gpus": 1, "instance": "RTX5090", "usd_hr": 0.65}
+{"date": "2026-11-24", "cloud": "excesssupply", "gpu": "RTX_5090", "num_gpus": 4, "instance": "RTX5090x4", "usd_hr": 0.65}
+{"date": "2026-11-24", "cloud": "excesssupply", "gpu": "RTX_5090", "num_gpus": 2, "instance": "RTX5090x2", "usd_hr": 0.65}

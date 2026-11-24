@@ -329,13 +329,13 @@
           "rental_type": "on_demand"
         },
         {
-          "region": "dallas-usa-3",
+          "region": "dallas-usa-2",
           "available": false,
           "display_name": "US, Dallas, TX",
           "rental_type": "on_demand"
         },
         {
-          "region": "dallas-usa-2",
+          "region": "dallas-usa-3",
           "available": false,
           "display_name": "US, Dallas, TX",
           "rental_type": "on_demand"
@@ -601,7 +601,7 @@
       "availability": [
         {
           "region": "montreal-canada-2",
-          "available": true,
+          "available": false,
           "display_name": "CA, Montreal",
           "rental_type": "on_demand"
         }
@@ -788,15 +788,15 @@
           "rental_type": "on_demand"
         },
         {
-          "region": "warsaw-poland-1",
-          "available": true,
-          "display_name": "PL, Warsaw",
-          "rental_type": "on_demand"
-        },
-        {
           "region": "paris-france-1",
           "available": false,
           "display_name": "FR, Paris",
+          "rental_type": "on_demand"
+        },
+        {
+          "region": "warsaw-poland-1",
+          "available": true,
+          "display_name": "PL, Warsaw",
           "rental_type": "on_demand"
         }
       ],
@@ -1500,7 +1500,7 @@
       "availability": [
         {
           "region": "oslo-norway-3",
-          "available": false,
+          "available": true,
           "display_name": "NO, Central",
           "rental_type": "on_demand"
         }
@@ -1820,7 +1820,7 @@
       "availability": [
         {
           "region": "casper-usa-2",
-          "available": true,
+          "available": false,
           "display_name": "US, Casper, WY",
           "rental_type": "on_demand"
         }
@@ -2384,13 +2384,13 @@
       "availability": [
         {
           "region": "mumbai-india-1",
-          "available": false,
+          "available": true,
           "display_name": "IN, Mumbai",
           "rental_type": "on_demand"
         },
         {
           "region": "phoenix-usa-2",
-          "available": false,
+          "available": true,
           "display_name": "US, Phoenix, AZ",
           "rental_type": "on_demand"
         },
@@ -2426,7 +2426,7 @@
         },
         {
           "region": "dulles-usa-1",
-          "available": false,
+          "available": true,
           "display_name": "US, Dulles, VA",
           "rental_type": "on_demand"
         }
@@ -2486,7 +2486,7 @@
         },
         {
           "region": "helsinki-finland-3",
-          "available": false,
+          "available": true,
           "display_name": "FI, Helsinki",
           "rental_type": "spot",
           "hourly_price": "2.8"
@@ -2733,7 +2733,7 @@
         },
         {
           "region": "paris-france-1",
-          "available": false,
+          "available": true,
           "display_name": "FR, Paris",
           "rental_type": "on_demand"
         }
@@ -2923,7 +2923,7 @@
       "availability": [
         {
           "region": "montreal-canada-2",
-          "available": true,
+          "available": false,
           "display_name": "CA, Montreal",
           "rental_type": "on_demand"
         },
@@ -3497,7 +3497,7 @@
       "availability": [
         {
           "region": "montreal-canada-2",
-          "available": true,
+          "available": false,
           "display_name": "CA, Montreal",
           "rental_type": "on_demand"
         }
@@ -3673,19 +3673,19 @@
       "availability": [
         {
           "region": "dallas-usa-3",
-          "available": false,
+          "available": true,
           "display_name": "US, Dallas, TX",
           "rental_type": "on_demand"
         },
         {
           "region": "atlanta-usa-3",
-          "available": false,
+          "available": true,
           "display_name": "US, Atlanta, GA",
           "rental_type": "on_demand"
         },
         {
           "region": "austin-usa-1",
-          "available": false,
+          "available": true,
           "display_name": "US, Austin, TX",
           "rental_type": "on_demand"
         }
@@ -3726,19 +3726,19 @@
       "availability": [
         {
           "region": "atlanta-usa-3",
-          "available": false,
+          "available": true,
           "display_name": "US, Atlanta, GA",
           "rental_type": "on_demand"
         },
         {
           "region": "austin-usa-1",
-          "available": false,
+          "available": true,
           "display_name": "US, Austin, TX",
           "rental_type": "on_demand"
         },
         {
           "region": "dallas-usa-3",
-          "available": false,
+          "available": true,
           "display_name": "US, Dallas, TX",
           "rental_type": "on_demand"
         }
@@ -3785,13 +3785,13 @@
         },
         {
           "region": "atlanta-usa-3",
-          "available": false,
+          "available": true,
           "display_name": "US, Atlanta, GA",
           "rental_type": "on_demand"
         },
         {
           "region": "austin-usa-1",
-          "available": false,
+          "available": true,
           "display_name": "US, Austin, TX",
           "rental_type": "on_demand"
         }
@@ -3939,7 +3939,7 @@
       "availability": [
         {
           "region": "desmoines-usa-1",
-          "available": false,
+          "available": true,
           "display_name": "US, Des Moines, IA",
           "rental_type": "on_demand"
         },
@@ -4192,7 +4192,7 @@
         },
         {
           "region": "helsinki-finland-3",
-          "available": false,
+          "available": true,
           "display_name": "FI, Helsinki",
           "rental_type": "spot",
           "hourly_price": "22.4"
@@ -4458,7 +4458,7 @@
       "availability": [
         {
           "region": "houston-usa-2",
-          "available": false,
+          "available": true,
           "display_name": "US, Houston, TX",
           "rental_type": "on_demand"
         },
@@ -4817,7 +4817,7 @@
         },
         {
           "region": "desmoines-usa-1",
-          "available": true,
+          "available": false,
           "display_name": "US, Des Moines, IA",
           "rental_type": "on_demand"
         }
@@ -5422,15 +5422,15 @@
       "hourly_price": 114,
       "availability": [
         {
-          "region": "kansascity-usa-1",
-          "available": true,
-          "display_name": "US, Kansas City, KS",
-          "rental_type": "on_demand"
-        },
-        {
           "region": "wichita-usa-1",
           "available": true,
           "display_name": "US, Wichita, KS",
+          "rental_type": "on_demand"
+        },
+        {
+          "region": "kansascity-usa-1",
+          "available": true,
+          "display_name": "US, Kansas City, KS",
           "rental_type": "on_demand"
         },
         {
@@ -5750,7 +5750,7 @@
       "availability": [
         {
           "region": "dallas-usa-3",
-          "available": false,
+          "available": true,
           "display_name": "US, Dallas, TX",
           "rental_type": "on_demand"
         },
@@ -6502,8 +6502,14 @@
         },
         {
           "region": "sanjose-usa-2",
-          "available": false,
+          "available": true,
           "display_name": "US, San Jose, Ca",
+          "rental_type": "on_demand"
+        },
+        {
+          "region": "tokyo-japan-1",
+          "available": true,
+          "display_name": "JP, Tokyo",
           "rental_type": "on_demand"
         },
         {
@@ -6513,27 +6519,21 @@
           "rental_type": "on_demand"
         },
         {
-          "region": "tokyo-japan-1",
-          "available": false,
-          "display_name": "JP, Tokyo",
-          "rental_type": "on_demand"
-        },
-        {
           "region": "frankfurt-germany-7",
-          "available": false,
+          "available": true,
           "display_name": "DE, Frankfurt",
-          "rental_type": "on_demand"
-        },
-        {
-          "region": "jerusalem-israel-1",
-          "available": false,
-          "display_name": "IL, Jerusalem",
           "rental_type": "on_demand"
         },
         {
           "region": "dulles-usa-1",
           "available": false,
           "display_name": "US, Dulles, VA",
+          "rental_type": "on_demand"
+        },
+        {
+          "region": "jerusalem-israel-1",
+          "available": true,
+          "display_name": "IL, Jerusalem",
           "rental_type": "on_demand"
         }
       ],
@@ -7479,7 +7479,7 @@
       "availability": [
         {
           "region": "montreal-canada-2",
-          "available": false,
+          "available": true,
           "display_name": "CA, Montreal",
           "rental_type": "on_demand"
         }
@@ -7859,7 +7859,7 @@
         },
         {
           "region": "saltlakecity-usa-1",
-          "available": false,
+          "available": true,
           "display_name": "US, Salt Lake City, UT",
           "rental_type": "on_demand"
         }
@@ -7900,7 +7900,7 @@
       "availability": [
         {
           "region": "dallas-usa-3",
-          "available": false,
+          "available": true,
           "display_name": "US, Dallas, TX",
           "rental_type": "on_demand"
         },
@@ -8360,7 +8360,7 @@
       "availability": [
         {
           "region": "montreal-canada-2",
-          "available": true,
+          "available": false,
           "display_name": "CA, Montreal",
           "rental_type": "on_demand"
         }
@@ -8446,7 +8446,7 @@
       "availability": [
         {
           "region": "montreal-canada-2",
-          "available": true,
+          "available": false,
           "display_name": "CA, Montreal",
           "rental_type": "on_demand"
         }
@@ -8493,7 +8493,7 @@
         },
         {
           "region": "chicago-usa-2",
-          "available": false,
+          "available": true,
           "display_name": "US, Chicago, IL",
           "rental_type": "on_demand"
         },
@@ -8523,7 +8523,7 @@
         },
         {
           "region": "dulles-usa-1",
-          "available": false,
+          "available": true,
           "display_name": "US, Dulles, VA",
           "rental_type": "on_demand"
         },
@@ -8861,7 +8861,7 @@
       "availability": [
         {
           "region": "casper-usa-2",
-          "available": true,
+          "available": false,
           "display_name": "US, Casper, WY",
           "rental_type": "on_demand"
         }
@@ -8945,7 +8945,7 @@
       "availability": [
         {
           "region": "montreal-canada-2",
-          "available": false,
+          "available": true,
           "display_name": "CA, Montreal",
           "rental_type": "on_demand"
         }
@@ -9263,7 +9263,7 @@
       "availability": [
         {
           "region": "kansascity-usa-1",
-          "available": true,
+          "available": false,
           "display_name": "US, Kansas City, KS",
           "rental_type": "on_demand"
         },
@@ -9322,7 +9322,7 @@
       "availability": [
         {
           "region": "kansascity-usa-1",
-          "available": true,
+          "available": false,
           "display_name": "US, Kansas City, KS",
           "rental_type": "on_demand"
         },
@@ -9340,7 +9340,7 @@
         },
         {
           "region": "desmoines-usa-1",
-          "available": true,
+          "available": false,
           "display_name": "US, Des Moines, IA",
           "rental_type": "on_demand"
         }
@@ -9381,13 +9381,13 @@
       "availability": [
         {
           "region": "desmoines-usa-1",
-          "available": true,
+          "available": false,
           "display_name": "US, Des Moines, IA",
           "rental_type": "on_demand"
         },
         {
           "region": "kansascity-usa-1",
-          "available": true,
+          "available": false,
           "display_name": "US, Kansas City, KS",
           "rental_type": "on_demand"
         },
@@ -9487,7 +9487,7 @@
       "availability": [
         {
           "region": "helsinki-finland-1",
-          "available": true,
+          "available": false,
           "display_name": "FI, Central",
           "rental_type": "on_demand"
         },
@@ -9999,18 +9999,6 @@
           "rental_type": "on_demand"
         },
         {
-          "region": "TYO3",
-          "available": true,
-          "display_name": "TYO3",
-          "rental_type": "on_demand"
-        },
-        {
-          "region": "LON",
-          "available": true,
-          "display_name": "LON",
-          "rental_type": "on_demand"
-        },
-        {
           "region": "ashburn-usa-7",
           "available": false,
           "display_name": "US, Ashburn, VA",
@@ -10020,6 +10008,18 @@
           "region": "frankfurt-germany-4",
           "available": true,
           "display_name": "DE, Frankfurt",
+          "rental_type": "on_demand"
+        },
+        {
+          "region": "TYO3",
+          "available": true,
+          "display_name": "TYO3",
+          "rental_type": "on_demand"
+        },
+        {
+          "region": "LON",
+          "available": true,
+          "display_name": "LON",
           "rental_type": "on_demand"
         }
       ],
@@ -10366,15 +10366,15 @@
           "rental_type": "on_demand"
         },
         {
-          "region": "dulles-usa-4",
-          "available": false,
-          "display_name": "US, Dulles, VA",
+          "region": "chicago-usa-3",
+          "available": true,
+          "display_name": "US, Chicago, IL",
           "rental_type": "on_demand"
         },
         {
-          "region": "chicago-usa-3",
-          "available": false,
-          "display_name": "US, Chicago, IL",
+          "region": "dulles-usa-4",
+          "available": true,
+          "display_name": "US, Dulles, VA",
           "rental_type": "on_demand"
         }
       ],
@@ -10554,7 +10554,7 @@
       "availability": [
         {
           "region": "kansascity-usa-1",
-          "available": false,
+          "available": true,
           "display_name": "US, Kansas City, KS",
           "rental_type": "on_demand"
         },
@@ -10612,12 +10612,6 @@
       "hourly_price": 47,
       "availability": [
         {
-          "region": "helsinki-finland-3",
-          "available": false,
-          "display_name": "FI, Central",
-          "rental_type": "on_demand"
-        },
-        {
           "region": "helsinki-finland-1",
           "available": false,
           "display_name": "FI, Central",
@@ -10625,6 +10619,12 @@
         },
         {
           "region": "helsinki-finland-2",
+          "available": false,
+          "display_name": "FI, Central",
+          "rental_type": "on_demand"
+        },
+        {
+          "region": "helsinki-finland-3",
           "available": false,
           "display_name": "FI, Central",
           "rental_type": "on_demand"
@@ -10810,6 +10810,47 @@
       "boot_time": {
         "min_boot_in_sec": 300,
         "max_boot_in_sec": 780
+      },
+      "deployment_type": "vm",
+      "flex_vm": false
+    },
+    {
+      "cloud": "excesssupply",
+      "shade_instance_type": "RTX5090",
+      "cloud_instance_type": "n3-RTX-5090x1",
+      "configuration": {
+        "memory_in_gb": 120,
+        "storage_in_gb": 900,
+        "vcpus": 12,
+        "num_gpus": 1,
+        "gpu_type": "RTX5090",
+        "interconnect": "pcie",
+        "nvlink": false,
+        "os_options": [
+          "ubuntu22.04_cuda12.8_shade_os"
+        ],
+        "vram_per_gpu_in_gb": 32,
+        "gpu_manufacturer": "nvidia"
+      },
+      "memory_in_gb": 120,
+      "storage_in_gb": 900,
+      "vcpus": 12,
+      "num_gpus": 1,
+      "gpu_type": "RTX5090",
+      "interconnect": "pcie",
+      "nvlink": false,
+      "hourly_price": 65,
+      "availability": [
+        {
+          "region": "oslo-norway-3",
+          "available": false,
+          "display_name": "NO, Central",
+          "rental_type": "on_demand"
+        }
+      ],
+      "boot_time": {
+        "min_boot_in_sec": 300,
+        "max_boot_in_sec": 480
       },
       "deployment_type": "vm",
       "flex_vm": false
@@ -11176,7 +11217,7 @@
         },
         {
           "region": "kansascity-usa-1",
-          "available": true,
+          "available": false,
           "display_name": "US, Kansas City, KS",
           "rental_type": "on_demand"
         },
@@ -11241,7 +11282,7 @@
         },
         {
           "region": "kansascity-usa-1",
-          "available": false,
+          "available": true,
           "display_name": "US, Kansas City, KS",
           "rental_type": "on_demand"
         }
@@ -11918,7 +11959,7 @@
       "availability": [
         {
           "region": "desmoines-usa-1",
-          "available": false,
+          "available": true,
           "display_name": "US, Des Moines, IA",
           "rental_type": "on_demand"
         },
@@ -11971,7 +12012,7 @@
       "availability": [
         {
           "region": "desmoines-usa-1",
-          "available": false,
+          "available": true,
           "display_name": "US, Des Moines, IA",
           "rental_type": "on_demand"
         },
@@ -12071,7 +12112,7 @@
       "availability": [
         {
           "region": "desmoines-usa-1",
-          "available": true,
+          "available": false,
           "display_name": "US, Des Moines, IA",
           "rental_type": "on_demand"
         },
@@ -12118,7 +12159,7 @@
       "availability": [
         {
           "region": "desmoines-usa-1",
-          "available": true,
+          "available": false,
           "display_name": "US, Des Moines, IA",
           "rental_type": "on_demand"
         },
@@ -12324,7 +12365,7 @@
         },
         {
           "region": "beltsville-usa-1",
-          "available": true,
+          "available": false,
           "display_name": "US, Beltsville, MD",
           "rental_type": "on_demand"
         },
@@ -12424,7 +12465,7 @@
       "availability": [
         {
           "region": "kansascity-usa-6",
-          "available": true,
+          "available": false,
           "display_name": "US, Kansas City, MO",
           "rental_type": "on_demand"
         },
@@ -12625,6 +12666,47 @@
       "flex_vm": false
     },
     {
+      "cloud": "excesssupply",
+      "shade_instance_type": "RTX5090x4",
+      "cloud_instance_type": "n3-RTX-5090x4",
+      "configuration": {
+        "memory_in_gb": 480,
+        "storage_in_gb": 3400,
+        "vcpus": 60,
+        "num_gpus": 4,
+        "gpu_type": "RTX5090",
+        "interconnect": "pcie",
+        "nvlink": false,
+        "os_options": [
+          "ubuntu22.04_cuda12.8_shade_os"
+        ],
+        "vram_per_gpu_in_gb": 32,
+        "gpu_manufacturer": "nvidia"
+      },
+      "memory_in_gb": 480,
+      "storage_in_gb": 3400,
+      "vcpus": 60,
+      "num_gpus": 4,
+      "gpu_type": "RTX5090",
+      "interconnect": "pcie",
+      "nvlink": false,
+      "hourly_price": 260,
+      "availability": [
+        {
+          "region": "oslo-norway-3",
+          "available": false,
+          "display_name": "NO, Central",
+          "rental_type": "on_demand"
+        }
+      ],
+      "boot_time": {
+        "min_boot_in_sec": 300,
+        "max_boot_in_sec": 480
+      },
+      "deployment_type": "vm",
+      "flex_vm": false
+    },
+    {
       "cloud": "latitude",
       "shade_instance_type": "cpu_16",
       "cloud_instance_type": "vm-large",
@@ -12796,6 +12878,47 @@
       "flex_vm": false
     },
     {
+      "cloud": "excesssupply",
+      "shade_instance_type": "RTX5090x2",
+      "cloud_instance_type": "n3-RTX-5090x2",
+      "configuration": {
+        "memory_in_gb": 240,
+        "storage_in_gb": 1750,
+        "vcpus": 24,
+        "num_gpus": 2,
+        "gpu_type": "RTX5090",
+        "interconnect": "pcie",
+        "nvlink": false,
+        "os_options": [
+          "ubuntu22.04_cuda12.8_shade_os"
+        ],
+        "vram_per_gpu_in_gb": 32,
+        "gpu_manufacturer": "nvidia"
+      },
+      "memory_in_gb": 240,
+      "storage_in_gb": 1750,
+      "vcpus": 24,
+      "num_gpus": 2,
+      "gpu_type": "RTX5090",
+      "interconnect": "pcie",
+      "nvlink": false,
+      "hourly_price": 130,
+      "availability": [
+        {
+          "region": "oslo-norway-3",
+          "available": false,
+          "display_name": "NO, Central",
+          "rental_type": "on_demand"
+        }
+      ],
+      "boot_time": {
+        "min_boot_in_sec": 300,
+        "max_boot_in_sec": 480
+      },
+      "deployment_type": "vm",
+      "flex_vm": false
+    },
+    {
       "cloud": "verda",
       "shade_instance_type": "cpu_64",
       "cloud_instance_type": "CPU.64V.256G",
@@ -12930,13 +13053,13 @@
       "availability": [
         {
           "region": "helsinki-finland-2",
-          "available": false,
+          "available": true,
           "display_name": "FI, Central",
           "rental_type": "on_demand"
         },
         {
           "region": "helsinki-finland-3",
-          "available": true,
+          "available": false,
           "display_name": "FI, Central",
           "rental_type": "on_demand"
         },
@@ -13030,13 +13153,13 @@
       "availability": [
         {
           "region": "helsinki-finland-1",
-          "available": true,
+          "available": false,
           "display_name": "FI, Central",
           "rental_type": "on_demand"
         },
         {
           "region": "helsinki-finland-2",
-          "available": true,
+          "available": false,
           "display_name": "FI, Central",
           "rental_type": "on_demand"
         },
@@ -13394,7 +13517,7 @@
         },
         {
           "region": "helsinki-finland-1",
-          "available": true,
+          "available": false,
           "display_name": "FI, Central",
           "rental_type": "on_demand"
         }
@@ -13558,7 +13681,7 @@
       "availability": [
         {
           "region": "helsinki-finland-2",
-          "available": true,
+          "available": false,
           "display_name": "FI, Central",
           "rental_type": "on_demand"
         },
@@ -13728,7 +13851,7 @@
       "availability": [
         {
           "region": "helsinki-finland-2",
-          "available": false,
+          "available": true,
           "display_name": "FI, Central",
           "rental_type": "on_demand"
         }
@@ -13816,7 +13939,7 @@
       "availability": [
         {
           "region": "helsinki-finland-3",
-          "available": false,
+          "available": true,
           "display_name": "FI, Central",
           "rental_type": "on_demand"
         },
@@ -13869,7 +13992,7 @@
         },
         {
           "region": "helsinki-finland-3",
-          "available": true,
+          "available": false,
           "display_name": "FI, Central",
           "rental_type": "on_demand"
         }
@@ -14827,13 +14950,13 @@
       "hourly_price": 195,
       "availability": [
         {
-          "region": "helsinki-finland-3",
+          "region": "helsinki-finland-2",
           "available": false,
           "display_name": "FI, Central",
           "rental_type": "on_demand"
         },
         {
-          "region": "helsinki-finland-2",
+          "region": "helsinki-finland-3",
           "available": false,
           "display_name": "FI, Central",
           "rental_type": "on_demand"
@@ -14875,7 +14998,7 @@
       "availability": [
         {
           "region": "helsinki-finland-2",
-          "available": true,
+          "available": false,
           "display_name": "FI, Central",
           "rental_type": "on_demand"
         },
@@ -14934,7 +15057,7 @@
         },
         {
           "region": "helsinki-finland-1",
-          "available": true,
+          "available": false,
           "display_name": "FI, Central",
           "rental_type": "on_demand"
         }

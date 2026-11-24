@@ -1,5 +1,5 @@
 {
- "count": 1142,
+ "count": 1154,
  "models": {
   "0bserverx/Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF": {
    "added": "2026-11-01",
@@ -277,6 +277,16 @@
    "variant": "quant:gguf",
    "why": "quant_gguf"
   },
+  "AtomicChat/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-Uncensored-GGUF": {
+   "added": "2026-11-24",
+   "created": "2026-10-15",
+   "family": "nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B",
+   "pipeline": "image-text-to-text",
+   "scope": "llm",
+   "seen": "2026-11-24",
+   "variant": "quant:gguf",
+   "why": "quant_gguf"
+  },
   "AtomicChat/Nanbeige4.3-33B-GGUF": {
    "added": "2026-11-01",
    "created": "2026-10-25",
@@ -356,6 +366,16 @@
    "seen": "2026-11-24",
    "variant": "quant:gguf",
    "why": "quant_gguf"
+  },
+  "Baekpica/Inkling-2-Small-VQ-GGUF": {
+   "added": "2026-11-24",
+   "created": "2026-11-13",
+   "family": "thinkingmachines/Inkling-2-Small",
+   "pipeline": "image-text-to-text",
+   "scope": "llm",
+   "seen": "2026-11-24",
+   "variant": "quant:gguf",
+   "why": "quant_gptq"
   },
   "BigDannyPt/Wan-2.2-Remix-GGUF": {
    "added": "2026-11-10",
@@ -1549,6 +1569,16 @@
    "variant": "quant:gguf",
    "why": "quant_gguf"
   },
+  "Ma7ee7/Qwen3.8_4B_Distilled_GGUF": {
+   "added": "2026-11-24",
+   "created": "2026-07-30",
+   "family": "Ma7ee7/Qwen3.8_4B_Distilled",
+   "pipeline": "text-generation",
+   "scope": "llm",
+   "seen": "2026-11-24",
+   "variant": "quant:gguf",
+   "why": "quant_gguf"
+  },
   "ManniX-ITA/JackOD-9B-Coder-MTP-GGUF": {
    "added": "2026-11-01",
    "created": "2026-09-11",
@@ -1668,6 +1698,16 @@
    "variant": "quant:gguf",
    "why": "quant_gguf"
   },
+  "Myric/KAT-Coder-V2.5-Dev-MTP-APEX-GGUF": {
+   "added": "2026-11-24",
+   "created": "2026-08-03",
+   "family": "Kwaipilot/KAT-Coder-V2.5-Dev",
+   "pipeline": "text-generation",
+   "scope": "llm",
+   "seen": "2026-11-24",
+   "variant": "quant:gguf",
+   "why": "quant_gguf"
+  },
   "Myric/Laguna-S-2.1-APEX-GGUF": {
    "added": "2026-11-01",
    "created": "2026-07-22",
@@ -1762,6 +1802,16 @@
    "added": "2026-11-24",
    "created": "2026-11-12",
    "family": "OsaurusAI/Raptor-0.7-4B",
+   "pipeline": "text-generation",
+   "scope": "llm",
+   "seen": "2026-11-24",
+   "variant": "quant:gguf",
+   "why": "quant_gguf"
+  },
+  "PhillyLabs/KAT-Coder-V2.5-Dev-35B-A3B-ABLITERATED-UNCENSORED-PHILADELPHIA-CLASS": {
+   "added": "2026-11-24",
+   "created": "2026-08-07",
+   "family": "Kwaipilot/KAT-Coder-V2.5-Dev",
    "pipeline": "text-generation",
    "scope": "llm",
    "seen": "2026-11-24",
@@ -2865,6 +2915,16 @@
    "variant": "base",
    "why": "org_top"
   },
+  "Qwen/Qwen3-VL-2B-Instruct-FP8": {
+   "added": "2026-11-24",
+   "created": "2025-10-19",
+   "family": "Qwen/Qwen3-VL-2B-Instruct",
+   "pipeline": "image-text-to-text",
+   "scope": "llm",
+   "seen": "2026-11-24",
+   "variant": "quant:fp8",
+   "why": "org_top"
+  },
   "Qwen/Qwen3-VL-2B-Instruct-GGUF": {
    "added": "2026-11-01",
    "created": "2025-10-31",
@@ -3650,6 +3710,16 @@
    "variant": "quant:gguf",
    "why": "quant_gguf"
   },
+  "UltimateIntent/BigFreakyGoon9000-GGUF": {
+   "added": "2026-11-24",
+   "created": "2026-11-18",
+   "family": "Qwen/Qwen3.8-Flash-Next",
+   "pipeline": "image-text-to-text",
+   "scope": "llm",
+   "seen": "2026-11-24",
+   "variant": "quant:gguf",
+   "why": "quant_gguf"
+  },
   "UltimateIntent/Qwen3.8-Flash-Next-Abliterated-s1.5-GGUF": {
    "added": "2026-11-06",
    "created": "2026-08-28",
@@ -3927,6 +3997,16 @@
    "scope": "llm",
    "seen": "2026-11-24",
    "variant": "base",
+   "why": "org_top"
+  },
+  "allenai/OLMoE-1B-7B-0125-Instruct": {
+   "added": "2026-11-24",
+   "created": "2025-01-27",
+   "family": "allenai/OLMoE-1B-7B-0125-DPO",
+   "pipeline": "text-generation",
+   "scope": "llm",
+   "seen": "2026-11-24",
+   "variant": "finetune",
    "why": "org_top"
   },
   "allenai/Olmo-3-1025-7B": {
@@ -4235,6 +4315,16 @@
    "created": "2026-08-18",
    "family": "inclusionAI/Ling-3.0-tiny",
    "pipeline": "text-generation",
+   "scope": "llm",
+   "seen": "2026-11-24",
+   "variant": "quant:gguf",
+   "why": "quant_gguf"
+  },
+  "bartowski/Ling-3.2-air-GGUF": {
+   "added": "2026-11-24",
+   "created": "2026-11-23",
+   "family": "inclusionAI/Ling-3.2-air",
+   "pipeline": "image-text-to-text",
    "scope": "llm",
    "seen": "2026-11-24",
    "variant": "quant:gguf",
@@ -4695,6 +4785,16 @@
    "seen": "2026-11-24",
    "variant": "quant:awq",
    "why": "quant_awq"
+  },
+  "cygnal/Qwen3.8-Flash-Next-Heretic2-IQ4XS-NGQ4-GGUF": {
+   "added": "2026-11-24",
+   "created": "2026-09-19",
+   "family": "Qwen/Qwen3.8-Flash-Next",
+   "pipeline": "image-text-to-text",
+   "scope": "llm",
+   "seen": "2026-11-24",
+   "variant": "quant:gguf",
+   "why": "quant_gguf"
   },
   "cyjin-yl/Qwen3.8-27B-Uncensored-Cyber-agentic-imatrix-GGUF": {
    "added": "2026-11-01",
@@ -9524,6 +9624,15 @@
    "variant": "quant:gguf",
    "why": "quant_gguf"
   },
+  "pottokao/MiniMax-H3-TextEncoder-16GB-GGUF": {
+   "added": "2026-11-24",
+   "created": "2026-10-20",
+   "family": "Qwen/Qwen3-VL-32B-Instruct",
+   "scope": "llm",
+   "seen": "2026-11-24",
+   "variant": "quant:gguf",
+   "why": "quant_gguf"
+  },
   "pottokao/MiniMax-H3-TextEncoder-16GB-abliterated-GGUF": {
    "added": "2026-11-19",
    "created": "2026-10-21",
@@ -11029,6 +11138,16 @@
    "variant": "quant:gguf",
    "why": "quant_gguf"
   },
+  "unsloth/gpt-oss-120b-GGUF": {
+   "added": "2026-11-24",
+   "created": "2025-08-05",
+   "family": "openai/gpt-oss-120b",
+   "pipeline": "text-generation",
+   "scope": "llm",
+   "seen": "2026-11-24",
+   "variant": "quant:gguf",
+   "why": "quant_gguf"
+  },
   "unsloth/gpt-oss-20b-GGUF": {
    "added": "2026-11-01",
    "created": "2025-08-05",
@@ -11229,5 +11348,5 @@
    "why": "org_top"
   }
  },
- "updated_at": "2026-11-24T01:43:47+00:00"
+ "updated_at": "2026-11-24T23:31:00+00:00"
 }
