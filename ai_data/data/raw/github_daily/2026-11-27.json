@@ -1,0 +1,129 @@
+{
+  "fetched_at": "2026-11-27T22:46:03+00:00",
+  "universe": 847,
+  "snapshot": 817,
+  "trending": 22,
+  "new_candidates": 151,
+  "growth_top": [
+    {
+      "repo": "nexu-io/opengame",
+      "gain": 2195,
+      "window_days": 2,
+      "stars_per_day": 1097.5,
+      "age_days": 2,
+      "signal": "new"
+    },
+    {
+      "repo": "alesha-pro/llm.asm",
+      "gain": 2155,
+      "window_days": 2,
+      "stars_per_day": 1077.5,
+      "age_days": 2,
+      "signal": "new"
+    },
+    {
+      "repo": "EL4CTEO/fast-anything",
+      "gain": 4448,
+      "window_days": 6,
+      "stars_per_day": 741.3,
+      "age_days": 6,
+      "signal": "new"
+    },
+    {
+      "repo": "mvanhorn/last30days-skill",
+      "gain": 5090,
+      "window_days": 7,
+      "stars_per_day": 727.1,
+      "age_days": 308,
+      "signal": "trending"
+    },
+    {
+      "repo": "kajisho5/ffmpeg-skill",
+      "gain": 3229,
+      "window_days": 7,
+      "stars_per_day": 461.3,
+      "age_days": 85,
+      "signal": "trending"
+    },
+    {
+      "repo": "google-labs-code/stitch-skills",
+      "gain": 2619,
+      "window_days": 7,
+      "stars_per_day": 374.1,
+      "age_days": 315,
+      "signal": "trending"
+    },
+    {
+      "repo": "meta/astryx",
+      "gain": 2519,
+      "window_days": 7,
+      "stars_per_day": 359.9,
+      "age_days": 322,
+      "signal": "trending"
+    },
+    {
+      "repo": "alibaba/open-code-review",
+      "gain": 2284,
+      "window_days": 7,
+      "stars_per_day": 326.3,
+      "age_days": 193,
+      "signal": "trending"
+    },
+    {
+      "repo": "GoogleChrome/modern-web-guidance-src",
+      "gain": 2209,
+      "window_days": 7,
+      "stars_per_day": 315.6,
+      "age_days": 304,
+      "signal": "trending"
+    },
+    {
+      "repo": "qianyiai/KuroCat",
+      "gain": 1757,
+      "window_days": 6,
+      "stars_per_day": 292.8,
+      "age_days": 6,
+      "signal": "new"
+    },
+    {
+      "repo": "Moh4696/inkworks-skill",
+      "gain": 533,
+      "window_days": 2,
+      "stars_per_day": 266.5,
+      "age_days": 2,
+      "signal": "new"
+    },
+    {
+      "repo": "dream-num/univer",
+      "gain": 1825,
+      "window_days": 7,
+      "stars_per_day": 260.7,
+      "age_days": 1520,
+      "signal": "trending"
+    },
+    {
+      "repo": "backnotprop/plannotator",
+      "gain": 1631,
+      "window_days": 7,
+      "stars_per_day": 233.0,
+      "age_days": 334,
+      "signal": "trending"
+    },
+    {
+      "repo": "tradermonty/claude-trading-skills",
+      "gain": 1381,
+      "window_days": 7,
+      "stars_per_day": 197.3,
+      "age_days": 404,
+      "signal": "trending"
+    },
+    {
+      "repo": "ag-ui-protocol/ag-ui",
+      "gain": 1269,
+      "window_days": 7,
+      "stars_per_day": 181.3,
+      "age_days": 569,
+      "signal": "trending"
+    }
+  ]
+}
